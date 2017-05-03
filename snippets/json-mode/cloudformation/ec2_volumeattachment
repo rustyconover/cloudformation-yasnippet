@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: ec2_volumeattachment
+# key: ec2_volumeattachment
+# --
+{
+  "Type": "AWS::EC2::VolumeAttachment",
+  "Properties": {
+    "Device": "",
+    "InstanceId": "",
+    "VolumeId": ""
+  }
+}

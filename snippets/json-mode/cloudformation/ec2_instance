@@ -1,0 +1,108 @@
+# -*- mode: snippet -*-
+# name: ec2_instance
+# key: ec2_instance
+# --
+{
+  "Type": "AWS::EC2::Instance",
+  "Properties": {
+    "AdditionalInfo": "",
+    "Affinity": "",
+    "AvailabilityZone": "",
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "",
+        "Ebs": {
+          "DeleteOnTermination": true,
+          "Encrypted": true,
+          "Iops": 0,
+          "SnapshotId": "",
+          "VolumeSize": 0,
+          "VolumeType": ""
+        },
+        "NoDevice": {},
+        "VirtualName": ""
+      }
+    ],
+    "DisableApiTermination": true,
+    "EbsOptimized": true,
+    "HostId": "",
+    "IamInstanceProfile": "",
+    "ImageId": "",
+    "InstanceInitiatedShutdownBehavior": "",
+    "InstanceType": "",
+    "Ipv6AddressCount": 0,
+    "Ipv6Addresses": [
+      {
+        "Ipv6Address": ""
+      }
+    ],
+    "KernelId": "",
+    "KeyName": "",
+    "Monitoring": true,
+    "NetworkInterfaces": [
+      {
+        "AssociatePublicIpAddress": true,
+        "DeleteOnTermination": true,
+        "Description": "",
+        "DeviceIndex": "",
+        "GroupSet": [
+          ""
+        ],
+        "Ipv6AddressCount": 0,
+        "Ipv6Addresses": [
+          {
+            "Ipv6Address": ""
+          }
+        ],
+        "NetworkInterfaceId": "",
+        "PrivateIpAddress": "",
+        "PrivateIpAddresses": [
+          {
+            "Primary": true,
+            "PrivateIpAddress": ""
+          }
+        ],
+        "SecondaryPrivateIpAddressCount": 0,
+        "SubnetId": ""
+      }
+    ],
+    "PlacementGroupName": "",
+    "PrivateIpAddress": "",
+    "RamdiskId": "",
+    "SecurityGroupIds": [
+      ""
+    ],
+    "SecurityGroups": [
+      ""
+    ],
+    "SourceDestCheck": true,
+    "SsmAssociations": [
+      {
+        "AssociationParameters": [
+          {
+            "Key": "",
+            "Value": [
+              ""
+            ]
+          }
+        ],
+        "DocumentName": ""
+      }
+    ],
+    "SubnetId": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Tenancy": "",
+    "UserData": "",
+    "Volumes": [
+      {
+        "Device": "",
+        "VolumeId": ""
+      }
+    ]
+  }
+}

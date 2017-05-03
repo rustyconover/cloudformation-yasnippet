@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: elasticache_securitygroup
+# key: elasticache_securitygroup
+# --
+{
+  "Type": "AWS::ElastiCache::SecurityGroup",
+  "Properties": {
+    "Description": ""
+  }
+}

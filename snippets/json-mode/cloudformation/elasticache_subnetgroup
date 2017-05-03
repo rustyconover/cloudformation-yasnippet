@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: elasticache_subnetgroup
+# key: elasticache_subnetgroup
+# --
+{
+  "Type": "AWS::ElastiCache::SubnetGroup",
+  "Properties": {
+    "CacheSubnetGroupName": "",
+    "Description": "",
+    "SubnetIds": [
+      ""
+    ]
+  }
+}

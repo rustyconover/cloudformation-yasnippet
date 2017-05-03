@@ -1,0 +1,32 @@
+# -*- mode: snippet -*-
+# name: config_configrule
+# key: config_configrule
+# --
+{
+  "Type": "AWS::Config::ConfigRule",
+  "Properties": {
+    "ConfigRuleName": "",
+    "Description": "",
+    "InputParameters": {},
+    "MaximumExecutionFrequency": "",
+    "Scope": {
+      "ComplianceResourceId": "",
+      "ComplianceResourceTypes": [
+        ""
+      ],
+      "TagKey": "",
+      "TagValue": ""
+    },
+    "Source": {
+      "Owner": "",
+      "SourceDetails": [
+        {
+          "EventSource": "",
+          "MaximumExecutionFrequency": "",
+          "MessageType": ""
+        }
+      ],
+      "SourceIdentifier": ""
+    }
+  }
+}

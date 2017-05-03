@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: certificatemanager_certificate
+# key: certificatemanager_certificate
+# --
+{
+  "Type": "AWS::CertificateManager::Certificate",
+  "Properties": {
+    "DomainName": "",
+    "DomainValidationOptions": [
+      {
+        "DomainName": "",
+        "ValidationDomain": ""
+      }
+    ],
+    "SubjectAlternativeNames": [
+      ""
+    ],
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

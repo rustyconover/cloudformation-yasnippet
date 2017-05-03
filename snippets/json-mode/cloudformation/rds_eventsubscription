@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: rds_eventsubscription
+# key: rds_eventsubscription
+# --
+{
+  "Type": "AWS::RDS::EventSubscription",
+  "Properties": {
+    "Enabled": true,
+    "EventCategories": [
+      ""
+    ],
+    "SnsTopicArn": "",
+    "SourceIds": [
+      ""
+    ],
+    "SourceType": ""
+  }
+}

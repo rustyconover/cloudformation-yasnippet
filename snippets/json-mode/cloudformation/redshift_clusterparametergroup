@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: redshift_clusterparametergroup
+# key: redshift_clusterparametergroup
+# --
+{
+  "Type": "AWS::Redshift::ClusterParameterGroup",
+  "Properties": {
+    "Description": "",
+    "ParameterGroupFamily": "",
+    "Parameters": [
+      {
+        "ParameterName": "",
+        "ParameterValue": ""
+      }
+    ]
+  }
+}

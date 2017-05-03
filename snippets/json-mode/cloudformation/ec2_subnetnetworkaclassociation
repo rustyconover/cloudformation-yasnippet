@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ec2_subnetnetworkaclassociation
+# key: ec2_subnetnetworkaclassociation
+# --
+{
+  "Type": "AWS::EC2::SubnetNetworkAclAssociation",
+  "Properties": {
+    "NetworkAclId": "",
+    "SubnetId": ""
+  }
+}

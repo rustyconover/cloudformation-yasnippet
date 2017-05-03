@@ -1,0 +1,33 @@
+# -*- mode: snippet -*-
+# name: rds_dbcluster
+# key: rds_dbcluster
+# --
+{
+  "Type": "AWS::RDS::DBCluster",
+  "Properties": {
+    "AvailabilityZones": "",
+    "BackupRetentionPeriod": 0,
+    "DBClusterParameterGroupName": "",
+    "DBSubnetGroupName": "",
+    "DatabaseName": "",
+    "Engine": "",
+    "EngineVersion": "",
+    "KmsKeyId": "",
+    "MasterUserPassword": "",
+    "MasterUsername": "",
+    "Port": 0,
+    "PreferredBackupWindow": "",
+    "PreferredMaintenanceWindow": "",
+    "SnapshotIdentifier": "",
+    "StorageEncrypted": true,
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VpcSecurityGroupIds": [
+      ""
+    ]
+  }
+}

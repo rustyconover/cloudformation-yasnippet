@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: ec2_eipassociation
+# key: ec2_eipassociation
+# --
+{
+  "Type": "AWS::EC2::EIPAssociation",
+  "Properties": {
+    "AllocationId": "",
+    "Eip": "",
+    "InstanceId": "",
+    "NetworkInterfaceId": "",
+    "PrivateIpAddress": ""
+  }
+}

@@ -1,0 +1,44 @@
+# -*- mode: snippet -*-
+# name: autoscaling_launchconfiguration
+# key: autoscaling_launchconfiguration
+# --
+{
+  "Type": "AWS::AutoScaling::LaunchConfiguration",
+  "Properties": {
+    "AssociatePublicIpAddress": true,
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "",
+        "Ebs": {
+          "DeleteOnTermination": true,
+          "Encrypted": true,
+          "Iops": 0,
+          "SnapshotId": "",
+          "VolumeSize": 0,
+          "VolumeType": ""
+        },
+        "NoDevice": true,
+        "VirtualName": ""
+      }
+    ],
+    "ClassicLinkVPCId": "",
+    "ClassicLinkVPCSecurityGroups": [
+      ""
+    ],
+    "EbsOptimized": true,
+    "IamInstanceProfile": "",
+    "ImageId": "",
+    "InstanceId": "",
+    "InstanceMonitoring": true,
+    "InstanceType": "",
+    "KernelId": "",
+    "KeyName": "",
+    "PlacementTenancy": "",
+    "RamDiskId": "",
+    "SecurityGroups": [
+      ""
+    ],
+    "SpotPrice": "",
+    "UserData": ""
+  }
+}

@@ -1,0 +1,38 @@
+# -*- mode: snippet -*-
+# name: ecs_service
+# key: ecs_service
+# --
+{
+  "Type": "AWS::ECS::Service",
+  "Properties": {
+    "Cluster": "",
+    "DeploymentConfiguration": {
+      "MaximumPercent": 0,
+      "MinimumHealthyPercent": 0
+    },
+    "DesiredCount": 0,
+    "LoadBalancers": [
+      {
+        "ContainerName": "",
+        "ContainerPort": 0,
+        "LoadBalancerName": "",
+        "TargetGroupArn": ""
+      }
+    ],
+    "PlacementConstraints": [
+      {
+        "Expression": "",
+        "Type": ""
+      }
+    ],
+    "PlacementStrategies": [
+      {
+        "Field": "",
+        "Type": ""
+      }
+    ],
+    "Role": "",
+    "ServiceName": "",
+    "TaskDefinition": ""
+  }
+}

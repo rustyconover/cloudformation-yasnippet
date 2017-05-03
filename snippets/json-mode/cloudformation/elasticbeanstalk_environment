@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: elasticbeanstalk_environment
+# key: elasticbeanstalk_environment
+# --
+{
+  "Type": "AWS::ElasticBeanstalk::Environment",
+  "Properties": {
+    "ApplicationName": "",
+    "CNAMEPrefix": "",
+    "Description": "",
+    "EnvironmentName": "",
+    "OptionSettings": [
+      {
+        "Namespace": "",
+        "OptionName": "",
+        "Value": ""
+      }
+    ],
+    "SolutionStackName": "",
+    "TemplateName": "",
+    "Tier": {
+      "Name": "",
+      "Type": "",
+      "Version": ""
+    },
+    "VersionLabel": ""
+  }
+}

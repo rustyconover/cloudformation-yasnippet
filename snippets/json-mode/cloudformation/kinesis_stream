@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: kinesis_stream
+# key: kinesis_stream
+# --
+{
+  "Type": "AWS::Kinesis::Stream",
+  "Properties": {
+    "Name": "",
+    "ShardCount": 0,
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

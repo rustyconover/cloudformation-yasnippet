@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: waf_rule
+# key: waf_rule
+# --
+{
+  "Type": "AWS::WAF::Rule",
+  "Properties": {
+    "MetricName": "",
+    "Name": "",
+    "Predicates": [
+      {
+        "DataId": "",
+        "Negated": true,
+        "Type": ""
+      }
+    ]
+  }
+}

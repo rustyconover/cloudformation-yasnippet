@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: iam_accesskey
+# key: iam_accesskey
+# --
+{
+  "Type": "AWS::IAM::AccessKey",
+  "Properties": {
+    "Serial": 0,
+    "Status": "",
+    "UserName": ""
+  }
+}

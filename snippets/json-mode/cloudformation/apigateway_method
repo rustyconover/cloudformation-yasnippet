@@ -1,0 +1,61 @@
+# -*- mode: snippet -*-
+# name: apigateway_method
+# key: apigateway_method
+# --
+{
+  "Type": "AWS::ApiGateway::Method",
+  "Properties": {
+    "ApiKeyRequired": true,
+    "AuthorizationType": "",
+    "AuthorizerId": "",
+    "HttpMethod": "",
+    "Integration": {
+      "CacheKeyParameters": [
+        ""
+      ],
+      "CacheNamespace": "",
+      "Credentials": "",
+      "IntegrationHttpMethod": "",
+      "IntegrationResponses": [
+        {
+          "ResponseParameters": {
+            "Key": ""
+          },
+          "ResponseTemplates": {
+            "Key": ""
+          },
+          "SelectionPattern": "",
+          "StatusCode": ""
+        }
+      ],
+      "PassthroughBehavior": "",
+      "RequestParameters": {
+        "Key": ""
+      },
+      "RequestTemplates": {
+        "Key": ""
+      },
+      "Type": "",
+      "Uri": ""
+    },
+    "MethodResponses": [
+      {
+        "ResponseModels": {
+          "Key": ""
+        },
+        "ResponseParameters": {
+          "Key": true
+        },
+        "StatusCode": ""
+      }
+    ],
+    "RequestModels": {
+      "Key": ""
+    },
+    "RequestParameters": {
+      "Key": true
+    },
+    "ResourceId": "",
+    "RestApiId": ""
+  }
+}

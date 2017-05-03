@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: ec2_securitygroupingress
+# key: ec2_securitygroupingress
+# --
+{
+  "Type": "AWS::EC2::SecurityGroupIngress",
+  "Properties": {
+    "CidrIp": "",
+    "CidrIpv6": "",
+    "FromPort": 0,
+    "GroupId": "",
+    "GroupName": "",
+    "IpProtocol": "",
+    "SourceSecurityGroupId": "",
+    "SourceSecurityGroupName": "",
+    "SourceSecurityGroupOwnerId": "",
+    "ToPort": 0
+  }
+}

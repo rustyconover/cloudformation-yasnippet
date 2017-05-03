@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: applicationautoscaling_scalabletarget
+# key: applicationautoscaling_scalabletarget
+# --
+{
+  "Type": "AWS::ApplicationAutoScaling::ScalableTarget",
+  "Properties": {
+    "MaxCapacity": 0,
+    "MinCapacity": 0,
+    "ResourceId": "",
+    "RoleARN": "",
+    "ScalableDimension": "",
+    "ServiceNamespace": ""
+  }
+}

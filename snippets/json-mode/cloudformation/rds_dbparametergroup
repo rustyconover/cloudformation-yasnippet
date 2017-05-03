@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: rds_dbparametergroup
+# key: rds_dbparametergroup
+# --
+{
+  "Type": "AWS::RDS::DBParameterGroup",
+  "Properties": {
+    "Description": "",
+    "Family": "",
+    "Parameters": {
+      "Key": ""
+    },
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

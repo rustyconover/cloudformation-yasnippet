@@ -1,0 +1,43 @@
+# -*- mode: snippet -*-
+# name: elasticache_cachecluster
+# key: elasticache_cachecluster
+# --
+{
+  "Type": "AWS::ElastiCache::CacheCluster",
+  "Properties": {
+    "AZMode": "",
+    "AutoMinorVersionUpgrade": true,
+    "CacheNodeType": "",
+    "CacheParameterGroupName": "",
+    "CacheSecurityGroupNames": [
+      ""
+    ],
+    "CacheSubnetGroupName": "",
+    "ClusterName": "",
+    "Engine": "",
+    "EngineVersion": "",
+    "NotificationTopicArn": "",
+    "NumCacheNodes": 0,
+    "Port": 0,
+    "PreferredAvailabilityZone": "",
+    "PreferredAvailabilityZones": [
+      ""
+    ],
+    "PreferredMaintenanceWindow": "",
+    "SnapshotArns": [
+      ""
+    ],
+    "SnapshotName": "",
+    "SnapshotRetentionLimit": 0,
+    "SnapshotWindow": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VpcSecurityGroupIds": [
+      ""
+    ]
+  }
+}

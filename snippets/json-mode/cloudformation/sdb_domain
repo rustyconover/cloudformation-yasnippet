@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: sdb_domain
+# key: sdb_domain
+# --
+{
+  "Type": "AWS::SDB::Domain",
+  "Properties": {
+    "Description": ""
+  }
+}

@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: applicationautoscaling_scalingpolicy
+# key: applicationautoscaling_scalingpolicy
+# --
+{
+  "Type": "AWS::ApplicationAutoScaling::ScalingPolicy",
+  "Properties": {
+    "PolicyName": "",
+    "PolicyType": "",
+    "ResourceId": "",
+    "ScalableDimension": "",
+    "ScalingTargetId": "",
+    "ServiceNamespace": "",
+    "StepScalingPolicyConfiguration": {
+      "AdjustmentType": "",
+      "Cooldown": 0,
+      "MetricAggregationType": "",
+      "MinAdjustmentMagnitude": 0,
+      "StepAdjustments": [
+        {
+          "MetricIntervalLowerBound": 0,
+          "MetricIntervalUpperBound": 0,
+          "ScalingAdjustment": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: waf_webacl
+# key: waf_webacl
+# --
+{
+  "Type": "AWS::WAF::WebACL",
+  "Properties": {
+    "DefaultAction": {
+      "Type": ""
+    },
+    "MetricName": "",
+    "Name": "",
+    "Rules": [
+      {
+        "Action": {
+          "Type": ""
+        },
+        "Priority": 0,
+        "RuleId": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ec2_subnetroutetableassociation
+# key: ec2_subnetroutetableassociation
+# --
+{
+  "Type": "AWS::EC2::SubnetRouteTableAssociation",
+  "Properties": {
+    "RouteTableId": "",
+    "SubnetId": ""
+  }
+}

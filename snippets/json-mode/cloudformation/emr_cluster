@@ -1,0 +1,189 @@
+# -*- mode: snippet -*-
+# name: emr_cluster
+# key: emr_cluster
+# --
+{
+  "Type": "AWS::EMR::Cluster",
+  "Properties": {
+    "AdditionalInfo": {},
+    "Applications": [
+      {
+        "AdditionalInfo": {
+          "Key": ""
+        },
+        "Args": [
+          ""
+        ],
+        "Name": "",
+        "Version": ""
+      }
+    ],
+    "AutoScalingRole": "",
+    "BootstrapActions": [
+      {
+        "Name": "",
+        "ScriptBootstrapAction": {
+          "Args": [
+            ""
+          ],
+          "Path": ""
+        }
+      }
+    ],
+    "Configurations": [
+      {}
+    ],
+    "Instances": {
+      "AdditionalMasterSecurityGroups": [
+        ""
+      ],
+      "AdditionalSlaveSecurityGroups": [
+        ""
+      ],
+      "CoreInstanceGroup": {
+        "AutoScalingPolicy": {
+          "Constraints": {
+            "MaxCapacity": 0,
+            "MinCapacity": 0
+          },
+          "Rules": [
+            {
+              "Action": {
+                "Market": "",
+                "SimpleScalingPolicyConfiguration": {
+                  "AdjustmentType": "",
+                  "CoolDown": 0,
+                  "ScalingAdjustment": 0
+                }
+              },
+              "Description": "",
+              "Name": "",
+              "Trigger": {
+                "CloudWatchAlarmDefinition": {
+                  "ComparisonOperator": "",
+                  "Dimensions": [
+                    {
+                      "Key": "",
+                      "Value": ""
+                    }
+                  ],
+                  "EvaluationPeriods": 0,
+                  "MetricName": "",
+                  "Namespace": "",
+                  "Period": 0,
+                  "Statistic": "",
+                  "Threshold": 0,
+                  "Unit": ""
+                }
+              }
+            }
+          ]
+        },
+        "BidPrice": "",
+        "Configurations": [
+          {}
+        ],
+        "EbsConfiguration": {
+          "EbsBlockDeviceConfigs": [
+            {
+              "VolumeSpecification": {
+                "Iops": 0,
+                "SizeInGB": 0,
+                "VolumeType": ""
+              },
+              "VolumesPerInstance": 0
+            }
+          ],
+          "EbsOptimized": true
+        },
+        "InstanceCount": 0,
+        "InstanceType": "",
+        "Market": "",
+        "Name": ""
+      },
+      "Ec2KeyName": "",
+      "Ec2SubnetId": "",
+      "EmrManagedMasterSecurityGroup": "",
+      "EmrManagedSlaveSecurityGroup": "",
+      "HadoopVersion": "",
+      "MasterInstanceGroup": {
+        "AutoScalingPolicy": {
+          "Constraints": {
+            "MaxCapacity": 0,
+            "MinCapacity": 0
+          },
+          "Rules": [
+            {
+              "Action": {
+                "Market": "",
+                "SimpleScalingPolicyConfiguration": {
+                  "AdjustmentType": "",
+                  "CoolDown": 0,
+                  "ScalingAdjustment": 0
+                }
+              },
+              "Description": "",
+              "Name": "",
+              "Trigger": {
+                "CloudWatchAlarmDefinition": {
+                  "ComparisonOperator": "",
+                  "Dimensions": [
+                    {
+                      "Key": "",
+                      "Value": ""
+                    }
+                  ],
+                  "EvaluationPeriods": 0,
+                  "MetricName": "",
+                  "Namespace": "",
+                  "Period": 0,
+                  "Statistic": "",
+                  "Threshold": 0,
+                  "Unit": ""
+                }
+              }
+            }
+          ]
+        },
+        "BidPrice": "",
+        "Configurations": [
+          {}
+        ],
+        "EbsConfiguration": {
+          "EbsBlockDeviceConfigs": [
+            {
+              "VolumeSpecification": {
+                "Iops": 0,
+                "SizeInGB": 0,
+                "VolumeType": ""
+              },
+              "VolumesPerInstance": 0
+            }
+          ],
+          "EbsOptimized": true
+        },
+        "InstanceCount": 0,
+        "InstanceType": "",
+        "Market": "",
+        "Name": ""
+      },
+      "Placement": {
+        "AvailabilityZone": ""
+      },
+      "ServiceAccessSecurityGroup": "",
+      "TerminationProtected": true
+    },
+    "JobFlowRole": "",
+    "LogUri": "",
+    "Name": "",
+    "ReleaseLabel": "",
+    "ServiceRole": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VisibleToAllUsers": true
+  }
+}

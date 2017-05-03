@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: sns_subscription
+# key: sns_subscription
+# --
+{
+  "Type": "AWS::SNS::Subscription",
+  "Properties": {
+    "Endpoint": "",
+    "Protocol": "",
+    "TopicArn": ""
+  }
+}

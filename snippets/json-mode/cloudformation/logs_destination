@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: logs_destination
+# key: logs_destination
+# --
+{
+  "Type": "AWS::Logs::Destination",
+  "Properties": {
+    "DestinationName": "",
+    "DestinationPolicy": "",
+    "RoleArn": "",
+    "TargetArn": ""
+  }
+}

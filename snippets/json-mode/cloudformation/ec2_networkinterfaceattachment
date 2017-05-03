@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: ec2_networkinterfaceattachment
+# key: ec2_networkinterfaceattachment
+# --
+{
+  "Type": "AWS::EC2::NetworkInterfaceAttachment",
+  "Properties": {
+    "DeleteOnTermination": true,
+    "DeviceIndex": "",
+    "InstanceId": "",
+    "NetworkInterfaceId": ""
+  }
+}

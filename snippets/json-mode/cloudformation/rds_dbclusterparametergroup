@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: rds_dbclusterparametergroup
+# key: rds_dbclusterparametergroup
+# --
+{
+  "Type": "AWS::RDS::DBClusterParameterGroup",
+  "Properties": {
+    "Description": "",
+    "Family": "",
+    "Parameters": {},
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

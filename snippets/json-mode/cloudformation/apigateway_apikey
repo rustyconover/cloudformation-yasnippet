@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: apigateway_apikey
+# key: apigateway_apikey
+# --
+{
+  "Type": "AWS::ApiGateway::ApiKey",
+  "Properties": {
+    "Description": "",
+    "Enabled": true,
+    "Name": "",
+    "StageKeys": [
+      {
+        "RestApiId": "",
+        "StageName": ""
+      }
+    ]
+  }
+}

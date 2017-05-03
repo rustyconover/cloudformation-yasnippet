@@ -1,0 +1,33 @@
+# -*- mode: snippet -*-
+# name: route53_recordset
+# key: route53_recordset
+# --
+{
+  "Type": "AWS::Route53::RecordSet",
+  "Properties": {
+    "AliasTarget": {
+      "DNSName": "",
+      "EvaluateTargetHealth": true,
+      "HostedZoneId": ""
+    },
+    "Comment": "",
+    "Failover": "",
+    "GeoLocation": {
+      "ContinentCode": "",
+      "CountryCode": "",
+      "SubdivisionCode": ""
+    },
+    "HealthCheckId": "",
+    "HostedZoneId": "",
+    "HostedZoneName": "",
+    "Name": "",
+    "Region": "",
+    "ResourceRecords": [
+      ""
+    ],
+    "SetIdentifier": "",
+    "TTL": "",
+    "Type": "",
+    "Weight": 0
+  }
+}

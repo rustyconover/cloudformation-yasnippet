@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ssm_document
+# key: ssm_document
+# --
+{
+  "Type": "AWS::SSM::Document",
+  "Properties": {
+    "Content": {},
+    "DocumentType": ""
+  }
+}

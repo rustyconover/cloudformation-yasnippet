@@ -1,0 +1,55 @@
+# -*- mode: snippet -*-
+# name: rds_dbinstance
+# key: rds_dbinstance
+# --
+{
+  "Type": "AWS::RDS::DBInstance",
+  "Properties": {
+    "AllocatedStorage": "",
+    "AllowMajorVersionUpgrade": true,
+    "AutoMinorVersionUpgrade": true,
+    "AvailabilityZone": "",
+    "BackupRetentionPeriod": "",
+    "CharacterSetName": "",
+    "DBClusterIdentifier": "",
+    "DBInstanceClass": "",
+    "DBInstanceIdentifier": "",
+    "DBName": "",
+    "DBParameterGroupName": "",
+    "DBSecurityGroups": [
+      ""
+    ],
+    "DBSnapshotIdentifier": "",
+    "DBSubnetGroupName": "",
+    "Domain": "",
+    "DomainIAMRoleName": "",
+    "Engine": "",
+    "EngineVersion": "",
+    "Iops": 0,
+    "KmsKeyId": "",
+    "LicenseModel": "",
+    "MasterUserPassword": "",
+    "MasterUsername": "",
+    "MonitoringInterval": 0,
+    "MonitoringRoleArn": "",
+    "MultiAZ": true,
+    "OptionGroupName": "",
+    "Port": "",
+    "PreferredBackupWindow": "",
+    "PreferredMaintenanceWindow": "",
+    "PubliclyAccessible": true,
+    "SourceDBInstanceIdentifier": "",
+    "StorageEncrypted": true,
+    "StorageType": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Timezone": "",
+    "VPCSecurityGroups": [
+      ""
+    ]
+  }
+}

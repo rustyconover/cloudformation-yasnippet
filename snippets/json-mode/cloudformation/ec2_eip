@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ec2_eip
+# key: ec2_eip
+# --
+{
+  "Type": "AWS::EC2::EIP",
+  "Properties": {
+    "Domain": "",
+    "InstanceId": ""
+  }
+}

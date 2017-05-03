@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: waf_sqlinjectionmatchset
+# key: waf_sqlinjectionmatchset
+# --
+{
+  "Type": "AWS::WAF::SqlInjectionMatchSet",
+  "Properties": {
+    "Name": "",
+    "SqlInjectionMatchTuples": [
+      {
+        "FieldToMatch": {
+          "Data": "",
+          "Type": ""
+        },
+        "TextTransformation": ""
+      }
+    ]
+  }
+}

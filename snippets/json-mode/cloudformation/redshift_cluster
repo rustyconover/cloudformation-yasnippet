@@ -1,0 +1,40 @@
+# -*- mode: snippet -*-
+# name: redshift_cluster
+# key: redshift_cluster
+# --
+{
+  "Type": "AWS::Redshift::Cluster",
+  "Properties": {
+    "AllowVersionUpdate": true,
+    "AutomatedSnapshotRetentionPeriod": 0,
+    "AvailabilityZone": "",
+    "ClusterParameterGroupName": "",
+    "ClusterSecurityGroups": [
+      ""
+    ],
+    "ClusterSubnetGroupName": "",
+    "ClusterType": "",
+    "ClusterVersion": "",
+    "DBName": "",
+    "ElasticIp": "",
+    "Encrypted": true,
+    "HsmClientCertificateIdentifier": "",
+    "IamRoles": [
+      ""
+    ],
+    "KmsKeyId": "",
+    "MasterUserPassword": "",
+    "MasterUsername": "",
+    "NodeType": "",
+    "NumberOfNodes": 0,
+    "OwnerAccount": "",
+    "Port": 0,
+    "PreferredMaintenanceWindow": "",
+    "PubliclyAccessible": true,
+    "SnapshotClusterIdentifier": "",
+    "SnapshotIdentifier": "",
+    "VpcSecurityGroupIds": [
+      ""
+    ]
+  }
+}

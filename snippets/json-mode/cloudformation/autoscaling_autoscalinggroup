@@ -1,0 +1,52 @@
+# -*- mode: snippet -*-
+# name: autoscaling_autoscalinggroup
+# key: autoscaling_autoscalinggroup
+# --
+{
+  "Type": "AWS::AutoScaling::AutoScalingGroup",
+  "Properties": {
+    "AvailabilityZones": [
+      ""
+    ],
+    "Cooldown": "",
+    "DesiredCapacity": "",
+    "HealthCheckGracePeriod": 0,
+    "HealthCheckType": "",
+    "InstanceId": "",
+    "LaunchConfigurationName": "",
+    "LoadBalancerNames": [
+      ""
+    ],
+    "MaxSize": "",
+    "MetricsCollection": {
+      "Granularity": "",
+      "Metrics": [
+        ""
+      ]
+    },
+    "MinSize": "",
+    "NotificationConfigurations": {
+      "NotificationTypes": [
+        ""
+      ],
+      "TopicARN": ""
+    },
+    "PlacementGroup": "",
+    "Tags": [
+      {
+        "Key": "",
+        "PropagateAtLaunch": true,
+        "Value": ""
+      }
+    ],
+    "TargetGroupARNs": [
+      ""
+    ],
+    "TerminationPolicies": [
+      ""
+    ],
+    "VPCZoneIdentifier": [
+      ""
+    ]
+  }
+}

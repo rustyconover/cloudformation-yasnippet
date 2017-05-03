@@ -1,0 +1,61 @@
+# -*- mode: snippet -*-
+# name: codepipeline_pipeline
+# key: codepipeline_pipeline
+# --
+{
+  "Type": "AWS::CodePipeline::Pipeline",
+  "Properties": {
+    "ArtifactStore": {
+      "EncryptionKey": {
+        "Id": "",
+        "Type": ""
+      },
+      "Location": "",
+      "Type": ""
+    },
+    "DisableInboundStageTransitions": [
+      {
+        "Reason": "",
+        "StageName": ""
+      }
+    ],
+    "Name": "",
+    "RestartExecutionOnUpdate": true,
+    "RoleArn": "",
+    "Stages": [
+      {
+        "Actions": [
+          {
+            "ActionTypeId": {
+              "Category": "",
+              "Owner": "",
+              "Provider": "",
+              "Version": ""
+            },
+            "Configuration": {},
+            "InputArtifacts": [
+              {
+                "Name": ""
+              }
+            ],
+            "Name": "",
+            "OutputArtifacts": [
+              {
+                "Name": ""
+              }
+            ],
+            "RoleArn": "",
+            "RunOrder": 0
+          }
+        ],
+        "Blockers": [
+          {
+            "Name": "",
+            "Type": ""
+          }
+        ],
+        "Name": ""
+      }
+    ]
+  }
+}

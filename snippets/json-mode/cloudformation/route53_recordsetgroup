@@ -1,0 +1,40 @@
+# -*- mode: snippet -*-
+# name: route53_recordsetgroup
+# key: route53_recordsetgroup
+# --
+{
+  "Type": "AWS::Route53::RecordSetGroup",
+  "Properties": {
+    "Comment": "",
+    "HostedZoneId": "",
+    "HostedZoneName": "",
+    "RecordSets": [
+      {
+        "AliasTarget": {
+          "DNSName": "",
+          "EvaluateTargetHealth": true,
+          "HostedZoneId": ""
+        },
+        "Comment": "",
+        "Failover": "",
+        "GeoLocation": {
+          "ContinentCode": "",
+          "CountryCode": "",
+          "SubdivisionCode": ""
+        },
+        "HealthCheckId": "",
+        "HostedZoneId": "",
+        "HostedZoneName": "",
+        "Name": "",
+        "Region": "",
+        "ResourceRecords": [
+          ""
+        ],
+        "SetIdentifier": "",
+        "TTL": "",
+        "Type": "",
+        "Weight": 0
+      }
+    ]
+  }
+}

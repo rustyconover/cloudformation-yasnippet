@@ -1,0 +1,30 @@
+# -*- mode: snippet -*-
+# name: elasticloadbalancingv2_loadbalancer
+# key: elasticloadbalancingv2_loadbalancer
+# --
+{
+  "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+  "Properties": {
+    "IpAddressType": "",
+    "LoadBalancerAttributes": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Name": "",
+    "Scheme": "",
+    "SecurityGroups": [
+      ""
+    ],
+    "Subnets": [
+      ""
+    ],
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: ec2_placementgroup
+# key: ec2_placementgroup
+# --
+{
+  "Type": "AWS::EC2::PlacementGroup",
+  "Properties": {
+    "Strategy": ""
+  }
+}

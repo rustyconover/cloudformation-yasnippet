@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: cloudformation_stack
+# key: cloudformation_stack
+# --
+{
+  "Type": "AWS::CloudFormation::Stack",
+  "Properties": {
+    "NotificationARNs": [
+      ""
+    ],
+    "Parameters": {
+      "Key": ""
+    },
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "TemplateURL": "",
+    "TimeoutInMinutes": 0
+  }
+}

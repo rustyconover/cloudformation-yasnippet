@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: iot_thing
+# key: iot_thing
+# --
+{
+  "Type": "AWS::IoT::Thing",
+  "Properties": {
+    "AttributePayload": {
+      "Attributes": {
+        "Key": ""
+      }
+    },
+    "ThingName": ""
+  }
+}

@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: elasticloadbalancingv2_listener
+# key: elasticloadbalancingv2_listener
+# --
+{
+  "Type": "AWS::ElasticLoadBalancingV2::Listener",
+  "Properties": {
+    "Certificates": [
+      {
+        "CertificateArn": ""
+      }
+    ],
+    "DefaultActions": [
+      {
+        "TargetGroupArn": "",
+        "Type": ""
+      }
+    ],
+    "LoadBalancerArn": "",
+    "Port": 0,
+    "Protocol": "",
+    "SslPolicy": ""
+  }
+}

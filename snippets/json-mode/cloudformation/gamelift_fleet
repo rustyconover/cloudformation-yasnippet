@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# name: gamelift_fleet
+# key: gamelift_fleet
+# --
+{
+  "Type": "AWS::GameLift::Fleet",
+  "Properties": {
+    "BuildId": "",
+    "Description": "",
+    "DesiredEC2Instances": 0,
+    "EC2InboundPermissions": [
+      {
+        "FromPort": 0,
+        "IpRange": "",
+        "Protocol": "",
+        "ToPort": 0
+      }
+    ],
+    "EC2InstanceType": "",
+    "LogPaths": [
+      ""
+    ],
+    "MaxSize": 0,
+    "MinSize": 0,
+    "Name": "",
+    "ServerLaunchParameters": "",
+    "ServerLaunchPath": ""
+  }
+}

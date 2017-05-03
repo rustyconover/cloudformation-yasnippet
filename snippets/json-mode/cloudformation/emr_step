@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: emr_step
+# key: emr_step
+# --
+{
+  "Type": "AWS::EMR::Step",
+  "Properties": {
+    "ActionOnFailure": "",
+    "HadoopJarStep": {
+      "Args": [
+        ""
+      ],
+      "Jar": "",
+      "MainClass": "",
+      "StepProperties": [
+        {
+          "Key": "",
+          "Value": ""
+        }
+      ]
+    },
+    "JobFlowId": "",
+    "Name": ""
+  }
+}

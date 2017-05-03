@@ -1,0 +1,71 @@
+# -*- mode: snippet -*-
+# name: opsworks_instance
+# key: opsworks_instance
+# --
+{
+  "Type": "AWS::OpsWorks::Instance",
+  "Properties": {
+    "AgentVersion": "",
+    "AmiId": "",
+    "Architecture": "",
+    "AutoScalingType": "",
+    "AvailabilityZone": "",
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "",
+        "Ebs": {
+          "DeleteOnTermination": true,
+          "Iops": 0,
+          "SnapshotId": "",
+          "VolumeSize": 0,
+          "VolumeType": ""
+        },
+        "NoDevice": "",
+        "VirtualName": ""
+      }
+    ],
+    "EbsOptimized": true,
+    "ElasticIps": [
+      ""
+    ],
+    "Hostname": "",
+    "InstallUpdatesOnBoot": true,
+    "InstanceType": "",
+    "LayerIds": [
+      ""
+    ],
+    "Os": "",
+    "RootDeviceType": "",
+    "SshKeyName": "",
+    "StackId": "",
+    "SubnetId": "",
+    "Tenancy": "",
+    "TimeBasedAutoScaling": {
+      "Friday": {
+        "Key": ""
+      },
+      "Monday": {
+        "Key": ""
+      },
+      "Saturday": {
+        "Key": ""
+      },
+      "Sunday": {
+        "Key": ""
+      },
+      "Thursday": {
+        "Key": ""
+      },
+      "Tuesday": {
+        "Key": ""
+      },
+      "Wednesday": {
+        "Key": ""
+      }
+    },
+    "VirtualizationType": "",
+    "Volumes": [
+      ""
+    ]
+  }
+}

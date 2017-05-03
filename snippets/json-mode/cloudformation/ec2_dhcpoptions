@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: ec2_dhcpoptions
+# key: ec2_dhcpoptions
+# --
+{
+  "Type": "AWS::EC2::DHCPOptions",
+  "Properties": {
+    "DomainName": "",
+    "DomainNameServers": [
+      ""
+    ],
+    "NetbiosNameServers": [
+      ""
+    ],
+    "NetbiosNodeType": 0,
+    "NtpServers": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

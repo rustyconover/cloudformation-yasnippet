@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: ecs_cluster
+# key: ecs_cluster
+# --
+{
+  "Type": "AWS::ECS::Cluster",
+  "Properties": {
+    "ClusterName": ""
+  }
+}

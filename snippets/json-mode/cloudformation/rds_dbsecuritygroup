@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: rds_dbsecuritygroup
+# key: rds_dbsecuritygroup
+# --
+{
+  "Type": "AWS::RDS::DBSecurityGroup",
+  "Properties": {
+    "DBSecurityGroupIngress": [
+      {
+        "CIDRIP": "",
+        "EC2SecurityGroupId": "",
+        "EC2SecurityGroupName": "",
+        "EC2SecurityGroupOwnerId": ""
+      }
+    ],
+    "EC2VpcId": "",
+    "GroupDescription": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

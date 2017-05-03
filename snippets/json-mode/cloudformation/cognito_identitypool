@@ -1,0 +1,38 @@
+# -*- mode: snippet -*-
+# name: cognito_identitypool
+# key: cognito_identitypool
+# --
+{
+  "Type": "AWS::Cognito::IdentityPool",
+  "Properties": {
+    "PushSync": {
+      "ApplicationArns": [
+        ""
+      ],
+      "RoleArn": ""
+    },
+    "CognitoIdentityProviders": [
+      {
+        "ServerSideTokenCheck": true,
+        "ProviderName": "",
+        "ClientId": ""
+      }
+    ],
+    "CognitoEvents": {},
+    "DeveloperProviderName": "",
+    "CognitoStreams": {
+      "StreamingStatus": "",
+      "StreamName": "",
+      "RoleArn": ""
+    },
+    "IdentityPoolName": "",
+    "AllowUnauthenticatedIdentities": true,
+    "SupportedLoginProviders": {},
+    "SamlProviderARNs": [
+      ""
+    ],
+    "OpenIdConnectProviderARNs": [
+      ""
+    ]
+  }
+}

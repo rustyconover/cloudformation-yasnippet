@@ -1,0 +1,27 @@
+# -*- mode: snippet -*-
+# name: iam_user
+# key: iam_user
+# --
+{
+  "Type": "AWS::IAM::User",
+  "Properties": {
+    "Groups": [
+      ""
+    ],
+    "LoginProfile": {
+      "Password": "",
+      "PasswordResetRequired": true
+    },
+    "ManagedPolicyArns": [
+      ""
+    ],
+    "Path": "",
+    "Policies": [
+      {
+        "PolicyDocument": {},
+        "PolicyName": ""
+      }
+    ],
+    "UserName": ""
+  }
+}

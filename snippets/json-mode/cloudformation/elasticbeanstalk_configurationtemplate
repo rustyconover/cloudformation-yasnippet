@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: elasticbeanstalk_configurationtemplate
+# key: elasticbeanstalk_configurationtemplate
+# --
+{
+  "Type": "AWS::ElasticBeanstalk::ConfigurationTemplate",
+  "Properties": {
+    "ApplicationName": "",
+    "Description": "",
+    "EnvironmentId": "",
+    "OptionSettings": [
+      {
+        "Namespace": "",
+        "OptionName": "",
+        "Value": ""
+      }
+    ],
+    "SolutionStackName": "",
+    "SourceConfiguration": ""
+  }
+}

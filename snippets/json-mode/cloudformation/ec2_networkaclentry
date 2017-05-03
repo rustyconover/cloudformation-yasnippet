@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: ec2_networkaclentry
+# key: ec2_networkaclentry
+# --
+{
+  "Type": "AWS::EC2::NetworkAclEntry",
+  "Properties": {
+    "CidrBlock": "",
+    "Egress": true,
+    "Icmp": {
+      "Code": 0,
+      "Type": 0
+    },
+    "Ipv6CidrBlock": "",
+    "NetworkAclId": "",
+    "PortRange": {
+      "From": 0,
+      "To": 0
+    },
+    "Protocol": 0,
+    "RuleAction": "",
+    "RuleNumber": 0
+  }
+}

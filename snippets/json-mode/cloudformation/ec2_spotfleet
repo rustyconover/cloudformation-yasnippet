@@ -1,0 +1,87 @@
+# -*- mode: snippet -*-
+# name: ec2_spotfleet
+# key: ec2_spotfleet
+# --
+{
+  "Type": "AWS::EC2::SpotFleet",
+  "Properties": {
+    "SpotFleetRequestConfigData": {
+      "AllocationStrategy": "",
+      "ExcessCapacityTerminationPolicy": "",
+      "IamFleetRole": "",
+      "LaunchSpecifications": [
+        {
+          "BlockDeviceMappings": [
+            {
+              "DeviceName": "",
+              "Ebs": {
+                "DeleteOnTermination": true,
+                "Encrypted": true,
+                "Iops": 0,
+                "SnapshotId": "",
+                "VolumeSize": 0,
+                "VolumeType": ""
+              },
+              "NoDevice": true,
+              "VirtualName": ""
+            }
+          ],
+          "EbsOptimized": true,
+          "IamInstanceProfile": {
+            "Arn": ""
+          },
+          "ImageId": "",
+          "InstanceType": "",
+          "KernelId": "",
+          "KeyName": "",
+          "Monitoring": {
+            "Enabled": true
+          },
+          "NetworkInterfaces": [
+            {
+              "AssociatePublicIpAddress": true,
+              "DeleteOnTermination": true,
+              "Description": "",
+              "DeviceIndex": 0,
+              "Groups": [
+                ""
+              ],
+              "Ipv6AddressCount": 0,
+              "Ipv6Addresses": {
+                "Ipv6Address": ""
+              },
+              "NetworkInterfaceId": "",
+              "PrivateIpAddresses": [
+                {
+                  "Primary": true,
+                  "PrivateIpAddress": ""
+                }
+              ],
+              "SecondaryPrivateIpAddressCount": 0,
+              "SubnetId": ""
+            }
+          ],
+          "Placement": {
+            "AvailabilityZone": "",
+            "GroupName": ""
+          },
+          "RamdiskId": "",
+          "SecurityGroups": [
+            {
+              "GroupId": ""
+            }
+          ],
+          "SpotPrice": "",
+          "SubnetId": "",
+          "UserData": "",
+          "WeightedCapacity": 0
+        }
+      ],
+      "SpotPrice": "",
+      "TargetCapacity": 0,
+      "TerminateInstancesWithExpiration": true,
+      "ValidFrom": "",
+      "ValidUntil": ""
+    }
+  }
+}

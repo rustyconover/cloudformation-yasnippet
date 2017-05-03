@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: apigateway_authorizer
+# key: apigateway_authorizer
+# --
+{
+  "Type": "AWS::ApiGateway::Authorizer",
+  "Properties": {
+    "AuthorizerCredentials": "",
+    "AuthorizerResultTtlInSeconds": 0,
+    "AuthorizerUri": "",
+    "IdentitySource": "",
+    "IdentityValidationExpression": "",
+    "Name": "",
+    "ProviderARNs": [
+      ""
+    ],
+    "RestApiId": "",
+    "Type": ""
+  }
+}

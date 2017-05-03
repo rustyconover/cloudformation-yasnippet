@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: ec2_securitygroupegress
+# key: ec2_securitygroupegress
+# --
+{
+  "Type": "AWS::EC2::SecurityGroupEgress",
+  "Properties": {
+    "CidrIp": "",
+    "CidrIpv6": "",
+    "DestinationPrefixListId": "",
+    "DestinationSecurityGroupId": "",
+    "FromPort": 0,
+    "GroupId": "",
+    "IpProtocol": "",
+    "ToPort": 0
+  }
+}

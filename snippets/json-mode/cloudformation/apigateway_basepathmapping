@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: apigateway_basepathmapping
+# key: apigateway_basepathmapping
+# --
+{
+  "Type": "AWS::ApiGateway::BasePathMapping",
+  "Properties": {
+    "BasePath": "",
+    "DomainName": "",
+    "RestApiId": "",
+    "Stage": ""
+  }
+}

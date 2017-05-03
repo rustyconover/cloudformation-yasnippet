@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: iam_managedpolicy
+# key: iam_managedpolicy
+# --
+{
+  "Type": "AWS::IAM::ManagedPolicy",
+  "Properties": {
+    "Description": "",
+    "Groups": [
+      ""
+    ],
+    "ManagedPolicyName": "",
+    "Path": "",
+    "PolicyDocument": {},
+    "Roles": [
+      ""
+    ],
+    "Users": [
+      ""
+    ]
+  }
+}

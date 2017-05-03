@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: iot_thingprincipalattachment
+# key: iot_thingprincipalattachment
+# --
+{
+  "Type": "AWS::IoT::ThingPrincipalAttachment",
+  "Properties": {
+    "Principal": "",
+    "ThingName": ""
+  }
+}

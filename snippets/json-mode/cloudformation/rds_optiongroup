@@ -1,0 +1,34 @@
+# -*- mode: snippet -*-
+# name: rds_optiongroup
+# key: rds_optiongroup
+# --
+{
+  "Type": "AWS::RDS::OptionGroup",
+  "Properties": {
+    "EngineName": "",
+    "MajorEngineVersion": "",
+    "OptionConfigurations": [
+      {
+        "DBSecurityGroupMemberships": [
+          ""
+        ],
+        "OptionName": "",
+        "OptionSettings": {
+          "Name": "",
+          "Value": ""
+        },
+        "Port": 0,
+        "VpcSecurityGroupMemberships": [
+          ""
+        ]
+      }
+    ],
+    "OptionGroupDescription": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

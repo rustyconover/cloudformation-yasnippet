@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: waf_sizeconstraintset
+# key: waf_sizeconstraintset
+# --
+{
+  "Type": "AWS::WAF::SizeConstraintSet",
+  "Properties": {
+    "Name": "",
+    "SizeConstraints": [
+      {
+        "ComparisonOperator": "",
+        "FieldToMatch": {
+          "Data": "",
+          "Type": ""
+        },
+        "Size": 0,
+        "TextTransformation": ""
+      }
+    ]
+  }
+}

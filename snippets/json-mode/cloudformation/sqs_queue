@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: sqs_queue
+# key: sqs_queue
+# --
+{
+  "Type": "AWS::SQS::Queue",
+  "Properties": {
+    "ContentBasedDeduplication": true,
+    "DelaySeconds": 0,
+    "FifoQueue": true,
+    "MaximumMessageSize": 0,
+    "MessageRetentionPeriod": 0,
+    "QueueName": "",
+    "ReceiveMessageWaitTimeSeconds": 0,
+    "RedrivePolicy": {},
+    "VisibilityTimeout": 0
+  }
+}

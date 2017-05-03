@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: ec2_internetgateway
+# key: ec2_internetgateway
+# --
+{
+  "Type": "AWS::EC2::InternetGateway",
+  "Properties": {
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

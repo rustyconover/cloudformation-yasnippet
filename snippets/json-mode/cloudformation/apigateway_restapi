@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: apigateway_restapi
+# key: apigateway_restapi
+# --
+{
+  "Type": "AWS::ApiGateway::RestApi",
+  "Properties": {
+    "Body": {},
+    "BodyS3Location": {
+      "Bucket": "",
+      "ETag": "",
+      "Key": "",
+      "Version": ""
+    },
+    "CloneFrom": "",
+    "Description": "",
+    "FailOnWarnings": true,
+    "Mode": "",
+    "Name": "",
+    "Parameters": {
+      "Key": ""
+    }
+  }
+}

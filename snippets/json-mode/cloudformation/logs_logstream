@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: logs_logstream
+# key: logs_logstream
+# --
+{
+  "Type": "AWS::Logs::LogStream",
+  "Properties": {
+    "LogGroupName": "",
+    "LogStreamName": ""
+  }
+}

@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: ec2_vpnconnection
+# key: ec2_vpnconnection
+# --
+{
+  "Type": "AWS::EC2::VPNConnection",
+  "Properties": {
+    "CustomerGatewayId": "",
+    "StaticRoutesOnly": true,
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Type": "",
+    "VpnGatewayId": ""
+  }
+}

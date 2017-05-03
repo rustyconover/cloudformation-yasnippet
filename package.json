@@ -1,0 +1,21 @@
+{
+  "name": "cloudformation-snippets",
+  "version": "1.0.0",
+  "description": "A tool to generate yasnippets for CloudFormation",
+  "main": "generate.js",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "request": "^2.81.0",
+    "rimraf": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "author": "Rusty Conover",
+  "license": "MIT"
+}

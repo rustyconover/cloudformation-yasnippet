@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: workspaces_workspace
+# key: workspaces_workspace
+# --
+{
+  "Type": "AWS::WorkSpaces::Workspace",
+  "Properties": {
+    "BundleId": "",
+    "DirectoryId": "",
+    "RootVolumeEncryptionEnabled": true,
+    "UserName": "",
+    "UserVolumeEncryptionEnabled": true,
+    "VolumeEncryptionKey": ""
+  }
+}

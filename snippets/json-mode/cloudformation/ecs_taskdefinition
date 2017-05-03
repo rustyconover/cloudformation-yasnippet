@@ -1,0 +1,108 @@
+# -*- mode: snippet -*-
+# name: ecs_taskdefinition
+# key: ecs_taskdefinition
+# --
+{
+  "Type": "AWS::ECS::TaskDefinition",
+  "Properties": {
+    "ContainerDefinitions": [
+      {
+        "Command": [
+          ""
+        ],
+        "Cpu": 0,
+        "DisableNetworking": true,
+        "DnsSearchDomains": [
+          ""
+        ],
+        "DnsServers": [
+          ""
+        ],
+        "DockerLabels": {
+          "Key": ""
+        },
+        "DockerSecurityOptions": [
+          ""
+        ],
+        "EntryPoint": [
+          ""
+        ],
+        "Environment": [
+          {
+            "Name": "",
+            "Value": ""
+          }
+        ],
+        "Essential": true,
+        "ExtraHosts": [
+          {
+            "Hostname": "",
+            "IpAddress": ""
+          }
+        ],
+        "Hostname": "",
+        "Image": "",
+        "Links": [
+          ""
+        ],
+        "LogConfiguration": {
+          "LogDriver": "",
+          "Options": {
+            "Key": ""
+          }
+        },
+        "Memory": 0,
+        "MemoryReservation": 0,
+        "MountPoints": [
+          {
+            "ContainerPath": "",
+            "ReadOnly": true,
+            "SourceVolume": ""
+          }
+        ],
+        "Name": "",
+        "PortMappings": [
+          {
+            "ContainerPort": 0,
+            "HostPort": 0,
+            "Protocol": ""
+          }
+        ],
+        "Privileged": true,
+        "ReadonlyRootFilesystem": true,
+        "Ulimits": [
+          {
+            "HardLimit": 0,
+            "Name": "",
+            "SoftLimit": 0
+          }
+        ],
+        "User": "",
+        "VolumesFrom": [
+          {
+            "ReadOnly": true,
+            "SourceContainer": ""
+          }
+        ],
+        "WorkingDirectory": ""
+      }
+    ],
+    "Family": "",
+    "NetworkMode": "",
+    "PlacementConstraints": [
+      {
+        "Expression": "",
+        "Type": ""
+      }
+    ],
+    "TaskRoleArn": "",
+    "Volumes": [
+      {
+        "Host": {
+          "SourcePath": ""
+        },
+        "Name": ""
+      }
+    ]
+  }
+}

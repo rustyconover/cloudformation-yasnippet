@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: ec2_vpcendpoint
+# key: ec2_vpcendpoint
+# --
+{
+  "Type": "AWS::EC2::VPCEndpoint",
+  "Properties": {
+    "PolicyDocument": {},
+    "RouteTableIds": [
+      ""
+    ],
+    "ServiceName": "",
+    "VpcId": ""
+  }
+}

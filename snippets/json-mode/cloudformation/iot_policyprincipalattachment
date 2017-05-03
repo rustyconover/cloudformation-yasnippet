@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: iot_policyprincipalattachment
+# key: iot_policyprincipalattachment
+# --
+{
+  "Type": "AWS::IoT::PolicyPrincipalAttachment",
+  "Properties": {
+    "PolicyName": "",
+    "Principal": ""
+  }
+}

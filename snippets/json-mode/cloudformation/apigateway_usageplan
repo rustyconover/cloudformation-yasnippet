@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: apigateway_usageplan
+# key: apigateway_usageplan
+# --
+{
+  "Type": "AWS::ApiGateway::UsagePlan",
+  "Properties": {
+    "ApiStages": [
+      {
+        "ApiId": "",
+        "Stage": ""
+      }
+    ],
+    "Description": "",
+    "Quota": {
+      "Limit": 0,
+      "Offset": 0,
+      "Period": ""
+    },
+    "Throttle": {
+      "BurstLimit": 0,
+      "RateLimit": 0
+    },
+    "UsagePlanName": ""
+  }
+}

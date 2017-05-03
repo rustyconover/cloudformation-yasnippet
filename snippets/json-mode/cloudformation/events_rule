@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: events_rule
+# key: events_rule
+# --
+{
+  "Type": "AWS::Events::Rule",
+  "Properties": {
+    "Description": "",
+    "EventPattern": {},
+    "Name": "",
+    "RoleArn": "",
+    "ScheduleExpression": "",
+    "State": "",
+    "Targets": [
+      {
+        "Arn": "",
+        "Id": "",
+        "Input": "",
+        "InputPath": ""
+      }
+    ]
+  }
+}

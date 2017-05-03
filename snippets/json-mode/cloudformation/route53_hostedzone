@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: route53_hostedzone
+# key: route53_hostedzone
+# --
+{
+  "Type": "AWS::Route53::HostedZone",
+  "Properties": {
+    "HostedZoneConfig": {
+      "Comment": ""
+    },
+    "HostedZoneTags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Name": "",
+    "VPCs": [
+      {
+        "VPCId": "",
+        "VPCRegion": ""
+      }
+    ]
+  }
+}

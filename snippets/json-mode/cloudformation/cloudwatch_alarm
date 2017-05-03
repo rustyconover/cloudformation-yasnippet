@@ -1,0 +1,35 @@
+# -*- mode: snippet -*-
+# name: cloudwatch_alarm
+# key: cloudwatch_alarm
+# --
+{
+  "Type": "AWS::CloudWatch::Alarm",
+  "Properties": {
+    "ActionsEnabled": true,
+    "AlarmActions": [
+      ""
+    ],
+    "AlarmDescription": "",
+    "AlarmName": "",
+    "ComparisonOperator": "",
+    "Dimensions": [
+      {
+        "Name": "",
+        "Value": ""
+      }
+    ],
+    "EvaluationPeriods": 0,
+    "InsufficientDataActions": [
+      ""
+    ],
+    "MetricName": "",
+    "Namespace": "",
+    "OKActions": [
+      ""
+    ],
+    "Period": 0,
+    "Statistic": "",
+    "Threshold": 0,
+    "Unit": ""
+  }
+}

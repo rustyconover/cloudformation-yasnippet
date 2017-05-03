@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: sns_topicpolicy
+# key: sns_topicpolicy
+# --
+{
+  "Type": "AWS::SNS::TopicPolicy",
+  "Properties": {
+    "PolicyDocument": {},
+    "Topics": [
+      ""
+    ]
+  }
+}

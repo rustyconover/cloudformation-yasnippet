@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: efs_mounttarget
+# key: efs_mounttarget
+# --
+{
+  "Type": "AWS::EFS::MountTarget",
+  "Properties": {
+    "FileSystemId": "",
+    "IpAddress": "",
+    "SecurityGroups": [
+      ""
+    ],
+    "SubnetId": ""
+  }
+}

@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: waf_ipset
+# key: waf_ipset
+# --
+{
+  "Type": "AWS::WAF::IPSet",
+  "Properties": {
+    "IPSetDescriptors": [
+      {
+        "Type": "",
+        "Value": ""
+      }
+    ],
+    "Name": ""
+  }
+}

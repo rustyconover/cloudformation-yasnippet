@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: autoscaling_scalingpolicy
+# key: autoscaling_scalingpolicy
+# --
+{
+  "Type": "AWS::AutoScaling::ScalingPolicy",
+  "Properties": {
+    "AdjustmentType": "",
+    "AutoScalingGroupName": "",
+    "Cooldown": "",
+    "EstimatedInstanceWarmup": 0,
+    "MetricAggregationType": "",
+    "MinAdjustmentMagnitude": 0,
+    "PolicyType": "",
+    "ScalingAdjustment": 0,
+    "StepAdjustments": [
+      {
+        "MetricIntervalLowerBound": 0,
+        "MetricIntervalUpperBound": 0,
+        "ScalingAdjustment": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+# -*- mode: snippet -*-
+# name: opsworks_stack
+# key: opsworks_stack
+# --
+{
+  "Type": "AWS::OpsWorks::Stack",
+  "Properties": {
+    "AgentVersion": "",
+    "Attributes": {
+      "Key": ""
+    },
+    "ChefConfiguration": {
+      "BerkshelfVersion": "",
+      "ManageBerkshelf": true
+    },
+    "CloneAppIds": [
+      ""
+    ],
+    "ClonePermissions": true,
+    "ConfigurationManager": {
+      "Name": "",
+      "Version": ""
+    },
+    "CustomCookbooksSource": {
+      "Password": "",
+      "Revision": "",
+      "SshKey": "",
+      "Type": "",
+      "Url": "",
+      "Username": ""
+    },
+    "CustomJson": {},
+    "DefaultAvailabilityZone": "",
+    "DefaultInstanceProfileArn": "",
+    "DefaultOs": "",
+    "DefaultRootDeviceType": "",
+    "DefaultSshKeyName": "",
+    "DefaultSubnetId": "",
+    "EcsClusterArn": "",
+    "ElasticIps": [
+      {
+        "Ip": "",
+        "Name": ""
+      }
+    ],
+    "HostnameTheme": "",
+    "Name": "",
+    "RdsDbInstances": [
+      {
+        "DbPassword": "",
+        "DbUser": "",
+        "RdsDbInstanceArn": ""
+      }
+    ],
+    "ServiceRoleArn": "",
+    "SourceStackId": "",
+    "UseCustomCookbooks": true,
+    "UseOpsworksSecurityGroups": true,
+    "VpcId": ""
+  }
+}

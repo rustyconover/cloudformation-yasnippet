@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: ec2_vpcpeeringconnection
+# key: ec2_vpcpeeringconnection
+# --
+{
+  "Type": "AWS::EC2::VPCPeeringConnection",
+  "Properties": {
+    "PeerOwnerId": "",
+    "PeerRoleArn": "",
+    "PeerVpcId": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VpcId": ""
+  }
+}

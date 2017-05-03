@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: config_configurationrecorder
+# key: config_configurationrecorder
+# --
+{
+  "Type": "AWS::Config::ConfigurationRecorder",
+  "Properties": {
+    "Name": "",
+    "RecordingGroup": {
+      "AllSupported": true,
+      "IncludeGlobalResourceTypes": true,
+      "ResourceTypes": [
+        ""
+      ]
+    },
+    "RoleArn": ""
+  }
+}

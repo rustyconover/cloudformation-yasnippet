@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: rds_dbsubnetgroup
+# key: rds_dbsubnetgroup
+# --
+{
+  "Type": "AWS::RDS::DBSubnetGroup",
+  "Properties": {
+    "DBSubnetGroupDescription": "",
+    "SubnetIds": [
+      ""
+    ],
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+# -*- mode: snippet -*-
+# name: codedeploy_deploymentgroup
+# key: codedeploy_deploymentgroup
+# --
+{
+  "Type": "AWS::CodeDeploy::DeploymentGroup",
+  "Properties": {
+    "ApplicationName": "",
+    "AutoScalingGroups": [
+      ""
+    ],
+    "Deployment": {
+      "Description": "",
+      "IgnoreApplicationStopFailures": true,
+      "Revision": {
+        "GitHubLocation": {
+          "CommitId": "",
+          "Repository": ""
+        },
+        "RevisionType": "",
+        "S3Location": {
+          "Bucket": "",
+          "BundleType": "",
+          "ETag": "",
+          "Key": "",
+          "Version": ""
+        }
+      }
+    },
+    "DeploymentConfigName": "",
+    "DeploymentGroupName": "",
+    "Ec2TagFilters": [
+      {
+        "Key": "",
+        "Type": "",
+        "Value": ""
+      }
+    ],
+    "OnPremisesInstanceTagFilters": [
+      {
+        "Key": "",
+        "Type": "",
+        "Value": ""
+      }
+    ],
+    "ServiceRoleArn": ""
+  }
+}

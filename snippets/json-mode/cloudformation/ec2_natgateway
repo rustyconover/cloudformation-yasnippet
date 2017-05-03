@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ec2_natgateway
+# key: ec2_natgateway
+# --
+{
+  "Type": "AWS::EC2::NatGateway",
+  "Properties": {
+    "AllocationId": "",
+    "SubnetId": ""
+  }
+}

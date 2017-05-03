@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: cloudformation_waitcondition
+# key: cloudformation_waitcondition
+# --
+{
+  "Type": "AWS::CloudFormation::WaitCondition",
+  "Properties": {
+    "Count": 0,
+    "Handle": "",
+    "Timeout": ""
+  }
+}

@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: ec2_volume
+# key: ec2_volume
+# --
+{
+  "Type": "AWS::EC2::Volume",
+  "Properties": {
+    "AutoEnableIO": true,
+    "AvailabilityZone": "",
+    "Encrypted": true,
+    "Iops": 0,
+    "KmsKeyId": "",
+    "Size": 0,
+    "SnapshotId": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VolumeType": ""
+  }
+}

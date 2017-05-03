@@ -1,0 +1,45 @@
+# -*- mode: snippet -*-
+# name: lambda_function
+# key: lambda_function
+# --
+{
+  "Type": "AWS::Lambda::Function",
+  "Properties": {
+    "Code": {
+      "S3Bucket": "",
+      "S3Key": "",
+      "S3ObjectVersion": "",
+      "ZipFile": ""
+    },
+    "DeadLetterConfig": {
+      "TargetArn": ""
+    },
+    "Description": "",
+    "Environment": {
+      "Variables": {
+        "Key": ""
+      }
+    },
+    "FunctionName": "",
+    "Handler": "",
+    "KmsKeyArn": "",
+    "MemorySize": 0,
+    "Role": "",
+    "Runtime": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Timeout": 0,
+    "VpcConfig": {
+      "SecurityGroupIds": [
+        ""
+      ],
+      "SubnetIds": [
+        ""
+      ]
+    }
+  }
+}

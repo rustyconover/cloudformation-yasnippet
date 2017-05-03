@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: iam_group
+# key: iam_group
+# --
+{
+  "Type": "AWS::IAM::Group",
+  "Properties": {
+    "GroupName": "",
+    "ManagedPolicyArns": [
+      ""
+    ],
+    "Path": "",
+    "Policies": [
+      {
+        "PolicyDocument": {},
+        "PolicyName": ""
+      }
+    ]
+  }
+}

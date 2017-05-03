@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: waf_xssmatchset
+# key: waf_xssmatchset
+# --
+{
+  "Type": "AWS::WAF::XssMatchSet",
+  "Properties": {
+    "Name": "",
+    "XssMatchTuples": [
+      {
+        "FieldToMatch": {
+          "Data": "",
+          "Type": ""
+        },
+        "TextTransformation": ""
+      }
+    ]
+  }
+}

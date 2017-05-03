@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: lambda_eventsourcemapping
+# key: lambda_eventsourcemapping
+# --
+{
+  "Type": "AWS::Lambda::EventSourceMapping",
+  "Properties": {
+    "BatchSize": 0,
+    "Enabled": true,
+    "EventSourceArn": "",
+    "FunctionName": "",
+    "StartingPosition": ""
+  }
+}

@@ -1,0 +1,82 @@
+# -*- mode: snippet -*-
+# name: iot_topicrule
+# key: iot_topicrule
+# --
+{
+  "Type": "AWS::IoT::TopicRule",
+  "Properties": {
+    "RuleName": "",
+    "TopicRulePayload": {
+      "Actions": [
+        {
+          "CloudwatchAlarm": {
+            "AlarmName": "",
+            "RoleArn": "",
+            "StateReason": "",
+            "StateValue": ""
+          },
+          "CloudwatchMetric": {
+            "MetricName": "",
+            "MetricNamespace": "",
+            "MetricTimestamp": "",
+            "MetricUnit": "",
+            "MetricValue": "",
+            "RoleArn": ""
+          },
+          "DynamoDB": {
+            "HashKeyField": "",
+            "HashKeyValue": "",
+            "PayloadField": "",
+            "RangeKeyField": "",
+            "RangeKeyValue": "",
+            "RoleArn": "",
+            "TableName": ""
+          },
+          "Elasticsearch": {
+            "Endpoint": "",
+            "Id": "",
+            "Index": "",
+            "RoleArn": "",
+            "Type": ""
+          },
+          "Firehose": {
+            "DeliveryStreamName": "",
+            "RoleArn": "",
+            "Separator": ""
+          },
+          "Kinesis": {
+            "PartitionKey": "",
+            "RoleArn": "",
+            "StreamName": ""
+          },
+          "Lambda": {
+            "FunctionArn": ""
+          },
+          "Republish": {
+            "RoleArn": "",
+            "Topic": ""
+          },
+          "S3": {
+            "BucketName": "",
+            "Key": "",
+            "RoleArn": ""
+          },
+          "Sns": {
+            "MessageFormat": "",
+            "RoleArn": "",
+            "TargetArn": ""
+          },
+          "Sqs": {
+            "QueueUrl": "",
+            "RoleArn": "",
+            "UseBase64": true
+          }
+        }
+      ],
+      "AwsIotSqlVersion": "",
+      "Description": "",
+      "RuleDisabled": true,
+      "Sql": ""
+    }
+  }
+}

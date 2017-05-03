@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: elasticache_parametergroup
+# key: elasticache_parametergroup
+# --
+{
+  "Type": "AWS::ElastiCache::ParameterGroup",
+  "Properties": {
+    "CacheParameterGroupFamily": "",
+    "Description": "",
+    "Properties": {
+      "Key": ""
+    }
+  }
+}

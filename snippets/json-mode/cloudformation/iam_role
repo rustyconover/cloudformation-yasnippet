@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: iam_role
+# key: iam_role
+# --
+{
+  "Type": "AWS::IAM::Role",
+  "Properties": {
+    "AssumeRolePolicyDocument": {},
+    "ManagedPolicyArns": [
+      ""
+    ],
+    "Path": "",
+    "Policies": [
+      {
+        "PolicyDocument": {},
+        "PolicyName": ""
+      }
+    ],
+    "RoleName": ""
+  }
+}

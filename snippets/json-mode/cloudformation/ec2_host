@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: ec2_host
+# key: ec2_host
+# --
+{
+  "Type": "AWS::EC2::Host",
+  "Properties": {
+    "AutoPlacement": "",
+    "AvailabilityZone": "",
+    "InstanceType": ""
+  }
+}

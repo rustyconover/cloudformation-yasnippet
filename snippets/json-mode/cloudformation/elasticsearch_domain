@@ -1,0 +1,38 @@
+# -*- mode: snippet -*-
+# name: elasticsearch_domain
+# key: elasticsearch_domain
+# --
+{
+  "Type": "AWS::Elasticsearch::Domain",
+  "Properties": {
+    "AccessPolicies": {},
+    "AdvancedOptions": {
+      "Key": ""
+    },
+    "DomainName": "",
+    "EBSOptions": {
+      "EBSEnabled": true,
+      "Iops": 0,
+      "VolumeSize": 0,
+      "VolumeType": ""
+    },
+    "ElasticsearchClusterConfig": {
+      "DedicatedMasterCount": 0,
+      "DedicatedMasterEnabled": true,
+      "DedicatedMasterType": "",
+      "InstanceCount": 0,
+      "InstanceType": "",
+      "ZoneAwarenessEnabled": true
+    },
+    "ElasticsearchVersion": "",
+    "SnapshotOptions": {
+      "AutomatedSnapshotStartHour": 0
+    },
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

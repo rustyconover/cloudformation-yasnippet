@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: cognito_identitypoolroleattachment
+# key: cognito_identitypoolroleattachment
+# --
+{
+  "Type": "AWS::Cognito::IdentityPoolRoleAttachment",
+  "Properties": {
+    "RoleMappings": {},
+    "IdentityPoolId": "",
+    "Roles": {}
+  }
+}

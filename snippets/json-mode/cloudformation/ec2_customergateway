@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: ec2_customergateway
+# key: ec2_customergateway
+# --
+{
+  "Type": "AWS::EC2::CustomerGateway",
+  "Properties": {
+    "BgpAsn": 0,
+    "IpAddress": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Type": ""
+  }
+}

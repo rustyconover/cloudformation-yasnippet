@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: apigateway_account
+# key: apigateway_account
+# --
+{
+  "Type": "AWS::ApiGateway::Account",
+  "Properties": {
+    "CloudWatchRoleArn": ""
+  }
+}

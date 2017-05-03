@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ec2_subnetcidrblock
+# key: ec2_subnetcidrblock
+# --
+{
+  "Type": "AWS::EC2::SubnetCidrBlock",
+  "Properties": {
+    "Ipv6CidrBlock": "",
+    "SubnetId": ""
+  }
+}

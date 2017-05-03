@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: cognito_userpooluser
+# key: cognito_userpooluser
+# --
+{
+  "Type": "AWS::Cognito::UserPoolUser",
+  "Properties": {
+    "ValidationData": [
+      {
+        "Value": "",
+        "Name": ""
+      }
+    ],
+    "UserPoolId": "",
+    "Username": "",
+    "MessageAction": "",
+    "DesiredDeliveryMediums": [
+      ""
+    ],
+    "ForceAliasCreation": true,
+    "UserAttributes": [
+      {
+        "Value": "",
+        "Name": ""
+      }
+    ]
+  }
+}

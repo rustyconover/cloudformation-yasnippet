@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: iot_certificate
+# key: iot_certificate
+# --
+{
+  "Type": "AWS::IoT::Certificate",
+  "Properties": {
+    "CertificateSigningRequest": "",
+    "Status": ""
+  }
+}

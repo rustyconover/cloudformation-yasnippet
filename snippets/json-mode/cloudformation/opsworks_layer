@@ -1,0 +1,81 @@
+# -*- mode: snippet -*-
+# name: opsworks_layer
+# key: opsworks_layer
+# --
+{
+  "Type": "AWS::OpsWorks::Layer",
+  "Properties": {
+    "Attributes": {
+      "Key": ""
+    },
+    "AutoAssignElasticIps": true,
+    "AutoAssignPublicIps": true,
+    "CustomInstanceProfileArn": "",
+    "CustomJson": {},
+    "CustomRecipes": {
+      "Configure": [
+        ""
+      ],
+      "Deploy": [
+        ""
+      ],
+      "Setup": [
+        ""
+      ],
+      "Shutdown": [
+        ""
+      ],
+      "Undeploy": [
+        ""
+      ]
+    },
+    "CustomSecurityGroupIds": [
+      ""
+    ],
+    "EnableAutoHealing": true,
+    "InstallUpdatesOnBoot": true,
+    "LifecycleEventConfiguration": {
+      "ShutdownEventConfiguration": {
+        "DelayUntilElbConnectionsDrained": true,
+        "ExecutionTimeout": 0
+      }
+    },
+    "LoadBasedAutoScaling": {
+      "DownScaling": {
+        "CpuThreshold": 0,
+        "IgnoreMetricsTime": 0,
+        "InstanceCount": 0,
+        "LoadThreshold": 0,
+        "MemoryThreshold": 0,
+        "ThresholdsWaitTime": 0
+      },
+      "Enable": true,
+      "UpScaling": {
+        "CpuThreshold": 0,
+        "IgnoreMetricsTime": 0,
+        "InstanceCount": 0,
+        "LoadThreshold": 0,
+        "MemoryThreshold": 0,
+        "ThresholdsWaitTime": 0
+      }
+    },
+    "Name": "",
+    "Packages": [
+      ""
+    ],
+    "Shortname": "",
+    "StackId": "",
+    "Type": "",
+    "UseEbsOptimizedInstances": true,
+    "VolumeConfigurations": [
+      {
+        "Iops": 0,
+        "MountPoint": "",
+        "NumberOfDisks": 0,
+        "RaidLevel": 0,
+        "Size": 0,
+        "VolumeType": ""
+      }
+    ]
+  }
+}

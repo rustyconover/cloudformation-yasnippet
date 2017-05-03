@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: logs_loggroup
+# key: logs_loggroup
+# --
+{
+  "Type": "AWS::Logs::LogGroup",
+  "Properties": {
+    "LogGroupName": "",
+    "RetentionInDays": 0
+  }
+}

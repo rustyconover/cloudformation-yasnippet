@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: efs_filesystem
+# key: efs_filesystem
+# --
+{
+  "Type": "AWS::EFS::FileSystem",
+  "Properties": {
+    "FileSystemTags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "PerformanceMode": ""
+  }
+}

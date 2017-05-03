@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: cloudtrail_trail
+# key: cloudtrail_trail
+# --
+{
+  "Type": "AWS::CloudTrail::Trail",
+  "Properties": {
+    "CloudWatchLogsLogGroupArn": "",
+    "CloudWatchLogsRoleArn": "",
+    "EnableLogFileValidation": true,
+    "IncludeGlobalServiceEvents": true,
+    "IsLogging": true,
+    "IsMultiRegionTrail": true,
+    "KMSKeyId": "",
+    "S3BucketName": "",
+    "S3KeyPrefix": "",
+    "SnsTopicName": ""
+  }
+}

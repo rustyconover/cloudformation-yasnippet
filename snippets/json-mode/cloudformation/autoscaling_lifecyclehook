@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: autoscaling_lifecyclehook
+# key: autoscaling_lifecyclehook
+# --
+{
+  "Type": "AWS::AutoScaling::LifecycleHook",
+  "Properties": {
+    "AutoScalingGroupName": "",
+    "DefaultResult": "",
+    "HeartbeatTimeout": 0,
+    "LifecycleTransition": "",
+    "NotificationMetadata": "",
+    "NotificationTargetARN": "",
+    "RoleARN": ""
+  }
+}

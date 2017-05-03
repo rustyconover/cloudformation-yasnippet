@@ -1,0 +1,67 @@
+# -*- mode: snippet -*-
+# name: dynamodb_table
+# key: dynamodb_table
+# --
+{
+  "Type": "AWS::DynamoDB::Table",
+  "Properties": {
+    "AttributeDefinitions": [
+      {
+        "AttributeName": "",
+        "AttributeType": ""
+      }
+    ],
+    "GlobalSecondaryIndexes": [
+      {
+        "IndexName": "",
+        "KeySchema": [
+          {
+            "AttributeName": "",
+            "KeyType": ""
+          }
+        ],
+        "Projection": {
+          "NonKeyAttributes": [
+            ""
+          ],
+          "ProjectionType": ""
+        },
+        "ProvisionedThroughput": {
+          "ReadCapacityUnits": 0,
+          "WriteCapacityUnits": 0
+        }
+      }
+    ],
+    "KeySchema": [
+      {
+        "AttributeName": "",
+        "KeyType": ""
+      }
+    ],
+    "LocalSecondaryIndexes": [
+      {
+        "IndexName": "",
+        "KeySchema": [
+          {
+            "AttributeName": "",
+            "KeyType": ""
+          }
+        ],
+        "Projection": {
+          "NonKeyAttributes": [
+            ""
+          ],
+          "ProjectionType": ""
+        }
+      }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 0,
+      "WriteCapacityUnits": 0
+    },
+    "StreamSpecification": {
+      "StreamViewType": ""
+    },
+    "TableName": ""
+  }
+}

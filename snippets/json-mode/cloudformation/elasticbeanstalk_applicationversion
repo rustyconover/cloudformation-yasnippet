@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: elasticbeanstalk_applicationversion
+# key: elasticbeanstalk_applicationversion
+# --
+{
+  "Type": "AWS::ElasticBeanstalk::ApplicationVersion",
+  "Properties": {
+    "ApplicationName": "",
+    "Description": "",
+    "SourceBundle": {
+      "S3Bucket": "",
+      "S3Key": ""
+    }
+  }
+}

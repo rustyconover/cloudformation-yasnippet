@@ -1,0 +1,44 @@
+# -*- mode: snippet -*-
+# name: apigateway_deployment
+# key: apigateway_deployment
+# --
+{
+  "Type": "AWS::ApiGateway::Deployment",
+  "Properties": {
+    "Description": "",
+    "RestApiId": "",
+    "StageDescription": {
+      "CacheClusterEnabled": true,
+      "CacheClusterSize": "",
+      "CacheDataEncrypted": true,
+      "CacheTtlInSeconds": 0,
+      "CachingEnabled": true,
+      "ClientCertificateId": "",
+      "DataTraceEnabled": true,
+      "Description": "",
+      "LoggingLevel": "",
+      "MethodSettings": [
+        {
+          "CacheDataEncrypted": true,
+          "CacheTtlInSeconds": 0,
+          "CachingEnabled": true,
+          "DataTraceEnabled": true,
+          "HttpMethod": "",
+          "LoggingLevel": "",
+          "MetricsEnabled": true,
+          "ResourcePath": "",
+          "ThrottlingBurstLimit": 0,
+          "ThrottlingRateLimit": 0
+        }
+      ],
+      "MetricsEnabled": true,
+      "StageName": "",
+      "ThrottlingBurstLimit": 0,
+      "ThrottlingRateLimit": 0,
+      "Variables": {
+        "Key": ""
+      }
+    },
+    "StageName": ""
+  }
+}

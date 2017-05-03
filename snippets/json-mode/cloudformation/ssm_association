@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: ssm_association
+# key: ssm_association
+# --
+{
+  "Type": "AWS::SSM::Association",
+  "Properties": {
+    "DocumentVersion": "",
+    "InstanceId": "",
+    "Name": "",
+    "Parameters": {
+      "Key": {
+        "ParameterValues": [
+          ""
+        ]
+      }
+    },
+    "ScheduleExpression": "",
+    "Targets": [
+      {
+        "Key": "",
+        "Values": [
+          ""
+        ]
+      }
+    ]
+  }
+}

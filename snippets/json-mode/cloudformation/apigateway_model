@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: apigateway_model
+# key: apigateway_model
+# --
+{
+  "Type": "AWS::ApiGateway::Model",
+  "Properties": {
+    "ContentType": "",
+    "Description": "",
+    "Name": "",
+    "RestApiId": "",
+    "Schema": {}
+  }
+}

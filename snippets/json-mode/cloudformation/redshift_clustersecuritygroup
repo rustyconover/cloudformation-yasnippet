@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: redshift_clustersecuritygroup
+# key: redshift_clustersecuritygroup
+# --
+{
+  "Type": "AWS::Redshift::ClusterSecurityGroup",
+  "Properties": {
+    "Description": ""
+  }
+}

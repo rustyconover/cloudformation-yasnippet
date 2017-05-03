@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: logs_metricfilter
+# key: logs_metricfilter
+# --
+{
+  "Type": "AWS::Logs::MetricFilter",
+  "Properties": {
+    "FilterPattern": "",
+    "LogGroupName": "",
+    "MetricTransformations": [
+      {
+        "MetricName": "",
+        "MetricNamespace": "",
+        "MetricValue": ""
+      }
+    ]
+  }
+}

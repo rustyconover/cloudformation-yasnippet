@@ -1,0 +1,57 @@
+# -*- mode: snippet -*-
+# name: elasticache_replicationgroup
+# key: elasticache_replicationgroup
+# --
+{
+  "Type": "AWS::ElastiCache::ReplicationGroup",
+  "Properties": {
+    "AutoMinorVersionUpgrade": true,
+    "AutomaticFailoverEnabled": true,
+    "CacheNodeType": "",
+    "CacheParameterGroupName": "",
+    "CacheSecurityGroupNames": [
+      ""
+    ],
+    "CacheSubnetGroupName": "",
+    "Engine": "",
+    "EngineVersion": "",
+    "NodeGroupConfiguration": [
+      {
+        "PrimaryAvailabilityZone": "",
+        "ReplicaAvailabilityZones": [
+          ""
+        ],
+        "ReplicaCount": 0,
+        "Slots": ""
+      }
+    ],
+    "NotificationTopicArn": "",
+    "NumCacheClusters": 0,
+    "NumNodeGroups": 0,
+    "Port": 0,
+    "PreferredCacheClusterAZs": [
+      ""
+    ],
+    "PreferredMaintenanceWindow": "",
+    "PrimaryClusterId": "",
+    "ReplicasPerNodeGroup": 0,
+    "ReplicationGroupDescription": "",
+    "ReplicationGroupId": "",
+    "SecurityGroupIds": [
+      ""
+    ],
+    "SnapshotArns": [
+      ""
+    ],
+    "SnapshotName": "",
+    "SnapshotRetentionLimit": 0,
+    "SnapshotWindow": "",
+    "SnapshottingClusterId": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

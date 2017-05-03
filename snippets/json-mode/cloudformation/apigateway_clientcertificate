@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: apigateway_clientcertificate
+# key: apigateway_clientcertificate
+# --
+{
+  "Type": "AWS::ApiGateway::ClientCertificate",
+  "Properties": {
+    "Description": ""
+  }
+}

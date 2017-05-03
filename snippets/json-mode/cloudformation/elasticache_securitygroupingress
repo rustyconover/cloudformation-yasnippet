@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: elasticache_securitygroupingress
+# key: elasticache_securitygroupingress
+# --
+{
+  "Type": "AWS::ElastiCache::SecurityGroupIngress",
+  "Properties": {
+    "CacheSecurityGroupName": "",
+    "EC2SecurityGroupName": "",
+    "EC2SecurityGroupOwnerId": ""
+  }
+}

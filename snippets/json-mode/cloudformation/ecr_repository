@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ecr_repository
+# key: ecr_repository
+# --
+{
+  "Type": "AWS::ECR::Repository",
+  "Properties": {
+    "RepositoryName": "",
+    "RepositoryPolicyText": {}
+  }
+}

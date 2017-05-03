@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: ec2_networkacl
+# key: ec2_networkacl
+# --
+{
+  "Type": "AWS::EC2::NetworkAcl",
+  "Properties": {
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VpcId": ""
+  }
+}

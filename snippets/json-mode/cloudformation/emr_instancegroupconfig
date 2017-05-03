@@ -1,0 +1,32 @@
+# -*- mode: snippet -*-
+# name: emr_instancegroupconfig
+# key: emr_instancegroupconfig
+# --
+{
+  "Type": "AWS::EMR::InstanceGroupConfig",
+  "Properties": {
+    "BidPrice": "",
+    "Configurations": [
+      {}
+    ],
+    "EbsConfiguration": {
+      "EbsBlockDeviceConfigs": [
+        {
+          "VolumeSpecification": {
+            "Iops": 0,
+            "SizeInGB": 0,
+            "VolumeType": ""
+          },
+          "VolumesPerInstance": 0
+        }
+      ],
+      "EbsOptimized": true
+    },
+    "InstanceCount": 0,
+    "InstanceRole": "",
+    "InstanceType": "",
+    "JobFlowId": "",
+    "Market": "",
+    "Name": ""
+  }
+}

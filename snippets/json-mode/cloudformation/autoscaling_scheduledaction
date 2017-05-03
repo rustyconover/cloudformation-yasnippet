@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: autoscaling_scheduledaction
+# key: autoscaling_scheduledaction
+# --
+{
+  "Type": "AWS::AutoScaling::ScheduledAction",
+  "Properties": {
+    "AutoScalingGroupName": "",
+    "DesiredCapacity": 0,
+    "EndTime": "",
+    "MaxSize": 0,
+    "MinSize": 0,
+    "Recurrence": "",
+    "StartTime": ""
+  }
+}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fn_sub
+# key: fn_sub
+# --
+{ "Ref": "$1" }

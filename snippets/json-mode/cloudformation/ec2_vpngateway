@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: ec2_vpngateway
+# key: ec2_vpngateway
+# --
+{
+  "Type": "AWS::EC2::VPNGateway",
+  "Properties": {
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Type": ""
+  }
+}

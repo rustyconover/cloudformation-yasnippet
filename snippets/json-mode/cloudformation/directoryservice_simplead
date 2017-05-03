@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: directoryservice_simplead
+# key: directoryservice_simplead
+# --
+{
+  "Type": "AWS::DirectoryService::SimpleAD",
+  "Properties": {
+    "CreateAlias": true,
+    "Description": "",
+    "EnableSso": true,
+    "Name": "",
+    "Password": "",
+    "ShortName": "",
+    "Size": "",
+    "VpcSettings": {
+      "SubnetIds": [
+        ""
+      ],
+      "VpcId": ""
+    }
+  }
+}

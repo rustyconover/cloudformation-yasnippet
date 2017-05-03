@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: lambda_permission
+# key: lambda_permission
+# --
+{
+  "Type": "AWS::Lambda::Permission",
+  "Properties": {
+    "Action": "",
+    "FunctionName": "",
+    "Principal": "",
+    "SourceAccount": "",
+    "SourceArn": ""
+  }
+}

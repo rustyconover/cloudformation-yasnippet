@@ -1,0 +1,109 @@
+# -*- mode: snippet -*-
+# name: kinesisfirehose_deliverystream
+# key: kinesisfirehose_deliverystream
+# --
+{
+  "Type": "AWS::KinesisFirehose::DeliveryStream",
+  "Properties": {
+    "DeliveryStreamName": "",
+    "ElasticsearchDestinationConfiguration": {
+      "BufferingHints": {
+        "IntervalInSeconds": 0,
+        "SizeInMBs": 0
+      },
+      "CloudWatchLoggingOptions": {
+        "Enabled": true,
+        "LogGroupName": "",
+        "LogStreamName": ""
+      },
+      "DomainARN": "",
+      "IndexName": "",
+      "IndexRotationPeriod": "",
+      "RetryOptions": {
+        "DurationInSeconds": 0
+      },
+      "RoleARN": "",
+      "S3BackupMode": "",
+      "S3Configuration": {
+        "BucketARN": "",
+        "BufferingHints": {
+          "IntervalInSeconds": 0,
+          "SizeInMBs": 0
+        },
+        "CloudWatchLoggingOptions": {
+          "Enabled": true,
+          "LogGroupName": "",
+          "LogStreamName": ""
+        },
+        "CompressionFormat": "",
+        "EncryptionConfiguration": {
+          "KMSEncryptionConfig": {
+            "AWSKMSKeyARN": ""
+          },
+          "NoEncryptionConfig": ""
+        },
+        "Prefix": "",
+        "RoleARN": ""
+      },
+      "TypeName": ""
+    },
+    "RedshiftDestinationConfiguration": {
+      "CloudWatchLoggingOptions": {
+        "Enabled": true,
+        "LogGroupName": "",
+        "LogStreamName": ""
+      },
+      "ClusterJDBCURL": "",
+      "CopyCommand": {
+        "CopyOptions": "",
+        "DataTableColumns": "",
+        "DataTableName": ""
+      },
+      "Password": "",
+      "RoleARN": "",
+      "S3Configuration": {
+        "BucketARN": "",
+        "BufferingHints": {
+          "IntervalInSeconds": 0,
+          "SizeInMBs": 0
+        },
+        "CloudWatchLoggingOptions": {
+          "Enabled": true,
+          "LogGroupName": "",
+          "LogStreamName": ""
+        },
+        "CompressionFormat": "",
+        "EncryptionConfiguration": {
+          "KMSEncryptionConfig": {
+            "AWSKMSKeyARN": ""
+          },
+          "NoEncryptionConfig": ""
+        },
+        "Prefix": "",
+        "RoleARN": ""
+      },
+      "Username": ""
+    },
+    "S3DestinationConfiguration": {
+      "BucketARN": "",
+      "BufferingHints": {
+        "IntervalInSeconds": 0,
+        "SizeInMBs": 0
+      },
+      "CloudWatchLoggingOptions": {
+        "Enabled": true,
+        "LogGroupName": "",
+        "LogStreamName": ""
+      },
+      "CompressionFormat": "",
+      "EncryptionConfiguration": {
+        "KMSEncryptionConfig": {
+          "AWSKMSKeyARN": ""
+        },
+        "NoEncryptionConfig": ""
+      },
+      "Prefix": "",
+      "RoleARN": ""
+    }
+  }
+}

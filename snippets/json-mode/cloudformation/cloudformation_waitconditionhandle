@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: cloudformation_waitconditionhandle
+# key: cloudformation_waitconditionhandle
+# --
+{
+  "Type": "AWS::CloudFormation::WaitConditionHandle",
+  "Properties": {}
+}

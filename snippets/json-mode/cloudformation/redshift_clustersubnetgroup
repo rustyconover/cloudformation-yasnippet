@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: redshift_clustersubnetgroup
+# key: redshift_clustersubnetgroup
+# --
+{
+  "Type": "AWS::Redshift::ClusterSubnetGroup",
+  "Properties": {
+    "Description": "",
+    "SubnetIds": [
+      ""
+    ]
+  }
+}

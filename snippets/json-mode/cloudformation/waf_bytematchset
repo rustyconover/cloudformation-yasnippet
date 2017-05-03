@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: waf_bytematchset
+# key: waf_bytematchset
+# --
+{
+  "Type": "AWS::WAF::ByteMatchSet",
+  "Properties": {
+    "ByteMatchTuples": [
+      {
+        "FieldToMatch": {
+          "Data": "",
+          "Type": ""
+        },
+        "PositionalConstraint": "",
+        "TargetString": "",
+        "TargetStringBase64": "",
+        "TextTransformation": ""
+      }
+    ],
+    "Name": ""
+  }
+}

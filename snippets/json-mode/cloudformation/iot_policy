@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: iot_policy
+# key: iot_policy
+# --
+{
+  "Type": "AWS::IoT::Policy",
+  "Properties": {
+    "PolicyDocument": {},
+    "PolicyName": ""
+  }
+}

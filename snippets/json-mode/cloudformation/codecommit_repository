@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: codecommit_repository
+# key: codecommit_repository
+# --
+{
+  "Type": "AWS::CodeCommit::Repository",
+  "Properties": {
+    "RepositoryName": "",
+    "Triggers": [
+      {
+        "Events": [
+          ""
+        ],
+        "Branches": [
+          ""
+        ],
+        "CustomData": "",
+        "DestinationArn": "",
+        "Name": ""
+      }
+    ],
+    "RepositoryDescription": ""
+  }
+}

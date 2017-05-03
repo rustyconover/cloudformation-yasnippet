@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: sns_topic
+# key: sns_topic
+# --
+{
+  "Type": "AWS::SNS::Topic",
+  "Properties": {
+    "DisplayName": "",
+    "Subscription": [
+      {
+        "Endpoint": "",
+        "Protocol": ""
+      }
+    ],
+    "TopicName": ""
+  }
+}

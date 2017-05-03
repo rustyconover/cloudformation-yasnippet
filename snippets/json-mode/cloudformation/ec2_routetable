@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: ec2_routetable
+# key: ec2_routetable
+# --
+{
+  "Type": "AWS::EC2::RouteTable",
+  "Properties": {
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VpcId": ""
+  }
+}

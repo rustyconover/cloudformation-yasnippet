@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: iam_policy
+# key: iam_policy
+# --
+{
+  "Type": "AWS::IAM::Policy",
+  "Properties": {
+    "Groups": [
+      ""
+    ],
+    "PolicyDocument": {},
+    "PolicyName": "",
+    "Roles": [
+      ""
+    ],
+    "Users": [
+      ""
+    ]
+  }
+}

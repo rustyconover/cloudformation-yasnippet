@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: directoryservice_microsoftad
+# key: directoryservice_microsoftad
+# --
+{
+  "Type": "AWS::DirectoryService::MicrosoftAD",
+  "Properties": {
+    "CreateAlias": true,
+    "EnableSso": true,
+    "Name": "",
+    "Password": "",
+    "ShortName": "",
+    "VpcSettings": {
+      "SubnetIds": [
+        ""
+      ],
+      "VpcId": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: opsworks_elasticloadbalancerattachment
+# key: opsworks_elasticloadbalancerattachment
+# --
+{
+  "Type": "AWS::OpsWorks::ElasticLoadBalancerAttachment",
+  "Properties": {
+    "ElasticLoadBalancerName": "",
+    "LayerId": ""
+  }
+}

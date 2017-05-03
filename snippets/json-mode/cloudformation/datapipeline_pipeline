@@ -1,0 +1,48 @@
+# -*- mode: snippet -*-
+# name: datapipeline_pipeline
+# key: datapipeline_pipeline
+# --
+{
+  "Type": "AWS::DataPipeline::Pipeline",
+  "Properties": {
+    "Activate": true,
+    "Description": "",
+    "Name": "",
+    "ParameterObjects": [
+      {
+        "Attributes": [
+          {
+            "Key": "",
+            "StringValue": ""
+          }
+        ],
+        "Id": ""
+      }
+    ],
+    "ParameterValues": [
+      {
+        "Id": "",
+        "StringValue": ""
+      }
+    ],
+    "PipelineObjects": [
+      {
+        "Fields": [
+          {
+            "Key": "",
+            "RefValue": "",
+            "StringValue": ""
+          }
+        ],
+        "Id": "",
+        "Name": ""
+      }
+    ],
+    "PipelineTags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

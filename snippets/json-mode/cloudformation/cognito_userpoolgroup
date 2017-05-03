@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: cognito_userpoolgroup
+# key: cognito_userpoolgroup
+# --
+{
+  "Type": "AWS::Cognito::UserPoolGroup",
+  "Properties": {
+    "GroupName": "",
+    "Description": "",
+    "UserPoolId": "",
+    "Precedence": 0,
+    "RoleArn": ""
+  }
+}

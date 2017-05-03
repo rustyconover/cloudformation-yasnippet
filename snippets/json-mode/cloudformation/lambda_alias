@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: lambda_alias
+# key: lambda_alias
+# --
+{
+  "Type": "AWS::Lambda::Alias",
+  "Properties": {
+    "Description": "",
+    "FunctionName": "",
+    "FunctionVersion": "",
+    "Name": ""
+  }
+}

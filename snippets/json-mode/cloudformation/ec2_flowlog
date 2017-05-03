@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: ec2_flowlog
+# key: ec2_flowlog
+# --
+{
+  "Type": "AWS::EC2::FlowLog",
+  "Properties": {
+    "DeliverLogsPermissionArn": "",
+    "LogGroupName": "",
+    "ResourceId": "",
+    "ResourceType": "",
+    "TrafficType": ""
+  }
+}

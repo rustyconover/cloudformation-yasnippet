@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: ec2_vpcgatewayattachment
+# key: ec2_vpcgatewayattachment
+# --
+{
+  "Type": "AWS::EC2::VPCGatewayAttachment",
+  "Properties": {
+    "InternetGatewayId": "",
+    "VpcId": "",
+    "VpnGatewayId": ""
+  }
+}

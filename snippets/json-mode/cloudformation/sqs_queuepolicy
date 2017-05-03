@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: sqs_queuepolicy
+# key: sqs_queuepolicy
+# --
+{
+  "Type": "AWS::SQS::QueuePolicy",
+  "Properties": {
+    "PolicyDocument": {},
+    "Queues": [
+      ""
+    ]
+  }
+}

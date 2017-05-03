@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ec2_vpcdhcpoptionsassociation
+# key: ec2_vpcdhcpoptionsassociation
+# --
+{
+  "Type": "AWS::EC2::VPCDHCPOptionsAssociation",
+  "Properties": {
+    "DhcpOptionsId": "",
+    "VpcId": ""
+  }
+}

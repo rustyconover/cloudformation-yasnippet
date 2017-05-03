@@ -1,0 +1,89 @@
+# -*- mode: snippet -*-
+# name: elasticloadbalancing_loadbalancer
+# key: elasticloadbalancing_loadbalancer
+# --
+{
+  "Type": "AWS::ElasticLoadBalancing::LoadBalancer",
+  "Properties": {
+    "AccessLoggingPolicy": {
+      "EmitInterval": 0,
+      "Enabled": true,
+      "S3BucketName": "",
+      "S3BucketPrefix": ""
+    },
+    "AppCookieStickinessPolicy": [
+      {
+        "CookieName": "",
+        "PolicyName": ""
+      }
+    ],
+    "AvailabilityZones": [
+      ""
+    ],
+    "ConnectionDrainingPolicy": {
+      "Enabled": true,
+      "Timeout": 0
+    },
+    "ConnectionSettings": {
+      "IdleTimeout": 0
+    },
+    "CrossZone": true,
+    "HealthCheck": {
+      "HealthyThreshold": "",
+      "Interval": "",
+      "Target": "",
+      "Timeout": "",
+      "UnhealthyThreshold": ""
+    },
+    "Instances": [
+      ""
+    ],
+    "LBCookieStickinessPolicy": [
+      {
+        "CookieExpirationPeriod": "",
+        "PolicyName": ""
+      }
+    ],
+    "Listeners": [
+      {
+        "InstancePort": "",
+        "InstanceProtocol": "",
+        "LoadBalancerPort": "",
+        "PolicyNames": [
+          ""
+        ],
+        "Protocol": "",
+        "SSLCertificateId": ""
+      }
+    ],
+    "LoadBalancerName": "",
+    "Policies": [
+      {
+        "Attributes": [
+          {}
+        ],
+        "InstancePorts": [
+          ""
+        ],
+        "LoadBalancerPorts": [
+          ""
+        ],
+        "PolicyName": "",
+        "PolicyType": ""
+      }
+    ],
+    "Scheme": "",
+    "SecurityGroups": [
+      ""
+    ],
+    "Subnets": [
+      ""
+    ],
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

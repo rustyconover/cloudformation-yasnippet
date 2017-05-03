@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: lambda_version
+# key: lambda_version
+# --
+{
+  "Type": "AWS::Lambda::Version",
+  "Properties": {
+    "CodeSha256": "",
+    "Description": "",
+    "FunctionName": ""
+  }
+}

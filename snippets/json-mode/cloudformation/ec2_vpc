@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: ec2_vpc
+# key: ec2_vpc
+# --
+{
+  "Type": "AWS::EC2::VPC",
+  "Properties": {
+    "CidrBlock": "",
+    "EnableDnsHostnames": true,
+    "EnableDnsSupport": true,
+    "InstanceTenancy": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

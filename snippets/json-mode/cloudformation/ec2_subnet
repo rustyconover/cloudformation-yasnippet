@@ -1,0 +1,19 @@
+# -*- mode: snippet -*-
+# name: ec2_subnet
+# key: ec2_subnet
+# --
+{
+  "Type": "AWS::EC2::Subnet",
+  "Properties": {
+    "AvailabilityZone": "",
+    "CidrBlock": "",
+    "MapPublicIpOnLaunch": true,
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VpcId": ""
+  }
+}

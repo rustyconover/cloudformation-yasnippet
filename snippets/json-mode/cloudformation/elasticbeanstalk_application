@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: elasticbeanstalk_application
+# key: elasticbeanstalk_application
+# --
+{
+  "Type": "AWS::ElasticBeanstalk::Application",
+  "Properties": {
+    "ApplicationName": "",
+    "Description": ""
+  }
+}

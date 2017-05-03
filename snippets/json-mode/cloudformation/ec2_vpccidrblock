@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ec2_vpccidrblock
+# key: ec2_vpccidrblock
+# --
+{
+  "Type": "AWS::EC2::VPCCidrBlock",
+  "Properties": {
+    "AmazonProvidedIpv6CidrBlock": true,
+    "VpcId": ""
+  }
+}

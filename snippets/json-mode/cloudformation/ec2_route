@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: ec2_route
+# key: ec2_route
+# --
+{
+  "Type": "AWS::EC2::Route",
+  "Properties": {
+    "DestinationCidrBlock": "",
+    "DestinationIpv6CidrBlock": "",
+    "GatewayId": "",
+    "InstanceId": "",
+    "NatGatewayId": "",
+    "NetworkInterfaceId": "",
+    "RouteTableId": "",
+    "VpcPeeringConnectionId": ""
+  }
+}

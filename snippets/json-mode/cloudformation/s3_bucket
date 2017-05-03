@@ -1,0 +1,161 @@
+# -*- mode: snippet -*-
+# name: s3_bucket
+# key: s3_bucket
+# --
+{
+  "Type": "AWS::S3::Bucket",
+  "Properties": {
+    "AccessControl": "",
+    "BucketName": "",
+    "CorsConfiguration": {
+      "CorsRules": [
+        {
+          "AllowedHeaders": [
+            ""
+          ],
+          "AllowedMethods": [
+            ""
+          ],
+          "AllowedOrigins": [
+            ""
+          ],
+          "ExposedHeaders": [
+            ""
+          ],
+          "Id": "",
+          "MaxAge": 0
+        }
+      ]
+    },
+    "LifecycleConfiguration": {
+      "Rules": [
+        {
+          "ExpirationDate": "000-00-20T00:00:00",
+          "ExpirationInDays": 0,
+          "Id": "",
+          "NoncurrentVersionExpirationInDays": 0,
+          "NoncurrentVersionTransition": {
+            "StorageClass": "",
+            "TransitionInDays": 0
+          },
+          "NoncurrentVersionTransitions": {
+            "StorageClass": "",
+            "TransitionInDays": 0
+          },
+          "Prefix": "",
+          "Status": "",
+          "Transition": {
+            "StorageClass": "",
+            "TransitionDate": "000-00-20T00:00:00",
+            "TransitionInDays": 0
+          },
+          "Transitions": {
+            "StorageClass": "",
+            "TransitionDate": "000-00-20T00:00:00",
+            "TransitionInDays": 0
+          }
+        }
+      ]
+    },
+    "LoggingConfiguration": {
+      "DestinationBucketName": "",
+      "LogFilePrefix": ""
+    },
+    "NotificationConfiguration": {
+      "LambdaConfigurations": [
+        {
+          "Event": "",
+          "Filter": {
+            "S3Key": {
+              "Rules": [
+                {
+                  "Name": "",
+                  "Value": ""
+                }
+              ]
+            }
+          },
+          "Function": ""
+        }
+      ],
+      "QueueConfigurations": [
+        {
+          "Event": "",
+          "Filter": {
+            "S3Key": {
+              "Rules": [
+                {
+                  "Name": "",
+                  "Value": ""
+                }
+              ]
+            }
+          },
+          "Queue": ""
+        }
+      ],
+      "TopicConfigurations": [
+        {
+          "Event": "",
+          "Filter": {
+            "S3Key": {
+              "Rules": [
+                {
+                  "Name": "",
+                  "Value": ""
+                }
+              ]
+            }
+          },
+          "Topic": ""
+        }
+      ]
+    },
+    "ReplicationConfiguration": {
+      "Role": "",
+      "Rules": [
+        {
+          "Destination": {
+            "Bucket": "",
+            "StorageClass": ""
+          },
+          "Id": "",
+          "Prefix": "",
+          "Status": ""
+        }
+      ]
+    },
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VersioningConfiguration": {
+      "Status": ""
+    },
+    "WebsiteConfiguration": {
+      "ErrorDocument": "",
+      "IndexDocument": "",
+      "RedirectAllRequestsTo": {
+        "HostName": "",
+        "Protocol": ""
+      },
+      "RoutingRules": [
+        {
+          "RedirectRule": {
+            "HostName": "",
+            "HttpRedirectCode": "",
+            "Protocol": "",
+            "ReplaceKeyPrefixWith": "",
+            "ReplaceKeyWith": ""
+          },
+          "RoutingRuleCondition": {
+            "HttpErrorCodeReturnedEquals": "",
+            "KeyPrefixEquals": ""
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: ec2_vpngatewayroutepropagation
+# key: ec2_vpngatewayroutepropagation
+# --
+{
+  "Type": "AWS::EC2::VPNGatewayRoutePropagation",
+  "Properties": {
+    "RouteTableIds": [
+      ""
+    ],
+    "VpnGatewayId": ""
+  }
+}

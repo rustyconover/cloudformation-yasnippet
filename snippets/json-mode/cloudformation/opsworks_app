@@ -1,0 +1,48 @@
+# -*- mode: snippet -*-
+# name: opsworks_app
+# key: opsworks_app
+# --
+{
+  "Type": "AWS::OpsWorks::App",
+  "Properties": {
+    "AppSource": {
+      "Password": "",
+      "Revision": "",
+      "SshKey": "",
+      "Type": "",
+      "Url": "",
+      "Username": ""
+    },
+    "Attributes": {
+      "Key": ""
+    },
+    "DataSources": [
+      {
+        "Arn": "",
+        "DatabaseName": "",
+        "Type": ""
+      }
+    ],
+    "Description": "",
+    "Domains": [
+      ""
+    ],
+    "EnableSsl": true,
+    "Environment": [
+      {
+        "Key": "",
+        "Secure": true,
+        "Value": ""
+      }
+    ],
+    "Name": "",
+    "Shortname": "",
+    "SslConfiguration": {
+      "Certificate": "",
+      "Chain": "",
+      "PrivateKey": ""
+    },
+    "StackId": "",
+    "Type": ""
+  }
+}

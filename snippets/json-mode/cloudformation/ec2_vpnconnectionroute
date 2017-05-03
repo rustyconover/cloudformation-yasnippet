@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: ec2_vpnconnectionroute
+# key: ec2_vpnconnectionroute
+# --
+{
+  "Type": "AWS::EC2::VPNConnectionRoute",
+  "Properties": {
+    "DestinationCidrBlock": "",
+    "VpnConnectionId": ""
+  }
+}

@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: rds_dbsecuritygroupingress
+# key: rds_dbsecuritygroupingress
+# --
+{
+  "Type": "AWS::RDS::DBSecurityGroupIngress",
+  "Properties": {
+    "CIDRIP": "",
+    "DBSecurityGroupName": "",
+    "EC2SecurityGroupId": "",
+    "EC2SecurityGroupName": "",
+    "EC2SecurityGroupOwnerId": ""
+  }
+}

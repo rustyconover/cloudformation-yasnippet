@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: codedeploy_application
+# key: codedeploy_application
+# --
+{
+  "Type": "AWS::CodeDeploy::Application",
+  "Properties": {
+    "ApplicationName": ""
+  }
+}

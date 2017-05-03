@@ -1,0 +1,41 @@
+# -*- mode: snippet -*-
+# name: elasticloadbalancingv2_targetgroup
+# key: elasticloadbalancingv2_targetgroup
+# --
+{
+  "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+  "Properties": {
+    "HealthCheckIntervalSeconds": 0,
+    "HealthCheckPath": "",
+    "HealthCheckPort": "",
+    "HealthCheckProtocol": "",
+    "HealthCheckTimeoutSeconds": 0,
+    "HealthyThresholdCount": 0,
+    "Matcher": {
+      "HttpCode": ""
+    },
+    "Name": "",
+    "Port": 0,
+    "Protocol": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "TargetGroupAttributes": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Targets": [
+      {
+        "Id": "",
+        "Port": 0
+      }
+    ],
+    "UnhealthyThresholdCount": 0,
+    "VpcId": ""
+  }
+}

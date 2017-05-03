@@ -1,0 +1,40 @@
+# -*- mode: snippet -*-
+# name: ec2_securitygroup
+# key: ec2_securitygroup
+# --
+{
+  "Type": "AWS::EC2::SecurityGroup",
+  "Properties": {
+    "GroupDescription": "",
+    "GroupName": "",
+    "SecurityGroupEgress": [
+      {
+        "CidrIp": "",
+        "FromPort": 0,
+        "IpProtocol": "",
+        "SourceSecurityGroupId": "",
+        "SourceSecurityGroupName": "",
+        "SourceSecurityGroupOwnerId": "",
+        "ToPort": 0
+      }
+    ],
+    "SecurityGroupIngress": [
+      {
+        "CidrIp": "",
+        "FromPort": 0,
+        "IpProtocol": "",
+        "SourceSecurityGroupId": "",
+        "SourceSecurityGroupName": "",
+        "SourceSecurityGroupOwnerId": "",
+        "ToPort": 0
+      }
+    ],
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VpcId": ""
+  }
+}

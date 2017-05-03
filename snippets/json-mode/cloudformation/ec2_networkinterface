@@ -1,0 +1,33 @@
+# -*- mode: snippet -*-
+# name: ec2_networkinterface
+# key: ec2_networkinterface
+# --
+{
+  "Type": "AWS::EC2::NetworkInterface",
+  "Properties": {
+    "Description": "",
+    "GroupSet": [
+      ""
+    ],
+    "Ipv6AddressCount": 0,
+    "Ipv6Addresses": {
+      "Ipv6Address": ""
+    },
+    "PrivateIpAddress": "",
+    "PrivateIpAddresses": [
+      {
+        "Primary": true,
+        "PrivateIpAddress": ""
+      }
+    ],
+    "SecondaryPrivateIpAddressCount": 0,
+    "SourceDestCheck": true,
+    "SubnetId": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  }
+}

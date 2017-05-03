@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: kms_alias
+# key: kms_alias
+# --
+{
+  "Type": "AWS::KMS::Alias",
+  "Properties": {
+    "AliasName": "",
+    "TargetKeyId": ""
+  }
+}
