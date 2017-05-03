@@ -1,7 +1,7 @@
 {
-  "name": "cloudformation-snippets",
+  "name": "cloudformation-yasnippet",
   "version": "1.0.0",
-  "description": "A tool to generate yasnippets for CloudFormation",
+  "description": "A tool to generate yasnippets for AWS CloudFormation",
   "main": "generate.js",
   "dependencies": {
     "lodash": "^4.17.4",
