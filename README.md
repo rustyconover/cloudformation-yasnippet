@@ -1,4 +1,4 @@
-# ya-snippets for AWS CloudFormation
+# yasnippets for AWS CloudFormation
 
 Are you tired of copy and pasting JSON schema when you want to write a CloudFormation template? Yes, me too.
 
