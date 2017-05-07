@@ -10,6 +10,7 @@ I decided to write a simple node.js script to change that specification into a c
 
 If you don't want to run the generation script, just use the snippets directory directly in your .emacs.
 
+
 ```
 (setq yas-snippet-dirs (append yas-snippet-dirs
                                '("~/Downloads/interesting-snippets")))

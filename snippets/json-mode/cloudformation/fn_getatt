@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fn_getatt
+# key: fn_getatt
+# --
+{ "Fn::GetAtt": ["$1", "$2"] }

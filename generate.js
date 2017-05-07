@@ -105,16 +105,25 @@ request(
 `);
 
     fs.writeFileSync('snippets/json-mode/cloudformation/fn_join', `# -*- mode: snippet -*-
-# name: fn_sub
-# key: fn_sub
+# name: fn_join
+# key: fn_join
 # --
 { "Fn::Join": [$1, [ "$2", $3 ]] }
 `);
 
     fs.writeFileSync('snippets/json-mode/cloudformation/ref', `# -*- mode: snippet -*-
-# name: fn_sub
-# key: fn_sub
+# name: ref
+# key: ref
 # --
 { "Ref": "$1" }
 `);
+
+    fs.writeFileSync('snippets/json-mode/cloudformation/fn_getatt', `# -*- mode: snippet -*-
+# name: fn_getatt
+# key: fn_getatt
+# --
+{ "Fn::GetAtt": ["$1", "$2"] }
+`);
+
+
   });

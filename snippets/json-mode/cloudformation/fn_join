@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: fn_sub
-# key: fn_sub
+# name: fn_join
+# key: fn_join
 # --
 { "Fn::Join": [$1, [ "$2", $3 ]] }
