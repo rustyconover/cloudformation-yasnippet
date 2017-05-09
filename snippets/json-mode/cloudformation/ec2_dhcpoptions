@@ -3,7 +3,6 @@
 # key: ec2_dhcpoptions
 # --
 {
-  "Type": "AWS::EC2::DHCPOptions",
   "Properties": {
     "DomainName": "",
     "DomainNameServers": [
@@ -20,5 +19,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::EC2::DHCPOptions"
 }

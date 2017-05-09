@@ -3,7 +3,6 @@
 # key: rds_dbparametergroup
 # --
 {
-  "Type": "AWS::RDS::DBParameterGroup",
   "Properties": {
     "Description": "",
     "Family": "",
@@ -16,5 +15,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::RDS::DBParameterGroup"
 }

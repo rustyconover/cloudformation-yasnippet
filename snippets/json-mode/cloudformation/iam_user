@@ -3,7 +3,6 @@
 # key: iam_user
 # --
 {
-  "Type": "AWS::IAM::User",
   "Properties": {
     "Groups": [
       ""
@@ -23,5 +22,6 @@
       }
     ],
     "UserName": ""
-  }
+  },
+  "Type": "AWS::IAM::User"
 }

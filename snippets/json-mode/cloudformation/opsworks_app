@@ -3,7 +3,6 @@
 # key: opsworks_app
 # --
 {
-  "Type": "AWS::OpsWorks::App",
   "Properties": {
     "AppSource": {
       "Password": "",
@@ -44,5 +43,6 @@
     },
     "StackId": "",
     "Type": ""
-  }
+  },
+  "Type": "AWS::OpsWorks::App"
 }

@@ -3,9 +3,9 @@
 # key: ec2_subnetroutetableassociation
 # --
 {
-  "Type": "AWS::EC2::SubnetRouteTableAssociation",
   "Properties": {
     "RouteTableId": "",
     "SubnetId": ""
-  }
+  },
+  "Type": "AWS::EC2::SubnetRouteTableAssociation"
 }

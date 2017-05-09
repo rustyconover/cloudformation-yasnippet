@@ -3,10 +3,10 @@
 # key: elasticache_securitygroupingress
 # --
 {
-  "Type": "AWS::ElastiCache::SecurityGroupIngress",
   "Properties": {
     "CacheSecurityGroupName": "",
     "EC2SecurityGroupName": "",
     "EC2SecurityGroupOwnerId": ""
-  }
+  },
+  "Type": "AWS::ElastiCache::SecurityGroupIngress"
 }

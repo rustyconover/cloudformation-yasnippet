@@ -3,6 +3,6 @@
 # key: cloudformation_waitconditionhandle
 # --
 {
-  "Type": "AWS::CloudFormation::WaitConditionHandle",
-  "Properties": {}
+  "Properties": {},
+  "Type": "AWS::CloudFormation::WaitConditionHandle"
 }

@@ -3,8 +3,8 @@
 # key: elasticache_securitygroup
 # --
 {
-  "Type": "AWS::ElastiCache::SecurityGroup",
   "Properties": {
     "Description": ""
-  }
+  },
+  "Type": "AWS::ElastiCache::SecurityGroup"
 }

@@ -3,12 +3,12 @@
 # key: codedeploy_deploymentconfig
 # --
 {
-  "Type": "AWS::CodeDeploy::DeploymentConfig",
   "Properties": {
     "DeploymentConfigName": "",
     "MinimumHealthyHosts": {
       "Type": "",
       "Value": 0
     }
-  }
+  },
+  "Type": "AWS::CodeDeploy::DeploymentConfig"
 }

@@ -3,7 +3,6 @@
 # key: cloudtrail_trail
 # --
 {
-  "Type": "AWS::CloudTrail::Trail",
   "Properties": {
     "CloudWatchLogsLogGroupArn": "",
     "CloudWatchLogsRoleArn": "",
@@ -15,5 +14,6 @@
     "S3BucketName": "",
     "S3KeyPrefix": "",
     "SnsTopicName": ""
-  }
+  },
+  "Type": "AWS::CloudTrail::Trail"
 }

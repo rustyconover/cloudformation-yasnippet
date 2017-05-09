@@ -3,7 +3,6 @@
 # key: autoscaling_scheduledaction
 # --
 {
-  "Type": "AWS::AutoScaling::ScheduledAction",
   "Properties": {
     "AutoScalingGroupName": "",
     "DesiredCapacity": 0,
@@ -12,5 +11,6 @@
     "MinSize": 0,
     "Recurrence": "",
     "StartTime": ""
-  }
+  },
+  "Type": "AWS::AutoScaling::ScheduledAction"
 }

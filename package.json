@@ -4,6 +4,7 @@
   "description": "A tool to generate yasnippets for AWS CloudFormation",
   "main": "generate.js",
   "dependencies": {
+    "canonical-json": "0.0.4",
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "request": "^2.81.0",

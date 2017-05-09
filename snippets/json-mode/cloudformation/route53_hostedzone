@@ -3,7 +3,6 @@
 # key: route53_hostedzone
 # --
 {
-  "Type": "AWS::Route53::HostedZone",
   "Properties": {
     "HostedZoneConfig": {
       "Comment": ""
@@ -21,5 +20,6 @@
         "VPCRegion": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::Route53::HostedZone"
 }

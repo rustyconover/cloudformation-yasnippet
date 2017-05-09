@@ -3,12 +3,12 @@
 # key: lambda_permission
 # --
 {
-  "Type": "AWS::Lambda::Permission",
   "Properties": {
     "Action": "",
     "FunctionName": "",
     "Principal": "",
     "SourceAccount": "",
     "SourceArn": ""
-  }
+  },
+  "Type": "AWS::Lambda::Permission"
 }

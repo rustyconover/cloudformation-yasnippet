@@ -3,7 +3,6 @@
 # key: waf_ipset
 # --
 {
-  "Type": "AWS::WAF::IPSet",
   "Properties": {
     "IPSetDescriptors": [
       {
@@ -12,5 +11,6 @@
       }
     ],
     "Name": ""
-  }
+  },
+  "Type": "AWS::WAF::IPSet"
 }

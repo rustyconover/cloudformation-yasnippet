@@ -3,7 +3,6 @@
 # key: iam_group
 # --
 {
-  "Type": "AWS::IAM::Group",
   "Properties": {
     "GroupName": "",
     "ManagedPolicyArns": [
@@ -16,5 +15,6 @@
         "PolicyName": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::IAM::Group"
 }

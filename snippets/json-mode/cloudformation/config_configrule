@@ -3,7 +3,6 @@
 # key: config_configrule
 # --
 {
-  "Type": "AWS::Config::ConfigRule",
   "Properties": {
     "ConfigRuleName": "",
     "Description": "",
@@ -28,5 +27,6 @@
       ],
       "SourceIdentifier": ""
     }
-  }
+  },
+  "Type": "AWS::Config::ConfigRule"
 }

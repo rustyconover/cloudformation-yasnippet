@@ -3,11 +3,11 @@
 # key: opsworks_userprofile
 # --
 {
-  "Type": "AWS::OpsWorks::UserProfile",
   "Properties": {
     "AllowSelfManagement": true,
     "IamUserArn": "",
     "SshPublicKey": "",
     "SshUsername": ""
-  }
+  },
+  "Type": "AWS::OpsWorks::UserProfile"
 }

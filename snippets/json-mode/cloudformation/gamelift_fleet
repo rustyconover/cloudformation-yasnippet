@@ -3,7 +3,6 @@
 # key: gamelift_fleet
 # --
 {
-  "Type": "AWS::GameLift::Fleet",
   "Properties": {
     "BuildId": "",
     "Description": "",
@@ -25,5 +24,6 @@
     "Name": "",
     "ServerLaunchParameters": "",
     "ServerLaunchPath": ""
-  }
+  },
+  "Type": "AWS::GameLift::Fleet"
 }

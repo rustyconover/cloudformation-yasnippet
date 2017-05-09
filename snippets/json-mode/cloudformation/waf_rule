@@ -3,7 +3,6 @@
 # key: waf_rule
 # --
 {
-  "Type": "AWS::WAF::Rule",
   "Properties": {
     "MetricName": "",
     "Name": "",
@@ -14,5 +13,6 @@
         "Type": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::WAF::Rule"
 }

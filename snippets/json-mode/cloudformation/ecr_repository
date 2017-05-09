@@ -3,9 +3,9 @@
 # key: ecr_repository
 # --
 {
-  "Type": "AWS::ECR::Repository",
   "Properties": {
     "RepositoryName": "",
     "RepositoryPolicyText": {}
-  }
+  },
+  "Type": "AWS::ECR::Repository"
 }

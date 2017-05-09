@@ -3,9 +3,9 @@
 # key: logs_loggroup
 # --
 {
-  "Type": "AWS::Logs::LogGroup",
   "Properties": {
     "LogGroupName": "",
     "RetentionInDays": 0
-  }
+  },
+  "Type": "AWS::Logs::LogGroup"
 }

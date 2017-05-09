@@ -3,7 +3,6 @@
 # key: sqs_queue
 # --
 {
-  "Type": "AWS::SQS::Queue",
   "Properties": {
     "ContentBasedDeduplication": true,
     "DelaySeconds": 0,
@@ -14,5 +13,6 @@
     "ReceiveMessageWaitTimeSeconds": 0,
     "RedrivePolicy": {},
     "VisibilityTimeout": 0
-  }
+  },
+  "Type": "AWS::SQS::Queue"
 }

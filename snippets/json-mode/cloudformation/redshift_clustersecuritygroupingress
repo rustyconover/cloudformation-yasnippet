@@ -3,11 +3,11 @@
 # key: redshift_clustersecuritygroupingress
 # --
 {
-  "Type": "AWS::Redshift::ClusterSecurityGroupIngress",
   "Properties": {
     "CIDRIP": "",
     "ClusterSecurityGroupName": "",
     "EC2SecurityGroupName": "",
     "EC2SecurityGroupOwnerId": ""
-  }
+  },
+  "Type": "AWS::Redshift::ClusterSecurityGroupIngress"
 }

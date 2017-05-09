@@ -3,8 +3,8 @@
 # key: cloudformation_customresource
 # --
 {
-  "Type": "AWS::CloudFormation::CustomResource",
   "Properties": {
     "ServiceToken": ""
-  }
+  },
+  "Type": "AWS::CloudFormation::CustomResource"
 }

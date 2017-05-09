@@ -3,12 +3,12 @@
 # key: kms_key
 # --
 {
-  "Type": "AWS::KMS::Key",
   "Properties": {
     "Description": "",
     "EnableKeyRotation": true,
     "Enabled": true,
     "KeyPolicy": {},
     "KeyUsage": ""
-  }
+  },
+  "Type": "AWS::KMS::Key"
 }

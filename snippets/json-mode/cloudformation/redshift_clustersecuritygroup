@@ -3,8 +3,8 @@
 # key: redshift_clustersecuritygroup
 # --
 {
-  "Type": "AWS::Redshift::ClusterSecurityGroup",
   "Properties": {
     "Description": ""
-  }
+  },
+  "Type": "AWS::Redshift::ClusterSecurityGroup"
 }

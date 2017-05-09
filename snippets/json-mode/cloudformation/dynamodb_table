@@ -3,7 +3,6 @@
 # key: dynamodb_table
 # --
 {
-  "Type": "AWS::DynamoDB::Table",
   "Properties": {
     "AttributeDefinitions": [
       {
@@ -63,5 +62,6 @@
       "StreamViewType": ""
     },
     "TableName": ""
-  }
+  },
+  "Type": "AWS::DynamoDB::Table"
 }

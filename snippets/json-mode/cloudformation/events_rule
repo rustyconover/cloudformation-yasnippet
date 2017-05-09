@@ -3,7 +3,6 @@
 # key: events_rule
 # --
 {
-  "Type": "AWS::Events::Rule",
   "Properties": {
     "Description": "",
     "EventPattern": {},
@@ -19,5 +18,6 @@
         "InputPath": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::Events::Rule"
 }

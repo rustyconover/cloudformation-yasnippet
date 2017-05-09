@@ -3,12 +3,12 @@
 # key: cognito_userpoolgroup
 # --
 {
-  "Type": "AWS::Cognito::UserPoolGroup",
   "Properties": {
-    "GroupName": "",
     "Description": "",
-    "UserPoolId": "",
+    "GroupName": "",
     "Precedence": 0,
-    "RoleArn": ""
-  }
+    "RoleArn": "",
+    "UserPoolId": ""
+  },
+  "Type": "AWS::Cognito::UserPoolGroup"
 }

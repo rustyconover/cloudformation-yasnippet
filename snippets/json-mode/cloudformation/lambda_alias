@@ -3,11 +3,11 @@
 # key: lambda_alias
 # --
 {
-  "Type": "AWS::Lambda::Alias",
   "Properties": {
     "Description": "",
     "FunctionName": "",
     "FunctionVersion": "",
     "Name": ""
-  }
+  },
+  "Type": "AWS::Lambda::Alias"
 }

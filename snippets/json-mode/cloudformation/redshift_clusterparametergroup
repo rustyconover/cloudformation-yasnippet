@@ -3,7 +3,6 @@
 # key: redshift_clusterparametergroup
 # --
 {
-  "Type": "AWS::Redshift::ClusterParameterGroup",
   "Properties": {
     "Description": "",
     "ParameterGroupFamily": "",
@@ -13,5 +12,6 @@
         "ParameterValue": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::Redshift::ClusterParameterGroup"
 }

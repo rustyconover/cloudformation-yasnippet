@@ -3,7 +3,6 @@
 # key: ec2_vpngateway
 # --
 {
-  "Type": "AWS::EC2::VPNGateway",
   "Properties": {
     "Tags": [
       {
@@ -12,5 +11,6 @@
       }
     ],
     "Type": ""
-  }
+  },
+  "Type": "AWS::EC2::VPNGateway"
 }

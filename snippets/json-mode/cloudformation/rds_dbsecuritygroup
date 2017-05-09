@@ -3,7 +3,6 @@
 # key: rds_dbsecuritygroup
 # --
 {
-  "Type": "AWS::RDS::DBSecurityGroup",
   "Properties": {
     "DBSecurityGroupIngress": [
       {
@@ -21,5 +20,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::RDS::DBSecurityGroup"
 }

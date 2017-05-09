@@ -3,7 +3,6 @@
 # key: ec2_volume
 # --
 {
-  "Type": "AWS::EC2::Volume",
   "Properties": {
     "AutoEnableIO": true,
     "AvailabilityZone": "",
@@ -19,5 +18,6 @@
       }
     ],
     "VolumeType": ""
-  }
+  },
+  "Type": "AWS::EC2::Volume"
 }

@@ -3,7 +3,6 @@
 # key: codepipeline_pipeline
 # --
 {
-  "Type": "AWS::CodePipeline::Pipeline",
   "Properties": {
     "ArtifactStore": {
       "EncryptionKey": {
@@ -57,5 +56,6 @@
         "Name": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::CodePipeline::Pipeline"
 }

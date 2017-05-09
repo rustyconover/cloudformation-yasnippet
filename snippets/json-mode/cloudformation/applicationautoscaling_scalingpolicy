@@ -3,7 +3,6 @@
 # key: applicationautoscaling_scalingpolicy
 # --
 {
-  "Type": "AWS::ApplicationAutoScaling::ScalingPolicy",
   "Properties": {
     "PolicyName": "",
     "PolicyType": "",
@@ -24,5 +23,6 @@
         }
       ]
     }
-  }
+  },
+  "Type": "AWS::ApplicationAutoScaling::ScalingPolicy"
 }

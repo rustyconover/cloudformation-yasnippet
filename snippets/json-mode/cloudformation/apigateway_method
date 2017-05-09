@@ -3,7 +3,6 @@
 # key: apigateway_method
 # --
 {
-  "Type": "AWS::ApiGateway::Method",
   "Properties": {
     "ApiKeyRequired": true,
     "AuthorizationType": "",
@@ -57,5 +56,6 @@
     },
     "ResourceId": "",
     "RestApiId": ""
-  }
+  },
+  "Type": "AWS::ApiGateway::Method"
 }

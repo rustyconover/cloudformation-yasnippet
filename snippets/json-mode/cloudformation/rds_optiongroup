@@ -3,7 +3,6 @@
 # key: rds_optiongroup
 # --
 {
-  "Type": "AWS::RDS::OptionGroup",
   "Properties": {
     "EngineName": "",
     "MajorEngineVersion": "",
@@ -30,5 +29,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::RDS::OptionGroup"
 }

@@ -11,6 +11,7 @@ const _ = require('lodash');
 const request = require('request');
 const rimraf = require('rimraf');
 const mkdirp = require('mkdirp');
+const canon = require('canonical-json');
 
 rimraf.sync('snippets');
 mkdirp.sync('snippets/json-mode/cloudformation');
@@ -49,7 +50,7 @@ request(
         } else if (subtype === 'Integer' || subtype === 'Long') {
           return 0;
         } else if (subtype === 'Timestamp') {
-          return '000-00-20T00:00:00';
+          return '0000-00-20T00:00:00';
         } else if (subtype === 'Double') {
           return 0.0;
         } else if (subtype === 'Configuration') {
@@ -89,7 +90,7 @@ request(
         Properties: _.mapValues(v.Properties, resolveProp),
       };
 
-      snippet += JSON.stringify(props, null, 2);
+      snippet += canon(props, null, 2);
 
       fs.writeFileSync(`snippets/json-mode/cloudformation/${snippetName}`, snippet, 'utf8');
     });

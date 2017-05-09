@@ -3,7 +3,6 @@
 # key: elasticache_replicationgroup
 # --
 {
-  "Type": "AWS::ElastiCache::ReplicationGroup",
   "Properties": {
     "AutoMinorVersionUpgrade": true,
     "AutomaticFailoverEnabled": true,
@@ -53,5 +52,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::ElastiCache::ReplicationGroup"
 }

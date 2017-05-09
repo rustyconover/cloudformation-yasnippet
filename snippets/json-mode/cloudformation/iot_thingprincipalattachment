@@ -3,9 +3,9 @@
 # key: iot_thingprincipalattachment
 # --
 {
-  "Type": "AWS::IoT::ThingPrincipalAttachment",
   "Properties": {
     "Principal": "",
     "ThingName": ""
-  }
+  },
+  "Type": "AWS::IoT::ThingPrincipalAttachment"
 }

@@ -3,7 +3,6 @@
 # key: emr_step
 # --
 {
-  "Type": "AWS::EMR::Step",
   "Properties": {
     "ActionOnFailure": "",
     "HadoopJarStep": {
@@ -21,5 +20,6 @@
     },
     "JobFlowId": "",
     "Name": ""
-  }
+  },
+  "Type": "AWS::EMR::Step"
 }

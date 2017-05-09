@@ -3,7 +3,6 @@
 # key: iot_thing
 # --
 {
-  "Type": "AWS::IoT::Thing",
   "Properties": {
     "AttributePayload": {
       "Attributes": {
@@ -11,5 +10,6 @@
       }
     },
     "ThingName": ""
-  }
+  },
+  "Type": "AWS::IoT::Thing"
 }

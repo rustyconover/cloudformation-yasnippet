@@ -3,7 +3,6 @@
 # key: apigateway_apikey
 # --
 {
-  "Type": "AWS::ApiGateway::ApiKey",
   "Properties": {
     "Description": "",
     "Enabled": true,
@@ -14,5 +13,6 @@
         "StageName": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::ApiGateway::ApiKey"
 }

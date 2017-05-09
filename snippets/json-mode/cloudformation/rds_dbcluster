@@ -3,7 +3,6 @@
 # key: rds_dbcluster
 # --
 {
-  "Type": "AWS::RDS::DBCluster",
   "Properties": {
     "AvailabilityZones": "",
     "BackupRetentionPeriod": 0,
@@ -29,5 +28,6 @@
     "VpcSecurityGroupIds": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::RDS::DBCluster"
 }

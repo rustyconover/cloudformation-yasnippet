@@ -3,7 +3,6 @@
 # key: elasticloadbalancingv2_loadbalancer
 # --
 {
-  "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
   "Properties": {
     "IpAddressType": "",
     "LoadBalancerAttributes": [
@@ -26,5 +25,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer"
 }

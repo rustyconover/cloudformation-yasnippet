@@ -3,7 +3,6 @@
 # key: ec2_routetable
 # --
 {
-  "Type": "AWS::EC2::RouteTable",
   "Properties": {
     "Tags": [
       {
@@ -12,5 +11,6 @@
       }
     ],
     "VpcId": ""
-  }
+  },
+  "Type": "AWS::EC2::RouteTable"
 }

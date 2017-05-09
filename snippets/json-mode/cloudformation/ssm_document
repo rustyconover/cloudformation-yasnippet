@@ -3,9 +3,9 @@
 # key: ssm_document
 # --
 {
-  "Type": "AWS::SSM::Document",
   "Properties": {
     "Content": {},
     "DocumentType": ""
-  }
+  },
+  "Type": "AWS::SSM::Document"
 }

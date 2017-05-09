@@ -3,7 +3,6 @@
 # key: gamelift_build
 # --
 {
-  "Type": "AWS::GameLift::Build",
   "Properties": {
     "Name": "",
     "StorageLocation": {
@@ -12,5 +11,6 @@
       "RoleArn": ""
     },
     "Version": ""
-  }
+  },
+  "Type": "AWS::GameLift::Build"
 }

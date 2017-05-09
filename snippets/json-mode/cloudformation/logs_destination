@@ -3,11 +3,11 @@
 # key: logs_destination
 # --
 {
-  "Type": "AWS::Logs::Destination",
   "Properties": {
     "DestinationName": "",
     "DestinationPolicy": "",
     "RoleArn": "",
     "TargetArn": ""
-  }
+  },
+  "Type": "AWS::Logs::Destination"
 }

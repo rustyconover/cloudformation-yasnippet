@@ -3,11 +3,11 @@
 # key: logs_subscriptionfilter
 # --
 {
-  "Type": "AWS::Logs::SubscriptionFilter",
   "Properties": {
     "DestinationArn": "",
     "FilterPattern": "",
     "LogGroupName": "",
     "RoleArn": ""
-  }
+  },
+  "Type": "AWS::Logs::SubscriptionFilter"
 }

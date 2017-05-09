@@ -3,10 +3,10 @@
 # key: ec2_volumeattachment
 # --
 {
-  "Type": "AWS::EC2::VolumeAttachment",
   "Properties": {
     "Device": "",
     "InstanceId": "",
     "VolumeId": ""
-  }
+  },
+  "Type": "AWS::EC2::VolumeAttachment"
 }

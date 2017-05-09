@@ -3,7 +3,6 @@
 # key: elasticloadbalancingv2_listenerrule
 # --
 {
-  "Type": "AWS::ElasticLoadBalancingV2::ListenerRule",
   "Properties": {
     "Actions": [
       {
@@ -21,5 +20,6 @@
     ],
     "ListenerArn": "",
     "Priority": 0
-  }
+  },
+  "Type": "AWS::ElasticLoadBalancingV2::ListenerRule"
 }

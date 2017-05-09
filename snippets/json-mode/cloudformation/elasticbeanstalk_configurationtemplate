@@ -3,7 +3,6 @@
 # key: elasticbeanstalk_configurationtemplate
 # --
 {
-  "Type": "AWS::ElasticBeanstalk::ConfigurationTemplate",
   "Properties": {
     "ApplicationName": "",
     "Description": "",
@@ -17,5 +16,6 @@
     ],
     "SolutionStackName": "",
     "SourceConfiguration": ""
-  }
+  },
+  "Type": "AWS::ElasticBeanstalk::ConfigurationTemplate"
 }

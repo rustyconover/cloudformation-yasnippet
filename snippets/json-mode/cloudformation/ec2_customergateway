@@ -3,7 +3,6 @@
 # key: ec2_customergateway
 # --
 {
-  "Type": "AWS::EC2::CustomerGateway",
   "Properties": {
     "BgpAsn": 0,
     "IpAddress": "",
@@ -14,5 +13,6 @@
       }
     ],
     "Type": ""
-  }
+  },
+  "Type": "AWS::EC2::CustomerGateway"
 }

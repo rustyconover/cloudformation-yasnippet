@@ -3,8 +3,8 @@
 # key: apigateway_account
 # --
 {
-  "Type": "AWS::ApiGateway::Account",
   "Properties": {
     "CloudWatchRoleArn": ""
-  }
+  },
+  "Type": "AWS::ApiGateway::Account"
 }

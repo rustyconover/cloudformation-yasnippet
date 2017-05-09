@@ -3,7 +3,6 @@
 # key: ec2_securitygroupegress
 # --
 {
-  "Type": "AWS::EC2::SecurityGroupEgress",
   "Properties": {
     "CidrIp": "",
     "CidrIpv6": "",
@@ -13,5 +12,6 @@
     "GroupId": "",
     "IpProtocol": "",
     "ToPort": 0
-  }
+  },
+  "Type": "AWS::EC2::SecurityGroupEgress"
 }

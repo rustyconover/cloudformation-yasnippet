@@ -3,7 +3,6 @@
 # key: elasticache_cachecluster
 # --
 {
-  "Type": "AWS::ElastiCache::CacheCluster",
   "Properties": {
     "AZMode": "",
     "AutoMinorVersionUpgrade": true,
@@ -39,5 +38,6 @@
     "VpcSecurityGroupIds": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::ElastiCache::CacheCluster"
 }

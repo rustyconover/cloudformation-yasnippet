@@ -3,12 +3,12 @@
 # key: elasticache_subnetgroup
 # --
 {
-  "Type": "AWS::ElastiCache::SubnetGroup",
   "Properties": {
     "CacheSubnetGroupName": "",
     "Description": "",
     "SubnetIds": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::ElastiCache::SubnetGroup"
 }

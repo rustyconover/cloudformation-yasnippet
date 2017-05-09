@@ -3,12 +3,12 @@
 # key: ec2_flowlog
 # --
 {
-  "Type": "AWS::EC2::FlowLog",
   "Properties": {
     "DeliverLogsPermissionArn": "",
     "LogGroupName": "",
     "ResourceId": "",
     "ResourceType": "",
     "TrafficType": ""
-  }
+  },
+  "Type": "AWS::EC2::FlowLog"
 }

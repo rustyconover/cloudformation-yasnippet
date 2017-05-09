@@ -3,7 +3,6 @@
 # key: workspaces_workspace
 # --
 {
-  "Type": "AWS::WorkSpaces::Workspace",
   "Properties": {
     "BundleId": "",
     "DirectoryId": "",
@@ -11,5 +10,6 @@
     "UserName": "",
     "UserVolumeEncryptionEnabled": true,
     "VolumeEncryptionKey": ""
-  }
+  },
+  "Type": "AWS::WorkSpaces::Workspace"
 }

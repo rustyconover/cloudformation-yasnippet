@@ -3,7 +3,6 @@
 # key: elasticbeanstalk_applicationversion
 # --
 {
-  "Type": "AWS::ElasticBeanstalk::ApplicationVersion",
   "Properties": {
     "ApplicationName": "",
     "Description": "",
@@ -11,5 +10,6 @@
       "S3Bucket": "",
       "S3Key": ""
     }
-  }
+  },
+  "Type": "AWS::ElasticBeanstalk::ApplicationVersion"
 }

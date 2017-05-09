@@ -3,7 +3,6 @@
 # key: gamelift_alias
 # --
 {
-  "Type": "AWS::GameLift::Alias",
   "Properties": {
     "Description": "",
     "Name": "",
@@ -12,5 +11,6 @@
       "Message": "",
       "Type": ""
     }
-  }
+  },
+  "Type": "AWS::GameLift::Alias"
 }

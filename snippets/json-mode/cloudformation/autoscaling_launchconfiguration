@@ -3,7 +3,6 @@
 # key: autoscaling_launchconfiguration
 # --
 {
-  "Type": "AWS::AutoScaling::LaunchConfiguration",
   "Properties": {
     "AssociatePublicIpAddress": true,
     "BlockDeviceMappings": [
@@ -40,5 +39,6 @@
     ],
     "SpotPrice": "",
     "UserData": ""
-  }
+  },
+  "Type": "AWS::AutoScaling::LaunchConfiguration"
 }

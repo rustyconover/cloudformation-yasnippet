@@ -3,8 +3,8 @@
 # key: apigateway_clientcertificate
 # --
 {
-  "Type": "AWS::ApiGateway::ClientCertificate",
   "Properties": {
     "Description": ""
-  }
+  },
+  "Type": "AWS::ApiGateway::ClientCertificate"
 }

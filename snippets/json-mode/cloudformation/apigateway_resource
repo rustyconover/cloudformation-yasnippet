@@ -3,10 +3,10 @@
 # key: apigateway_resource
 # --
 {
-  "Type": "AWS::ApiGateway::Resource",
   "Properties": {
     "ParentId": "",
     "PathPart": "",
     "RestApiId": ""
-  }
+  },
+  "Type": "AWS::ApiGateway::Resource"
 }

@@ -3,7 +3,6 @@
 # key: autoscaling_scalingpolicy
 # --
 {
-  "Type": "AWS::AutoScaling::ScalingPolicy",
   "Properties": {
     "AdjustmentType": "",
     "AutoScalingGroupName": "",
@@ -20,5 +19,6 @@
         "ScalingAdjustment": 0
       }
     ]
-  }
+  },
+  "Type": "AWS::AutoScaling::ScalingPolicy"
 }

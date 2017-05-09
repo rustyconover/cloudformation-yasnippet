@@ -3,7 +3,6 @@
 # key: datapipeline_pipeline
 # --
 {
-  "Type": "AWS::DataPipeline::Pipeline",
   "Properties": {
     "Activate": true,
     "Description": "",
@@ -44,5 +43,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::DataPipeline::Pipeline"
 }

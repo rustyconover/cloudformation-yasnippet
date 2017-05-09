@@ -3,7 +3,6 @@
 # key: elasticloadbalancing_loadbalancer
 # --
 {
-  "Type": "AWS::ElasticLoadBalancing::LoadBalancer",
   "Properties": {
     "AccessLoggingPolicy": {
       "EmitInterval": 0,
@@ -85,5 +84,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::ElasticLoadBalancing::LoadBalancer"
 }

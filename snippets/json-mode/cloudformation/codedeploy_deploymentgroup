@@ -3,7 +3,6 @@
 # key: codedeploy_deploymentgroup
 # --
 {
-  "Type": "AWS::CodeDeploy::DeploymentGroup",
   "Properties": {
     "ApplicationName": "",
     "AutoScalingGroups": [
@@ -44,5 +43,6 @@
       }
     ],
     "ServiceRoleArn": ""
-  }
+  },
+  "Type": "AWS::CodeDeploy::DeploymentGroup"
 }

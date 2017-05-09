@@ -3,7 +3,6 @@
 # key: ec2_route
 # --
 {
-  "Type": "AWS::EC2::Route",
   "Properties": {
     "DestinationCidrBlock": "",
     "DestinationIpv6CidrBlock": "",
@@ -13,5 +12,6 @@
     "NetworkInterfaceId": "",
     "RouteTableId": "",
     "VpcPeeringConnectionId": ""
-  }
+  },
+  "Type": "AWS::EC2::Route"
 }

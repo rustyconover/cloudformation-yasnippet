@@ -3,7 +3,6 @@
 # key: ec2_vpcpeeringconnection
 # --
 {
-  "Type": "AWS::EC2::VPCPeeringConnection",
   "Properties": {
     "PeerOwnerId": "",
     "PeerRoleArn": "",
@@ -15,5 +14,6 @@
       }
     ],
     "VpcId": ""
-  }
+  },
+  "Type": "AWS::EC2::VPCPeeringConnection"
 }

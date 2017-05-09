@@ -3,7 +3,6 @@
 # key: ec2_securitygroup
 # --
 {
-  "Type": "AWS::EC2::SecurityGroup",
   "Properties": {
     "GroupDescription": "",
     "GroupName": "",
@@ -36,5 +35,6 @@
       }
     ],
     "VpcId": ""
-  }
+  },
+  "Type": "AWS::EC2::SecurityGroup"
 }

@@ -3,7 +3,6 @@
 # key: elasticbeanstalk_environment
 # --
 {
-  "Type": "AWS::ElasticBeanstalk::Environment",
   "Properties": {
     "ApplicationName": "",
     "CNAMEPrefix": "",
@@ -24,5 +23,6 @@
       "Version": ""
     },
     "VersionLabel": ""
-  }
+  },
+  "Type": "AWS::ElasticBeanstalk::Environment"
 }

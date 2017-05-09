@@ -3,7 +3,6 @@
 # key: apigateway_stage
 # --
 {
-  "Type": "AWS::ApiGateway::Stage",
   "Properties": {
     "CacheClusterEnabled": true,
     "CacheClusterSize": "",
@@ -29,5 +28,6 @@
     "Variables": {
       "Key": ""
     }
-  }
+  },
+  "Type": "AWS::ApiGateway::Stage"
 }

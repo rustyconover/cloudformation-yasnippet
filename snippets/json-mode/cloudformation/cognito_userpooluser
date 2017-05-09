@@ -3,26 +3,26 @@
 # key: cognito_userpooluser
 # --
 {
-  "Type": "AWS::Cognito::UserPoolUser",
   "Properties": {
-    "ValidationData": [
-      {
-        "Value": "",
-        "Name": ""
-      }
-    ],
-    "UserPoolId": "",
-    "Username": "",
-    "MessageAction": "",
     "DesiredDeliveryMediums": [
       ""
     ],
     "ForceAliasCreation": true,
+    "MessageAction": "",
     "UserAttributes": [
       {
-        "Value": "",
-        "Name": ""
+        "Name": "",
+        "Value": ""
+      }
+    ],
+    "UserPoolId": "",
+    "Username": "",
+    "ValidationData": [
+      {
+        "Name": "",
+        "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::Cognito::UserPoolUser"
 }

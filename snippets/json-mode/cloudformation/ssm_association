@@ -3,7 +3,6 @@
 # key: ssm_association
 # --
 {
-  "Type": "AWS::SSM::Association",
   "Properties": {
     "DocumentVersion": "",
     "InstanceId": "",
@@ -24,5 +23,6 @@
         ]
       }
     ]
-  }
+  },
+  "Type": "AWS::SSM::Association"
 }

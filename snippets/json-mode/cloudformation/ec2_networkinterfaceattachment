@@ -3,11 +3,11 @@
 # key: ec2_networkinterfaceattachment
 # --
 {
-  "Type": "AWS::EC2::NetworkInterfaceAttachment",
   "Properties": {
     "DeleteOnTermination": true,
     "DeviceIndex": "",
     "InstanceId": "",
     "NetworkInterfaceId": ""
-  }
+  },
+  "Type": "AWS::EC2::NetworkInterfaceAttachment"
 }

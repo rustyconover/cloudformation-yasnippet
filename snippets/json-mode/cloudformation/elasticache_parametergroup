@@ -3,12 +3,12 @@
 # key: elasticache_parametergroup
 # --
 {
-  "Type": "AWS::ElastiCache::ParameterGroup",
   "Properties": {
     "CacheParameterGroupFamily": "",
     "Description": "",
     "Properties": {
       "Key": ""
     }
-  }
+  },
+  "Type": "AWS::ElastiCache::ParameterGroup"
 }

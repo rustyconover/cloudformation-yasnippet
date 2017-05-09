@@ -3,7 +3,6 @@
 # key: ecs_taskdefinition
 # --
 {
-  "Type": "AWS::ECS::TaskDefinition",
   "Properties": {
     "ContainerDefinitions": [
       {
@@ -104,5 +103,6 @@
         "Name": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::ECS::TaskDefinition"
 }

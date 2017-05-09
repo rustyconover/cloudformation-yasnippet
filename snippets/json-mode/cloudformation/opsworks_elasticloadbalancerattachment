@@ -3,9 +3,9 @@
 # key: opsworks_elasticloadbalancerattachment
 # --
 {
-  "Type": "AWS::OpsWorks::ElasticLoadBalancerAttachment",
   "Properties": {
     "ElasticLoadBalancerName": "",
     "LayerId": ""
-  }
+  },
+  "Type": "AWS::OpsWorks::ElasticLoadBalancerAttachment"
 }

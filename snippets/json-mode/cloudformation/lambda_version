@@ -3,10 +3,10 @@
 # key: lambda_version
 # --
 {
-  "Type": "AWS::Lambda::Version",
   "Properties": {
     "CodeSha256": "",
     "Description": "",
     "FunctionName": ""
-  }
+  },
+  "Type": "AWS::Lambda::Version"
 }

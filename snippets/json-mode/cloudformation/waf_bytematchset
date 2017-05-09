@@ -3,7 +3,6 @@
 # key: waf_bytematchset
 # --
 {
-  "Type": "AWS::WAF::ByteMatchSet",
   "Properties": {
     "ByteMatchTuples": [
       {
@@ -18,5 +17,6 @@
       }
     ],
     "Name": ""
-  }
+  },
+  "Type": "AWS::WAF::ByteMatchSet"
 }

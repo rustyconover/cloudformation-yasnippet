@@ -3,7 +3,6 @@
 # key: ec2_vpcendpoint
 # --
 {
-  "Type": "AWS::EC2::VPCEndpoint",
   "Properties": {
     "PolicyDocument": {},
     "RouteTableIds": [
@@ -11,5 +10,6 @@
     ],
     "ServiceName": "",
     "VpcId": ""
-  }
+  },
+  "Type": "AWS::EC2::VPCEndpoint"
 }

@@ -3,7 +3,6 @@
 # key: elasticloadbalancingv2_listener
 # --
 {
-  "Type": "AWS::ElasticLoadBalancingV2::Listener",
   "Properties": {
     "Certificates": [
       {
@@ -20,5 +19,6 @@
     "Port": 0,
     "Protocol": "",
     "SslPolicy": ""
-  }
+  },
+  "Type": "AWS::ElasticLoadBalancingV2::Listener"
 }

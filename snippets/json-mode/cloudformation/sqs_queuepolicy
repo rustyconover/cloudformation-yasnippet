@@ -3,11 +3,11 @@
 # key: sqs_queuepolicy
 # --
 {
-  "Type": "AWS::SQS::QueuePolicy",
   "Properties": {
     "PolicyDocument": {},
     "Queues": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::SQS::QueuePolicy"
 }

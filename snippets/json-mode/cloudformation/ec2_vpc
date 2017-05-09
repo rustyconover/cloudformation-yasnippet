@@ -3,7 +3,6 @@
 # key: ec2_vpc
 # --
 {
-  "Type": "AWS::EC2::VPC",
   "Properties": {
     "CidrBlock": "",
     "EnableDnsHostnames": true,
@@ -15,5 +14,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::EC2::VPC"
 }

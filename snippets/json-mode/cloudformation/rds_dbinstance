@@ -3,7 +3,6 @@
 # key: rds_dbinstance
 # --
 {
-  "Type": "AWS::RDS::DBInstance",
   "Properties": {
     "AllocatedStorage": "",
     "AllowMajorVersionUpgrade": true,
@@ -51,5 +50,6 @@
     "VPCSecurityGroups": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::RDS::DBInstance"
 }

@@ -3,9 +3,9 @@
 # key: iot_certificate
 # --
 {
-  "Type": "AWS::IoT::Certificate",
   "Properties": {
     "CertificateSigningRequest": "",
     "Status": ""
-  }
+  },
+  "Type": "AWS::IoT::Certificate"
 }

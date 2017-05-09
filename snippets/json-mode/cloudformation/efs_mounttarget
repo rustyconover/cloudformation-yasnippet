@@ -3,7 +3,6 @@
 # key: efs_mounttarget
 # --
 {
-  "Type": "AWS::EFS::MountTarget",
   "Properties": {
     "FileSystemId": "",
     "IpAddress": "",
@@ -11,5 +10,6 @@
       ""
     ],
     "SubnetId": ""
-  }
+  },
+  "Type": "AWS::EFS::MountTarget"
 }

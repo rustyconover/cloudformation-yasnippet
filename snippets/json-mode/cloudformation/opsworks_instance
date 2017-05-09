@@ -3,7 +3,6 @@
 # key: opsworks_instance
 # --
 {
-  "Type": "AWS::OpsWorks::Instance",
   "Properties": {
     "AgentVersion": "",
     "AmiId": "",
@@ -67,5 +66,6 @@
     "Volumes": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::OpsWorks::Instance"
 }

@@ -3,7 +3,6 @@
 # key: waf_sqlinjectionmatchset
 # --
 {
-  "Type": "AWS::WAF::SqlInjectionMatchSet",
   "Properties": {
     "Name": "",
     "SqlInjectionMatchTuples": [
@@ -15,5 +14,6 @@
         "TextTransformation": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::WAF::SqlInjectionMatchSet"
 }

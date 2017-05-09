@@ -3,10 +3,10 @@
 # key: ec2_vpcgatewayattachment
 # --
 {
-  "Type": "AWS::EC2::VPCGatewayAttachment",
   "Properties": {
     "InternetGatewayId": "",
     "VpcId": "",
     "VpnGatewayId": ""
-  }
+  },
+  "Type": "AWS::EC2::VPCGatewayAttachment"
 }

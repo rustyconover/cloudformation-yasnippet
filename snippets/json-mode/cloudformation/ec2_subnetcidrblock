@@ -3,9 +3,9 @@
 # key: ec2_subnetcidrblock
 # --
 {
-  "Type": "AWS::EC2::SubnetCidrBlock",
   "Properties": {
     "Ipv6CidrBlock": "",
     "SubnetId": ""
-  }
+  },
+  "Type": "AWS::EC2::SubnetCidrBlock"
 }

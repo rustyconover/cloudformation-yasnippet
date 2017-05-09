@@ -3,7 +3,6 @@
 # key: apigateway_deployment
 # --
 {
-  "Type": "AWS::ApiGateway::Deployment",
   "Properties": {
     "Description": "",
     "RestApiId": "",
@@ -40,5 +39,6 @@
       }
     },
     "StageName": ""
-  }
+  },
+  "Type": "AWS::ApiGateway::Deployment"
 }

@@ -3,7 +3,6 @@
 # key: opsworks_stack
 # --
 {
-  "Type": "AWS::OpsWorks::Stack",
   "Properties": {
     "AgentVersion": "",
     "Attributes": {
@@ -57,5 +56,6 @@
     "UseCustomCookbooks": true,
     "UseOpsworksSecurityGroups": true,
     "VpcId": ""
-  }
+  },
+  "Type": "AWS::OpsWorks::Stack"
 }

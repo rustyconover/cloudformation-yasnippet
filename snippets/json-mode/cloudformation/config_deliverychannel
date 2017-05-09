@@ -3,7 +3,6 @@
 # key: config_deliverychannel
 # --
 {
-  "Type": "AWS::Config::DeliveryChannel",
   "Properties": {
     "ConfigSnapshotDeliveryProperties": {
       "DeliveryFrequency": ""
@@ -12,5 +11,6 @@
     "S3BucketName": "",
     "S3KeyPrefix": "",
     "SnsTopicARN": ""
-  }
+  },
+  "Type": "AWS::Config::DeliveryChannel"
 }

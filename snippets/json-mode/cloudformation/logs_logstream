@@ -3,9 +3,9 @@
 # key: logs_logstream
 # --
 {
-  "Type": "AWS::Logs::LogStream",
   "Properties": {
     "LogGroupName": "",
     "LogStreamName": ""
-  }
+  },
+  "Type": "AWS::Logs::LogStream"
 }

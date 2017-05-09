@@ -3,8 +3,8 @@
 # key: codedeploy_application
 # --
 {
-  "Type": "AWS::CodeDeploy::Application",
   "Properties": {
     "ApplicationName": ""
-  }
+  },
+  "Type": "AWS::CodeDeploy::Application"
 }

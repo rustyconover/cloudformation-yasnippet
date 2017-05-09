@@ -3,8 +3,8 @@
 # key: sdb_domain
 # --
 {
-  "Type": "AWS::SDB::Domain",
   "Properties": {
     "Description": ""
-  }
+  },
+  "Type": "AWS::SDB::Domain"
 }

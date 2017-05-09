@@ -3,11 +3,11 @@
 # key: redshift_clustersubnetgroup
 # --
 {
-  "Type": "AWS::Redshift::ClusterSubnetGroup",
   "Properties": {
     "Description": "",
     "SubnetIds": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::Redshift::ClusterSubnetGroup"
 }

@@ -3,7 +3,6 @@
 # key: codepipeline_customactiontype
 # --
 {
-  "Type": "AWS::CodePipeline::CustomActionType",
   "Properties": {
     "Category": "",
     "ConfigurationProperties": [
@@ -33,5 +32,6 @@
       "ThirdPartyConfigurationUrl": ""
     },
     "Version": ""
-  }
+  },
+  "Type": "AWS::CodePipeline::CustomActionType"
 }

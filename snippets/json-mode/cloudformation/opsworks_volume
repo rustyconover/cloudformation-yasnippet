@@ -3,11 +3,11 @@
 # key: opsworks_volume
 # --
 {
-  "Type": "AWS::OpsWorks::Volume",
   "Properties": {
     "Ec2VolumeId": "",
     "MountPoint": "",
     "Name": "",
     "StackId": ""
-  }
+  },
+  "Type": "AWS::OpsWorks::Volume"
 }

@@ -3,7 +3,6 @@
 # key: iam_managedpolicy
 # --
 {
-  "Type": "AWS::IAM::ManagedPolicy",
   "Properties": {
     "Description": "",
     "Groups": [
@@ -18,5 +17,6 @@
     "Users": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::IAM::ManagedPolicy"
 }

@@ -3,7 +3,6 @@
 # key: directoryservice_simplead
 # --
 {
-  "Type": "AWS::DirectoryService::SimpleAD",
   "Properties": {
     "CreateAlias": true,
     "Description": "",
@@ -18,5 +17,6 @@
       ],
       "VpcId": ""
     }
-  }
+  },
+  "Type": "AWS::DirectoryService::SimpleAD"
 }

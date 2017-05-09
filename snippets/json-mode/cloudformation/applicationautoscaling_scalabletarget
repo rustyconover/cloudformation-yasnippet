@@ -3,7 +3,6 @@
 # key: applicationautoscaling_scalabletarget
 # --
 {
-  "Type": "AWS::ApplicationAutoScaling::ScalableTarget",
   "Properties": {
     "MaxCapacity": 0,
     "MinCapacity": 0,
@@ -11,5 +10,6 @@
     "RoleARN": "",
     "ScalableDimension": "",
     "ServiceNamespace": ""
-  }
+  },
+  "Type": "AWS::ApplicationAutoScaling::ScalableTarget"
 }

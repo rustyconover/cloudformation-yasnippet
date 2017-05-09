@@ -3,7 +3,6 @@
 # key: route53_recordsetgroup
 # --
 {
-  "Type": "AWS::Route53::RecordSetGroup",
   "Properties": {
     "Comment": "",
     "HostedZoneId": "",
@@ -36,5 +35,6 @@
         "Weight": 0
       }
     ]
-  }
+  },
+  "Type": "AWS::Route53::RecordSetGroup"
 }

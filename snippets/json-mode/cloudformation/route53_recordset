@@ -3,7 +3,6 @@
 # key: route53_recordset
 # --
 {
-  "Type": "AWS::Route53::RecordSet",
   "Properties": {
     "AliasTarget": {
       "DNSName": "",
@@ -29,5 +28,6 @@
     "TTL": "",
     "Type": "",
     "Weight": 0
-  }
+  },
+  "Type": "AWS::Route53::RecordSet"
 }

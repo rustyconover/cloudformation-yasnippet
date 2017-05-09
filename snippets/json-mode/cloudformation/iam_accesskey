@@ -3,10 +3,10 @@
 # key: iam_accesskey
 # --
 {
-  "Type": "AWS::IAM::AccessKey",
   "Properties": {
     "Serial": 0,
     "Status": "",
     "UserName": ""
-  }
+  },
+  "Type": "AWS::IAM::AccessKey"
 }

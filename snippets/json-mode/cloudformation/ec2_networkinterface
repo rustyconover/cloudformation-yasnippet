@@ -3,7 +3,6 @@
 # key: ec2_networkinterface
 # --
 {
-  "Type": "AWS::EC2::NetworkInterface",
   "Properties": {
     "Description": "",
     "GroupSet": [
@@ -29,5 +28,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::EC2::NetworkInterface"
 }

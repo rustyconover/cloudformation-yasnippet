@@ -3,9 +3,9 @@
 # key: ec2_vpnconnectionroute
 # --
 {
-  "Type": "AWS::EC2::VPNConnectionRoute",
   "Properties": {
     "DestinationCidrBlock": "",
     "VpnConnectionId": ""
-  }
+  },
+  "Type": "AWS::EC2::VPNConnectionRoute"
 }

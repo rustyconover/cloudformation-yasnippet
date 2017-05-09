@@ -3,7 +3,6 @@
 # key: kinesisfirehose_deliverystream
 # --
 {
-  "Type": "AWS::KinesisFirehose::DeliveryStream",
   "Properties": {
     "DeliveryStreamName": "",
     "ElasticsearchDestinationConfiguration": {
@@ -105,5 +104,6 @@
       "Prefix": "",
       "RoleARN": ""
     }
-  }
+  },
+  "Type": "AWS::KinesisFirehose::DeliveryStream"
 }

@@ -3,7 +3,6 @@
 # key: certificatemanager_certificate
 # --
 {
-  "Type": "AWS::CertificateManager::Certificate",
   "Properties": {
     "DomainName": "",
     "DomainValidationOptions": [
@@ -21,5 +20,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::CertificateManager::Certificate"
 }

@@ -3,7 +3,6 @@
 # key: emr_cluster
 # --
 {
-  "Type": "AWS::EMR::Cluster",
   "Properties": {
     "AdditionalInfo": {},
     "Applications": [
@@ -185,5 +184,6 @@
       }
     ],
     "VisibleToAllUsers": true
-  }
+  },
+  "Type": "AWS::EMR::Cluster"
 }

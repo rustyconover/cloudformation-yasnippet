@@ -3,11 +3,11 @@
 # key: sns_topicpolicy
 # --
 {
-  "Type": "AWS::SNS::TopicPolicy",
   "Properties": {
     "PolicyDocument": {},
     "Topics": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::SNS::TopicPolicy"
 }

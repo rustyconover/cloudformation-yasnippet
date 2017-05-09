@@ -3,77 +3,77 @@
 # key: cognito_userpool
 # --
 {
-  "Type": "AWS::Cognito::UserPool",
   "Properties": {
-    "UserPoolTags": {},
-    "Policies": {
-      "PasswordPolicy": {
-        "RequireNumbers": true,
-        "MinimumLength": 0,
-        "RequireUppercase": true,
-        "RequireLowercase": true,
-        "RequireSymbols": true
-      }
-    },
-    "MfaConfiguration": "",
-    "Schema": [
-      {
-        "DeveloperOnlyAttribute": true,
-        "Mutable": true,
-        "AttributeDataType": "",
-        "StringAttributeConstraints": {
-          "MinLength": "",
-          "MaxLength": ""
-        },
-        "Required": true,
-        "NumberAttributeConstraints": {
-          "MinValue": "",
-          "MaxValue": ""
-        },
-        "Name": ""
-      }
-    ],
     "AdminCreateUserConfig": {
+      "AllowAdminCreateUserOnly": true,
       "InviteMessageTemplate": {
         "EmailMessage": "",
-        "SMSMessage": "",
-        "EmailSubject": ""
+        "EmailSubject": "",
+        "SMSMessage": ""
       },
-      "UnusedAccountValidityDays": 0,
-      "AllowAdminCreateUserOnly": true
-    },
-    "SmsAuthenticationMessage": "",
-    "UserPoolName": "",
-    "SmsVerificationMessage": "",
-    "EmailConfiguration": {
-      "ReplyToEmailAddress": "",
-      "SourceArn": ""
-    },
-    "SmsConfiguration": {
-      "ExternalId": "",
-      "SnsCallerArn": ""
+      "UnusedAccountValidityDays": 0
     },
     "AliasAttributes": [
       ""
     ],
-    "EmailVerificationSubject": "",
-    "LambdaConfig": {
-      "CreateAuthChallenge": "",
-      "PreAuthentication": "",
-      "DefineAuthChallenge": "",
-      "PreSignUp": "",
-      "PostAuthentication": "",
-      "PostConfirmation": "",
-      "CustomMessage": "",
-      "VerifyAuthChallengeResponse": ""
-    },
     "AutoVerifiedAttributes": [
       ""
     ],
     "DeviceConfiguration": {
-      "DeviceOnlyRememberedOnUserPrompt": true,
-      "ChallengeRequiredOnNewDevice": true
+      "ChallengeRequiredOnNewDevice": true,
+      "DeviceOnlyRememberedOnUserPrompt": true
     },
-    "EmailVerificationMessage": ""
-  }
+    "EmailConfiguration": {
+      "ReplyToEmailAddress": "",
+      "SourceArn": ""
+    },
+    "EmailVerificationMessage": "",
+    "EmailVerificationSubject": "",
+    "LambdaConfig": {
+      "CreateAuthChallenge": "",
+      "CustomMessage": "",
+      "DefineAuthChallenge": "",
+      "PostAuthentication": "",
+      "PostConfirmation": "",
+      "PreAuthentication": "",
+      "PreSignUp": "",
+      "VerifyAuthChallengeResponse": ""
+    },
+    "MfaConfiguration": "",
+    "Policies": {
+      "PasswordPolicy": {
+        "MinimumLength": 0,
+        "RequireLowercase": true,
+        "RequireNumbers": true,
+        "RequireSymbols": true,
+        "RequireUppercase": true
+      }
+    },
+    "Schema": [
+      {
+        "AttributeDataType": "",
+        "DeveloperOnlyAttribute": true,
+        "Mutable": true,
+        "Name": "",
+        "NumberAttributeConstraints": {
+          "MaxValue": "",
+          "MinValue": ""
+        },
+        "Required": true,
+        "StringAttributeConstraints": {
+          "MaxLength": "",
+          "MinLength": ""
+        }
+      }
+    ],
+    "SmsAuthenticationMessage": "",
+    "SmsConfiguration": {
+      "ExternalId": "",
+      "SnsCallerArn": ""
+    },
+    "SmsVerificationMessage": "",
+    "UserPoolName": "",
+    "UserPoolTags": {}
+  },
+  "Type": "AWS::Cognito::UserPool"
 }

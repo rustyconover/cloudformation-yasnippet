@@ -3,7 +3,6 @@
 # key: ec2_vpnconnection
 # --
 {
-  "Type": "AWS::EC2::VPNConnection",
   "Properties": {
     "CustomerGatewayId": "",
     "StaticRoutesOnly": true,
@@ -15,5 +14,6 @@
     ],
     "Type": "",
     "VpnGatewayId": ""
-  }
+  },
+  "Type": "AWS::EC2::VPNConnection"
 }

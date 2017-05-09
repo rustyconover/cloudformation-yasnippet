@@ -3,7 +3,6 @@
 # key: redshift_cluster
 # --
 {
-  "Type": "AWS::Redshift::Cluster",
   "Properties": {
     "AllowVersionUpdate": true,
     "AutomatedSnapshotRetentionPeriod": 0,
@@ -36,5 +35,6 @@
     "VpcSecurityGroupIds": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::Redshift::Cluster"
 }

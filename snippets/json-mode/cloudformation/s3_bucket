@@ -3,7 +3,6 @@
 # key: s3_bucket
 # --
 {
-  "Type": "AWS::S3::Bucket",
   "Properties": {
     "AccessControl": "",
     "BucketName": "",
@@ -30,7 +29,7 @@
     "LifecycleConfiguration": {
       "Rules": [
         {
-          "ExpirationDate": "000-00-20T00:00:00",
+          "ExpirationDate": "0000-00-20T00:00:00",
           "ExpirationInDays": 0,
           "Id": "",
           "NoncurrentVersionExpirationInDays": 0,
@@ -46,12 +45,12 @@
           "Status": "",
           "Transition": {
             "StorageClass": "",
-            "TransitionDate": "000-00-20T00:00:00",
+            "TransitionDate": "0000-00-20T00:00:00",
             "TransitionInDays": 0
           },
           "Transitions": {
             "StorageClass": "",
-            "TransitionDate": "000-00-20T00:00:00",
+            "TransitionDate": "0000-00-20T00:00:00",
             "TransitionInDays": 0
           }
         }
@@ -157,5 +156,6 @@
         }
       ]
     }
-  }
+  },
+  "Type": "AWS::S3::Bucket"
 }

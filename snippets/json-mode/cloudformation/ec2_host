@@ -3,10 +3,10 @@
 # key: ec2_host
 # --
 {
-  "Type": "AWS::EC2::Host",
   "Properties": {
     "AutoPlacement": "",
     "AvailabilityZone": "",
     "InstanceType": ""
-  }
+  },
+  "Type": "AWS::EC2::Host"
 }

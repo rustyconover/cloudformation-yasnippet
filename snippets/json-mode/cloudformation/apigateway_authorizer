@@ -3,7 +3,6 @@
 # key: apigateway_authorizer
 # --
 {
-  "Type": "AWS::ApiGateway::Authorizer",
   "Properties": {
     "AuthorizerCredentials": "",
     "AuthorizerResultTtlInSeconds": 0,
@@ -16,5 +15,6 @@
     ],
     "RestApiId": "",
     "Type": ""
-  }
+  },
+  "Type": "AWS::ApiGateway::Authorizer"
 }

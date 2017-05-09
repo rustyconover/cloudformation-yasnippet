@@ -3,7 +3,6 @@
 # key: rds_dbsubnetgroup
 # --
 {
-  "Type": "AWS::RDS::DBSubnetGroup",
   "Properties": {
     "DBSubnetGroupDescription": "",
     "SubnetIds": [
@@ -15,5 +14,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::RDS::DBSubnetGroup"
 }

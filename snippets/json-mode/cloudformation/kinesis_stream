@@ -3,7 +3,6 @@
 # key: kinesis_stream
 # --
 {
-  "Type": "AWS::Kinesis::Stream",
   "Properties": {
     "Name": "",
     "ShardCount": 0,
@@ -13,5 +12,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::Kinesis::Stream"
 }

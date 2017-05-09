@@ -3,20 +3,20 @@
 # key: cognito_userpoolclient
 # --
 {
-  "Type": "AWS::Cognito::UserPoolClient",
   "Properties": {
-    "GenerateSecret": true,
     "ClientName": "",
-    "UserPoolId": "",
     "ExplicitAuthFlows": [
       ""
     ],
-    "RefreshTokenValidity": 0,
+    "GenerateSecret": true,
     "ReadAttributes": [
       ""
     ],
+    "RefreshTokenValidity": 0,
+    "UserPoolId": "",
     "WriteAttributes": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::Cognito::UserPoolClient"
 }

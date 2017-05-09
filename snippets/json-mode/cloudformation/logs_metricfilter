@@ -3,7 +3,6 @@
 # key: logs_metricfilter
 # --
 {
-  "Type": "AWS::Logs::MetricFilter",
   "Properties": {
     "FilterPattern": "",
     "LogGroupName": "",
@@ -14,5 +13,6 @@
         "MetricValue": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::Logs::MetricFilter"
 }

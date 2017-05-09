@@ -3,7 +3,6 @@
 # key: waf_sizeconstraintset
 # --
 {
-  "Type": "AWS::WAF::SizeConstraintSet",
   "Properties": {
     "Name": "",
     "SizeConstraints": [
@@ -17,5 +16,6 @@
         "TextTransformation": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::WAF::SizeConstraintSet"
 }

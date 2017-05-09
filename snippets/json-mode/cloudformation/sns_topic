@@ -3,7 +3,6 @@
 # key: sns_topic
 # --
 {
-  "Type": "AWS::SNS::Topic",
   "Properties": {
     "DisplayName": "",
     "Subscription": [
@@ -13,5 +12,6 @@
       }
     ],
     "TopicName": ""
-  }
+  },
+  "Type": "AWS::SNS::Topic"
 }

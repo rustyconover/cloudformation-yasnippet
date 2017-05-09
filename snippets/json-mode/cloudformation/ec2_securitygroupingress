@@ -3,7 +3,6 @@
 # key: ec2_securitygroupingress
 # --
 {
-  "Type": "AWS::EC2::SecurityGroupIngress",
   "Properties": {
     "CidrIp": "",
     "CidrIpv6": "",
@@ -15,5 +14,6 @@
     "SourceSecurityGroupName": "",
     "SourceSecurityGroupOwnerId": "",
     "ToPort": 0
-  }
+  },
+  "Type": "AWS::EC2::SecurityGroupIngress"
 }

@@ -3,9 +3,9 @@
 # key: s3_bucketpolicy
 # --
 {
-  "Type": "AWS::S3::BucketPolicy",
   "Properties": {
     "Bucket": "",
     "PolicyDocument": {}
-  }
+  },
+  "Type": "AWS::S3::BucketPolicy"
 }

@@ -3,10 +3,10 @@
 # key: cognito_userpoolusertogroupattachment
 # --
 {
-  "Type": "AWS::Cognito::UserPoolUserToGroupAttachment",
   "Properties": {
     "GroupName": "",
     "UserPoolId": "",
     "Username": ""
-  }
+  },
+  "Type": "AWS::Cognito::UserPoolUserToGroupAttachment"
 }

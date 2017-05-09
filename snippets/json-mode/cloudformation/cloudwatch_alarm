@@ -3,7 +3,6 @@
 # key: cloudwatch_alarm
 # --
 {
-  "Type": "AWS::CloudWatch::Alarm",
   "Properties": {
     "ActionsEnabled": true,
     "AlarmActions": [
@@ -31,5 +30,6 @@
     "Statistic": "",
     "Threshold": 0,
     "Unit": ""
-  }
+  },
+  "Type": "AWS::CloudWatch::Alarm"
 }

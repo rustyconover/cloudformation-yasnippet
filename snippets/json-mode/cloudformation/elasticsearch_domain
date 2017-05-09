@@ -3,7 +3,6 @@
 # key: elasticsearch_domain
 # --
 {
-  "Type": "AWS::Elasticsearch::Domain",
   "Properties": {
     "AccessPolicies": {},
     "AdvancedOptions": {
@@ -34,5 +33,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::Elasticsearch::Domain"
 }

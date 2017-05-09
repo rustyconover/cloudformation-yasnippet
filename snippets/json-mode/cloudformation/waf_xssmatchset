@@ -3,7 +3,6 @@
 # key: waf_xssmatchset
 # --
 {
-  "Type": "AWS::WAF::XssMatchSet",
   "Properties": {
     "Name": "",
     "XssMatchTuples": [
@@ -15,5 +14,6 @@
         "TextTransformation": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::WAF::XssMatchSet"
 }

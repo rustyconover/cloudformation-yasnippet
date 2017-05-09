@@ -3,10 +3,10 @@
 # key: cognito_identitypoolroleattachment
 # --
 {
-  "Type": "AWS::Cognito::IdentityPoolRoleAttachment",
   "Properties": {
-    "RoleMappings": {},
     "IdentityPoolId": "",
+    "RoleMappings": {},
     "Roles": {}
-  }
+  },
+  "Type": "AWS::Cognito::IdentityPoolRoleAttachment"
 }

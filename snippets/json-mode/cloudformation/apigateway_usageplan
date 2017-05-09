@@ -3,7 +3,6 @@
 # key: apigateway_usageplan
 # --
 {
-  "Type": "AWS::ApiGateway::UsagePlan",
   "Properties": {
     "ApiStages": [
       {
@@ -22,5 +21,6 @@
       "RateLimit": 0
     },
     "UsagePlanName": ""
-  }
+  },
+  "Type": "AWS::ApiGateway::UsagePlan"
 }

@@ -3,9 +3,9 @@
 # key: ec2_subnetnetworkaclassociation
 # --
 {
-  "Type": "AWS::EC2::SubnetNetworkAclAssociation",
   "Properties": {
     "NetworkAclId": "",
     "SubnetId": ""
-  }
+  },
+  "Type": "AWS::EC2::SubnetNetworkAclAssociation"
 }

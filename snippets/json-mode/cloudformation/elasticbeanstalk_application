@@ -3,9 +3,9 @@
 # key: elasticbeanstalk_application
 # --
 {
-  "Type": "AWS::ElasticBeanstalk::Application",
   "Properties": {
     "ApplicationName": "",
     "Description": ""
-  }
+  },
+  "Type": "AWS::ElasticBeanstalk::Application"
 }

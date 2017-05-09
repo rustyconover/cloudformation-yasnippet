@@ -3,9 +3,9 @@
 # key: iot_policyprincipalattachment
 # --
 {
-  "Type": "AWS::IoT::PolicyPrincipalAttachment",
   "Properties": {
     "PolicyName": "",
     "Principal": ""
-  }
+  },
+  "Type": "AWS::IoT::PolicyPrincipalAttachment"
 }

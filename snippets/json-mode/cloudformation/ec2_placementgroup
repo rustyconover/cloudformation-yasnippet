@@ -3,8 +3,8 @@
 # key: ec2_placementgroup
 # --
 {
-  "Type": "AWS::EC2::PlacementGroup",
   "Properties": {
     "Strategy": ""
-  }
+  },
+  "Type": "AWS::EC2::PlacementGroup"
 }

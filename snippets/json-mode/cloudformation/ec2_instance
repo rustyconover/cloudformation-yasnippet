@@ -3,7 +3,6 @@
 # key: ec2_instance
 # --
 {
-  "Type": "AWS::EC2::Instance",
   "Properties": {
     "AdditionalInfo": "",
     "Affinity": "",
@@ -104,5 +103,6 @@
         "VolumeId": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::EC2::Instance"
 }

@@ -3,12 +3,12 @@
 # key: iam_instanceprofile
 # --
 {
-  "Type": "AWS::IAM::InstanceProfile",
   "Properties": {
     "InstanceProfileName": "",
     "Path": "",
     "Roles": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::IAM::InstanceProfile"
 }

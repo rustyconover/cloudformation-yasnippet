@@ -3,12 +3,12 @@
 # key: apigateway_model
 # --
 {
-  "Type": "AWS::ApiGateway::Model",
   "Properties": {
     "ContentType": "",
     "Description": "",
     "Name": "",
     "RestApiId": "",
     "Schema": {}
-  }
+  },
+  "Type": "AWS::ApiGateway::Model"
 }

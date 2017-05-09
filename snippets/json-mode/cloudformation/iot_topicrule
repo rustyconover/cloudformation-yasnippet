@@ -3,7 +3,6 @@
 # key: iot_topicrule
 # --
 {
-  "Type": "AWS::IoT::TopicRule",
   "Properties": {
     "RuleName": "",
     "TopicRulePayload": {
@@ -78,5 +77,6 @@
       "RuleDisabled": true,
       "Sql": ""
     }
-  }
+  },
+  "Type": "AWS::IoT::TopicRule"
 }

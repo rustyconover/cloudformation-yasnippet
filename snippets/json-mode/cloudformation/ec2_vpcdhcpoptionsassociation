@@ -3,9 +3,9 @@
 # key: ec2_vpcdhcpoptionsassociation
 # --
 {
-  "Type": "AWS::EC2::VPCDHCPOptionsAssociation",
   "Properties": {
     "DhcpOptionsId": "",
     "VpcId": ""
-  }
+  },
+  "Type": "AWS::EC2::VPCDHCPOptionsAssociation"
 }

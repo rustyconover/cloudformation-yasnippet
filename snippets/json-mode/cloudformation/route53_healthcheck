@@ -3,7 +3,6 @@
 # key: route53_healthcheck
 # --
 {
-  "Type": "AWS::Route53::HealthCheck",
   "Properties": {
     "HealthCheckConfig": {
       "AlarmIdentifier": {
@@ -33,5 +32,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::Route53::HealthCheck"
 }

@@ -3,7 +3,6 @@
 # key: elasticloadbalancingv2_targetgroup
 # --
 {
-  "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
   "Properties": {
     "HealthCheckIntervalSeconds": 0,
     "HealthCheckPath": "",
@@ -37,5 +36,6 @@
     ],
     "UnhealthyThresholdCount": 0,
     "VpcId": ""
-  }
+  },
+  "Type": "AWS::ElasticLoadBalancingV2::TargetGroup"
 }

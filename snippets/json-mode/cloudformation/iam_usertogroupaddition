@@ -3,11 +3,11 @@
 # key: iam_usertogroupaddition
 # --
 {
-  "Type": "AWS::IAM::UserToGroupAddition",
   "Properties": {
     "GroupName": "",
     "Users": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::IAM::UserToGroupAddition"
 }

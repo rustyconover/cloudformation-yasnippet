@@ -3,7 +3,6 @@
 # key: efs_filesystem
 # --
 {
-  "Type": "AWS::EFS::FileSystem",
   "Properties": {
     "FileSystemTags": [
       {
@@ -12,5 +11,6 @@
       }
     ],
     "PerformanceMode": ""
-  }
+  },
+  "Type": "AWS::EFS::FileSystem"
 }

@@ -3,9 +3,9 @@
 # key: kms_alias
 # --
 {
-  "Type": "AWS::KMS::Alias",
   "Properties": {
     "AliasName": "",
     "TargetKeyId": ""
-  }
+  },
+  "Type": "AWS::KMS::Alias"
 }

@@ -3,7 +3,6 @@
 # key: apigateway_restapi
 # --
 {
-  "Type": "AWS::ApiGateway::RestApi",
   "Properties": {
     "Body": {},
     "BodyS3Location": {
@@ -20,5 +19,6 @@
     "Parameters": {
       "Key": ""
     }
-  }
+  },
+  "Type": "AWS::ApiGateway::RestApi"
 }

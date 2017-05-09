@@ -3,7 +3,6 @@
 # key: ecs_service
 # --
 {
-  "Type": "AWS::ECS::Service",
   "Properties": {
     "Cluster": "",
     "DeploymentConfiguration": {
@@ -34,5 +33,6 @@
     "Role": "",
     "ServiceName": "",
     "TaskDefinition": ""
-  }
+  },
+  "Type": "AWS::ECS::Service"
 }

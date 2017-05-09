@@ -3,7 +3,6 @@
 # key: opsworks_layer
 # --
 {
-  "Type": "AWS::OpsWorks::Layer",
   "Properties": {
     "Attributes": {
       "Key": ""
@@ -77,5 +76,6 @@
         "VolumeType": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::OpsWorks::Layer"
 }

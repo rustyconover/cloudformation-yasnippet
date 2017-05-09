@@ -3,7 +3,6 @@
 # key: autoscaling_autoscalinggroup
 # --
 {
-  "Type": "AWS::AutoScaling::AutoScalingGroup",
   "Properties": {
     "AvailabilityZones": [
       ""
@@ -48,5 +47,6 @@
     "VPCZoneIdentifier": [
       ""
     ]
-  }
+  },
+  "Type": "AWS::AutoScaling::AutoScalingGroup"
 }

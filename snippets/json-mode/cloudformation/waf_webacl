@@ -3,7 +3,6 @@
 # key: waf_webacl
 # --
 {
-  "Type": "AWS::WAF::WebACL",
   "Properties": {
     "DefaultAction": {
       "Type": ""
@@ -19,5 +18,6 @@
         "RuleId": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::WAF::WebACL"
 }

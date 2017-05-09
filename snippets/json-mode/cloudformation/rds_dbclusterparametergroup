@@ -3,7 +3,6 @@
 # key: rds_dbclusterparametergroup
 # --
 {
-  "Type": "AWS::RDS::DBClusterParameterGroup",
   "Properties": {
     "Description": "",
     "Family": "",
@@ -14,5 +13,6 @@
         "Value": ""
       }
     ]
-  }
+  },
+  "Type": "AWS::RDS::DBClusterParameterGroup"
 }

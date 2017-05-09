@@ -3,7 +3,6 @@
 # key: cloudfront_distribution
 # --
 {
-  "Type": "AWS::CloudFront::Distribution",
   "Properties": {
     "DistributionConfig": {
       "Aliases": [
@@ -137,5 +136,6 @@
       },
       "WebACLId": ""
     }
-  }
+  },
+  "Type": "AWS::CloudFront::Distribution"
 }

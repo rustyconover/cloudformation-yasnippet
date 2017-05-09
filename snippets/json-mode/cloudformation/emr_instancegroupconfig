@@ -3,7 +3,6 @@
 # key: emr_instancegroupconfig
 # --
 {
-  "Type": "AWS::EMR::InstanceGroupConfig",
   "Properties": {
     "BidPrice": "",
     "Configurations": [
@@ -28,5 +27,6 @@
     "JobFlowId": "",
     "Market": "",
     "Name": ""
-  }
+  },
+  "Type": "AWS::EMR::InstanceGroupConfig"
 }

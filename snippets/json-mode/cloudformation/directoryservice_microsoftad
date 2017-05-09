@@ -3,7 +3,6 @@
 # key: directoryservice_microsoftad
 # --
 {
-  "Type": "AWS::DirectoryService::MicrosoftAD",
   "Properties": {
     "CreateAlias": true,
     "EnableSso": true,
@@ -16,5 +15,6 @@
       ],
       "VpcId": ""
     }
-  }
+  },
+  "Type": "AWS::DirectoryService::MicrosoftAD"
 }

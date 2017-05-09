@@ -3,7 +3,6 @@
 # key: autoscaling_lifecyclehook
 # --
 {
-  "Type": "AWS::AutoScaling::LifecycleHook",
   "Properties": {
     "AutoScalingGroupName": "",
     "DefaultResult": "",
@@ -12,5 +11,6 @@
     "NotificationMetadata": "",
     "NotificationTargetARN": "",
     "RoleARN": ""
-  }
+  },
+  "Type": "AWS::AutoScaling::LifecycleHook"
 }

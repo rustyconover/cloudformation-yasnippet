@@ -3,9 +3,9 @@
 # key: iot_policy
 # --
 {
-  "Type": "AWS::IoT::Policy",
   "Properties": {
     "PolicyDocument": {},
     "PolicyName": ""
-  }
+  },
+  "Type": "AWS::IoT::Policy"
 }

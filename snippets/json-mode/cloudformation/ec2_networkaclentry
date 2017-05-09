@@ -3,7 +3,6 @@
 # key: ec2_networkaclentry
 # --
 {
-  "Type": "AWS::EC2::NetworkAclEntry",
   "Properties": {
     "CidrBlock": "",
     "Egress": true,
@@ -20,5 +19,6 @@
     "Protocol": 0,
     "RuleAction": "",
     "RuleNumber": 0
-  }
+  },
+  "Type": "AWS::EC2::NetworkAclEntry"
 }
