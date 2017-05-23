@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: emr_securityconfiguration
+# key: emr_securityconfiguration
+# --
+{
+  "Properties": {
+    "Name": "",
+    "SecurityConfiguration": ""
+  },
+  "Type": "AWS::EMR::SecurityConfiguration"
+}

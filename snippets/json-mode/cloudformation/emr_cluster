@@ -176,6 +176,7 @@
     "LogUri": "",
     "Name": "",
     "ReleaseLabel": "",
+    "SecurityConfiguration": "",
     "ServiceRole": "",
     "Tags": [
       {
