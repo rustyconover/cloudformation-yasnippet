@@ -1,6 +1,6 @@
 {
   "name": "cloudformation-yasnippet",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A tool to generate yasnippets for AWS CloudFormation",
   "main": "generate.js",
   "dependencies": {
