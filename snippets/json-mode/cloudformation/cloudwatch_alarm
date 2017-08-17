@@ -17,7 +17,9 @@
         "Value": ""
       }
     ],
+    "EvaluateLowSampleCountPercentile": "",
     "EvaluationPeriods": 0,
+    "ExtendedStatistic": "",
     "InsufficientDataActions": [
       ""
     ],
@@ -29,6 +31,7 @@
     "Period": 0,
     "Statistic": "",
     "Threshold": 0,
+    "TreatMissingData": "",
     "Unit": ""
   },
   "Type": "AWS::CloudWatch::Alarm"

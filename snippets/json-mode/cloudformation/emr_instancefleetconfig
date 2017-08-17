@@ -1,0 +1,45 @@
+# -*- mode: snippet -*-
+# name: emr_instancefleetconfig
+# key: emr_instancefleetconfig
+# --
+{
+  "Properties": {
+    "ClusterId": "",
+    "InstanceFleetType": "",
+    "InstanceTypeConfigs": [
+      {
+        "BidPrice": "",
+        "BidPriceAsPercentageOfOnDemandPrice": 0,
+        "Configurations": [
+          {}
+        ],
+        "EbsConfiguration": {
+          "EbsBlockDeviceConfigs": [
+            {
+              "VolumeSpecification": {
+                "Iops": 0,
+                "SizeInGB": 0,
+                "VolumeType": ""
+              },
+              "VolumesPerInstance": 0
+            }
+          ],
+          "EbsOptimized": true
+        },
+        "InstanceType": "",
+        "WeightedCapacity": 0
+      }
+    ],
+    "LaunchSpecifications": {
+      "SpotSpecification": {
+        "BlockDurationMinutes": 0,
+        "TimeoutAction": "",
+        "TimeoutDurationMinutes": 0
+      }
+    },
+    "Name": "",
+    "TargetOnDemandCapacity": 0,
+    "TargetSpotCapacity": 0
+  },
+  "Type": "AWS::EMR::InstanceFleetConfig"
+}

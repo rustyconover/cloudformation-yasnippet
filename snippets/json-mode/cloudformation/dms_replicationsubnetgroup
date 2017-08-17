@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: dms_replicationsubnetgroup
+# key: dms_replicationsubnetgroup
+# --
+{
+  "Properties": {
+    "ReplicationSubnetGroupDescription": "",
+    "ReplicationSubnetGroupIdentifier": "",
+    "SubnetIds": [
+      ""
+    ],
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  },
+  "Type": "AWS::DMS::ReplicationSubnetGroup"
+}

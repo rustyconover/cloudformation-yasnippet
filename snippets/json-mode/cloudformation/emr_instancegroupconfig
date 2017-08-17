@@ -4,6 +4,44 @@
 # --
 {
   "Properties": {
+    "AutoScalingPolicy": {
+      "Constraints": {
+        "MaxCapacity": 0,
+        "MinCapacity": 0
+      },
+      "Rules": [
+        {
+          "Action": {
+            "Market": "",
+            "SimpleScalingPolicyConfiguration": {
+              "AdjustmentType": "",
+              "CoolDown": 0,
+              "ScalingAdjustment": 0
+            }
+          },
+          "Description": "",
+          "Name": "",
+          "Trigger": {
+            "CloudWatchAlarmDefinition": {
+              "ComparisonOperator": "",
+              "Dimensions": [
+                {
+                  "Key": "",
+                  "Value": ""
+                }
+              ],
+              "EvaluationPeriods": 0,
+              "MetricName": "",
+              "Namespace": "",
+              "Period": 0,
+              "Statistic": "",
+              "Threshold": 0,
+              "Unit": ""
+            }
+          }
+        }
+      ]
+    },
     "BidPrice": "",
     "Configurations": [
       {}

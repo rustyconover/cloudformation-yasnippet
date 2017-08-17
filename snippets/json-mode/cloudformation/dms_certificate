@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: dms_certificate
+# key: dms_certificate
+# --
+{
+  "Properties": {
+    "CertificateIdentifier": "",
+    "CertificatePem": "",
+    "CertificateWallet": ""
+  },
+  "Type": "AWS::DMS::Certificate"
+}

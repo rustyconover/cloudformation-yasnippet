@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: stepfunctions_statemachine
+# key: stepfunctions_statemachine
+# --
+{
+  "Properties": {
+    "DefinitionString": "",
+    "RoleArn": ""
+  },
+  "Type": "AWS::StepFunctions::StateMachine"
+}

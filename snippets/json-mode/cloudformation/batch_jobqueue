@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: batch_jobqueue
+# key: batch_jobqueue
+# --
+{
+  "Properties": {
+    "ComputeEnvironmentOrder": [
+      {
+        "ComputeEnvironment": "",
+        "Order": 0
+      }
+    ],
+    "JobQueueName": "",
+    "Priority": 0,
+    "State": ""
+  },
+  "Type": "AWS::Batch::JobQueue"
+}

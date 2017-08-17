@@ -1,0 +1,30 @@
+# -*- mode: snippet -*-
+# name: dms_replicationinstance
+# key: dms_replicationinstance
+# --
+{
+  "Properties": {
+    "AllocatedStorage": 0,
+    "AllowMajorVersionUpgrade": true,
+    "AutoMinorVersionUpgrade": true,
+    "AvailabilityZone": "",
+    "EngineVersion": "",
+    "KmsKeyId": "",
+    "MultiAZ": true,
+    "PreferredMaintenanceWindow": "",
+    "PubliclyAccessible": true,
+    "ReplicationInstanceClass": "",
+    "ReplicationInstanceIdentifier": "",
+    "ReplicationSubnetGroupIdentifier": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "VpcSecurityGroupIds": [
+      ""
+    ]
+  },
+  "Type": "AWS::DMS::ReplicationInstance"
+}

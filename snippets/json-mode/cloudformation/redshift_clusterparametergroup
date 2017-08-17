@@ -11,6 +11,12 @@
         "ParameterName": "",
         "ParameterValue": ""
       }
+    ],
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
     ]
   },
   "Type": "AWS::Redshift::ClusterParameterGroup"

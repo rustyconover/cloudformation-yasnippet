@@ -21,7 +21,7 @@
                 "VolumeSize": 0,
                 "VolumeType": ""
               },
-              "NoDevice": true,
+              "NoDevice": "",
               "VirtualName": ""
             }
           ],
@@ -46,9 +46,11 @@
                 ""
               ],
               "Ipv6AddressCount": 0,
-              "Ipv6Addresses": {
-                "Ipv6Address": ""
-              },
+              "Ipv6Addresses": [
+                {
+                  "Ipv6Address": ""
+                }
+              ],
               "NetworkInterfaceId": "",
               "PrivateIpAddresses": [
                 {

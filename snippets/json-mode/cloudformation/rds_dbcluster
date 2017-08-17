@@ -17,6 +17,7 @@
     "Port": 0,
     "PreferredBackupWindow": "",
     "PreferredMaintenanceWindow": "",
+    "ReplicationSourceIdentifier": "",
     "SnapshotIdentifier": "",
     "StorageEncrypted": true,
     "Tags": [

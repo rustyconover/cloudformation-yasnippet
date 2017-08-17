@@ -10,6 +10,7 @@
     "AvailabilityZone": "",
     "BackupRetentionPeriod": "",
     "CharacterSetName": "",
+    "CopyTagsToSnapshot": true,
     "DBClusterIdentifier": "",
     "DBInstanceClass": "",
     "DBInstanceIdentifier": "",

@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: cloudwatch_dashboard
+# key: cloudwatch_dashboard
+# --
+{
+  "Properties": {
+    "DashboardBody": "",
+    "DashboardName": ""
+  },
+  "Type": "AWS::CloudWatch::Dashboard"
+}

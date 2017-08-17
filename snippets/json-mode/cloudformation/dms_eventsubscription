@@ -1,0 +1,25 @@
+# -*- mode: snippet -*-
+# name: dms_eventsubscription
+# key: dms_eventsubscription
+# --
+{
+  "Properties": {
+    "Enabled": true,
+    "EventCategories": [
+      ""
+    ],
+    "SnsTopicArn": "",
+    "SourceIds": [
+      ""
+    ],
+    "SourceType": "",
+    "SubscriptionName": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
+  },
+  "Type": "AWS::DMS::EventSubscription"
+}

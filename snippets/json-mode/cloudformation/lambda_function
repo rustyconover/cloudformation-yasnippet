@@ -32,6 +32,9 @@
       }
     ],
     "Timeout": 0,
+    "TracingConfig": {
+      "Mode": ""
+    },
     "VpcConfig": {
       "SecurityGroupIds": [
         ""

@@ -1,0 +1,55 @@
+# -*- mode: snippet -*-
+# name: batch_jobdefinition
+# key: batch_jobdefinition
+# --
+{
+  "Properties": {
+    "ContainerProperties": {
+      "Command": [
+        ""
+      ],
+      "Environment": [
+        {
+          "Name": "",
+          "Value": ""
+        }
+      ],
+      "Image": "",
+      "JobRoleArn": "",
+      "Memory": 0,
+      "MountPoints": [
+        {
+          "ContainerPath": "",
+          "ReadOnly": true,
+          "SourceVolume": ""
+        }
+      ],
+      "Privileged": true,
+      "ReadonlyRootFilesystem": true,
+      "Ulimits": [
+        {
+          "HardLimit": 0,
+          "Name": "",
+          "SoftLimit": 0
+        }
+      ],
+      "User": "",
+      "Vcpus": 0,
+      "Volumes": [
+        {
+          "Host": {
+            "SourcePath": ""
+          },
+          "Name": ""
+        }
+      ]
+    },
+    "JobDefinitionName": "",
+    "Parameters": {},
+    "RetryStrategy": {
+      "Attempts": 0
+    },
+    "Type": ""
+  },
+  "Type": "AWS::Batch::JobDefinition"
+}

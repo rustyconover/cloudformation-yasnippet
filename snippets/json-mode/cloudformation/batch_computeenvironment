@@ -1,0 +1,34 @@
+# -*- mode: snippet -*-
+# name: batch_computeenvironment
+# key: batch_computeenvironment
+# --
+{
+  "Properties": {
+    "ComputeEnvironmentName": "",
+    "ComputeResources": {
+      "BidPercentage": 0,
+      "DesiredvCpus": 0,
+      "Ec2KeyPair": "",
+      "ImageId": "",
+      "InstanceRole": "",
+      "InstanceTypes": [
+        ""
+      ],
+      "MaxvCpus": 0,
+      "MinvCpus": 0,
+      "SecurityGroupIds": [
+        ""
+      ],
+      "SpotIamFleetRole": "",
+      "Subnets": [
+        ""
+      ],
+      "Tags": {},
+      "Type": ""
+    },
+    "ServiceRole": "",
+    "State": "",
+    "Type": ""
+  },
+  "Type": "AWS::Batch::ComputeEnvironment"
+}

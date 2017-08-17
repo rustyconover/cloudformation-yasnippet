@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: apigateway_usageplankey
+# key: apigateway_usageplankey
+# --
+{
+  "Properties": {
+    "KeyId": "",
+    "KeyType": "",
+    "UsagePlanId": ""
+  },
+  "Type": "AWS::ApiGateway::UsagePlanKey"
+}

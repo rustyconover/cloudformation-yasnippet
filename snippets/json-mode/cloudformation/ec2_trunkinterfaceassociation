@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: ec2_trunkinterfaceassociation
+# key: ec2_trunkinterfaceassociation
+# --
+{
+  "Properties": {
+    "BranchInterfaceId": "",
+    "GREKey": 0,
+    "TrunkInterfaceId": "",
+    "VLANId": 0
+  },
+  "Type": "AWS::EC2::TrunkInterfaceAssociation"
+}

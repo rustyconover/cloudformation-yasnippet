@@ -4,7 +4,7 @@
 # --
 {
   "Properties": {
-    "AllowVersionUpdate": true,
+    "AllowVersionUpgrade": true,
     "AutomatedSnapshotRetentionPeriod": 0,
     "AvailabilityZone": "",
     "ClusterParameterGroupName": "",
@@ -18,10 +18,15 @@
     "ElasticIp": "",
     "Encrypted": true,
     "HsmClientCertificateIdentifier": "",
+    "HsmConfigurationIdentifier": "",
     "IamRoles": [
       ""
     ],
     "KmsKeyId": "",
+    "LoggingProperties": {
+      "BucketName": "",
+      "S3KeyPrefix": ""
+    },
     "MasterUserPassword": "",
     "MasterUsername": "",
     "NodeType": "",
@@ -32,6 +37,12 @@
     "PubliclyAccessible": true,
     "SnapshotClusterIdentifier": "",
     "SnapshotIdentifier": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
     "VpcSecurityGroupIds": [
       ""
     ]

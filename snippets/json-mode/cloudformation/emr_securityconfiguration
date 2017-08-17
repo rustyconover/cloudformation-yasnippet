@@ -5,7 +5,7 @@
 {
   "Properties": {
     "Name": "",
-    "SecurityConfiguration": ""
+    "SecurityConfiguration": {}
   },
   "Type": "AWS::EMR::SecurityConfiguration"
 }

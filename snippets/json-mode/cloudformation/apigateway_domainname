@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: apigateway_domainname
+# key: apigateway_domainname
+# --
+{
+  "Properties": {
+    "CertificateArn": "",
+    "DomainName": ""
+  },
+  "Type": "AWS::ApiGateway::DomainName"
+}

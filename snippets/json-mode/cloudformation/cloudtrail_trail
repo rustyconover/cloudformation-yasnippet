@@ -13,7 +13,14 @@
     "KMSKeyId": "",
     "S3BucketName": "",
     "S3KeyPrefix": "",
-    "SnsTopicName": ""
+    "SnsTopicName": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "TrailName": ""
   },
   "Type": "AWS::CloudTrail::Trail"
 }

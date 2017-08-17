@@ -15,7 +15,8 @@
         "Arn": "",
         "Id": "",
         "Input": "",
-        "InputPath": ""
+        "InputPath": "",
+        "RoleArn": ""
       }
     ]
   },

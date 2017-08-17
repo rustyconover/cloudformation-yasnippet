@@ -4,6 +4,15 @@
 # --
 {
   "Properties": {
+    "AlarmConfiguration": {
+      "Alarms": [
+        {
+          "Name": ""
+        }
+      ],
+      "Enabled": true,
+      "IgnorePollAlarmFailure": true
+    },
     "ApplicationName": "",
     "AutoScalingGroups": [
       ""
@@ -42,7 +51,16 @@
         "Value": ""
       }
     ],
-    "ServiceRoleArn": ""
+    "ServiceRoleArn": "",
+    "TriggerConfigurations": [
+      {
+        "TriggerEvents": [
+          ""
+        ],
+        "TriggerName": "",
+        "TriggerTargetArn": ""
+      }
+    ]
   },
   "Type": "AWS::CodeDeploy::DeploymentGroup"
 }

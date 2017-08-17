@@ -4,6 +4,9 @@
 # --
 {
   "Properties": {
+    "BinaryMediaTypes": [
+      ""
+    ],
     "Body": {},
     "BodyS3Location": {
       "Bucket": "",

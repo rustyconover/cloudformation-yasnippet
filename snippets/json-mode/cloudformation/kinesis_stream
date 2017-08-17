@@ -5,6 +5,7 @@
 {
   "Properties": {
     "Name": "",
+    "RetentionPeriodHours": 0,
     "ShardCount": 0,
     "Tags": [
       {

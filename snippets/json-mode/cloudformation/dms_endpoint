@@ -1,0 +1,52 @@
+# -*- mode: snippet -*-
+# name: dms_endpoint
+# key: dms_endpoint
+# --
+{
+  "Properties": {
+    "CertificateArn": "",
+    "DatabaseName": "",
+    "DynamoDbSettings": {
+      "ServiceAccessRoleArn": ""
+    },
+    "EndpointIdentifier": "",
+    "EndpointType": "",
+    "EngineName": "",
+    "ExtraConnectionAttributes": "",
+    "KmsKeyId": "",
+    "MongoDbSettings": {
+      "AuthMechanism": "",
+      "AuthSource": "",
+      "AuthType": "",
+      "DatabaseName": "",
+      "DocsToInvestigate": "",
+      "ExtractDocId": "",
+      "NestingLevel": "",
+      "Password": "",
+      "Port": 0,
+      "ServerName": "",
+      "Username": ""
+    },
+    "Password": "",
+    "Port": 0,
+    "S3Settings": {
+      "BucketFolder": "",
+      "BucketName": "",
+      "CompressionType": "",
+      "CsvDelimiter": "",
+      "CsvRowDelimiter": "",
+      "ExternalTableDefinition": "",
+      "ServiceAccessRoleArn": ""
+    },
+    "ServerName": "",
+    "SslMode": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "Username": ""
+  },
+  "Type": "AWS::DMS::Endpoint"
+}

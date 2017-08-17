@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: stepfunctions_activity
+# key: stepfunctions_activity
+# --
+{
+  "Properties": {
+    "Name": ""
+  },
+  "Type": "AWS::StepFunctions::Activity"
+}

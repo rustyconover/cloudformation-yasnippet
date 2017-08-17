@@ -5,7 +5,7 @@
 {
   "Properties": {
     "AllocationId": "",
-    "Eip": "",
+    "EIP": "",
     "InstanceId": "",
     "NetworkInterfaceId": "",
     "PrivateIpAddress": ""

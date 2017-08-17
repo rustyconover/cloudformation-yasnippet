@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: dms_replicationtask
+# key: dms_replicationtask
+# --
+{
+  "Properties": {
+    "CdcStartTime": 0,
+    "MigrationType": "",
+    "ReplicationInstanceArn": "",
+    "ReplicationTaskIdentifier": "",
+    "ReplicationTaskSettings": "",
+    "SourceEndpointArn": "",
+    "TableMappings": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ],
+    "TargetEndpointArn": ""
+  },
+  "Type": "AWS::DMS::ReplicationTask"
+}

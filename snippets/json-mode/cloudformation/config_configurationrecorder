@@ -12,7 +12,7 @@
         ""
       ]
     },
-    "RoleArn": ""
+    "RoleARN": ""
   },
   "Type": "AWS::Config::ConfigurationRecorder"
 }

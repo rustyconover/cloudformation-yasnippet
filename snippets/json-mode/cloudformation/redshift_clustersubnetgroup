@@ -7,6 +7,12 @@
     "Description": "",
     "SubnetIds": [
       ""
+    ],
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
     ]
   },
   "Type": "AWS::Redshift::ClusterSubnetGroup"

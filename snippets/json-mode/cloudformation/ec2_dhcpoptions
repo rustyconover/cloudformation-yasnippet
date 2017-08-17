@@ -12,7 +12,9 @@
       ""
     ],
     "NetbiosNodeType": 0,
-    "NtpServers": "",
+    "NtpServers": [
+      ""
+    ],
     "Tags": [
       {
         "Key": "",

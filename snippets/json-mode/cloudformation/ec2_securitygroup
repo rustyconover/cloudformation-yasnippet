@@ -9,17 +9,18 @@
     "SecurityGroupEgress": [
       {
         "CidrIp": "",
+        "CidrIpv6": "",
+        "DestinationPrefixListId": "",
+        "DestinationSecurityGroupId": "",
         "FromPort": 0,
         "IpProtocol": "",
-        "SourceSecurityGroupId": "",
-        "SourceSecurityGroupName": "",
-        "SourceSecurityGroupOwnerId": "",
         "ToPort": 0
       }
     ],
     "SecurityGroupIngress": [
       {
         "CidrIp": "",
+        "CidrIpv6": "",
         "FromPort": 0,
         "IpProtocol": "",
         "SourceSecurityGroupId": "",

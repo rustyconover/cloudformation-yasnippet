@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: ec2_egressonlyinternetgateway
+# key: ec2_egressonlyinternetgateway
+# --
+{
+  "Properties": {
+    "VpcId": ""
+  },
+  "Type": "AWS::EC2::EgressOnlyInternetGateway"
+}

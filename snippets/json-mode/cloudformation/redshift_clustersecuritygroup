@@ -4,7 +4,13 @@
 # --
 {
   "Properties": {
-    "Description": ""
+    "Description": "",
+    "Tags": [
+      {
+        "Key": "",
+        "Value": ""
+      }
+    ]
   },
   "Type": "AWS::Redshift::ClusterSecurityGroup"
 }

@@ -22,6 +22,27 @@
           "ScalingAdjustment": 0
         }
       ]
+    },
+    "TargetTrackingScalingPolicyConfiguration": {
+      "CustomizedMetricSpecification": {
+        "Dimensions": [
+          {
+            "Name": "",
+            "Value": ""
+          }
+        ],
+        "MetricName": "",
+        "Namespace": "",
+        "Statistic": "",
+        "Unit": ""
+      },
+      "PredefinedMetricSpecification": {
+        "PredefinedMetricType": "",
+        "ResourceLabel": ""
+      },
+      "ScaleInCooldown": 0,
+      "ScaleOutCooldown": 0,
+      "TargetValue": 0
     }
   },
   "Type": "AWS::ApplicationAutoScaling::ScalingPolicy"

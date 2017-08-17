@@ -17,19 +17,23 @@
       ""
     ],
     "MaxSize": "",
-    "MetricsCollection": {
-      "Granularity": "",
-      "Metrics": [
-        ""
-      ]
-    },
+    "MetricsCollection": [
+      {
+        "Granularity": "",
+        "Metrics": [
+          ""
+        ]
+      }
+    ],
     "MinSize": "",
-    "NotificationConfigurations": {
-      "NotificationTypes": [
-        ""
-      ],
-      "TopicARN": ""
-    },
+    "NotificationConfigurations": [
+      {
+        "NotificationTypes": [
+          ""
+        ],
+        "TopicARN": ""
+      }
+    ],
     "PlacementGroup": "",
     "Tags": [
       {
